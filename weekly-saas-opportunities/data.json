@@ -1,11 +1,12 @@
 {
-  "generatedAt": "2026-08-25T21:48:00Z",
+  "generatedAt": "2026-08-25T21:59:28Z",
   "source": "Weekly SaaS Opportunity Log",
   "ideas": [
     {
       "id": "2026-08-24-book-the-move",
       "date": "2026-08-24",
       "idea": "SmartMoving-native outbound lead engine for independent moving companies",
+      "description": "An outbound lead-generation service for residential moving companies. It monitors newly listed homes, finds and verifies each seller’s contact details, sends personalized outreach on the mover’s behalf, and routes interested replies directly into SmartMoving. The proposed version would sell smaller exclusive ZIP-code territories with done-for-you onboarding.",
       "incumbent": "Book The Move",
       "traction": "$7,615 MRR from 8 active subscriptions (TrustMRR snapshot at time of research)",
       "customer": "Independent US residential moving companies using SmartMoving, roughly 2–10 trucks, one metro",
