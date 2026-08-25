@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#090b12" />
+  <title>MCU Road to Doomsday</title>
+  <style>
+    :root{
+      --bg:#080a11;--bg2:#0d101a;--panel:#111520;--panel2:#171c29;--text:#f7f8fc;--muted:#a8afc0;
+      --line:#262c3c;--red:#f04455;--red2:#ff6b78;--gold:#f1b84b;--blue:#68a7ff;--green:#57d69a;
+      --shadow:0 18px 50px rgba(0,0,0,.28)
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:
+      radial-gradient(circle at 20% -10%,rgba(240,68,85,.18),transparent 28rem),
+      radial-gradient(circle at 90% 8%,rgba(104,167,255,.12),transparent 24rem),var(--bg);color:var(--text)}
+    button,input{font:inherit}
+    button{cursor:pointer}
+    a{color:inherit}
+    .wrap{max-width:1180px;margin:0 auto;padding:34px 20px 72px}
+    .topbar{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:28px}
+    .brand{display:flex;align-items:center;gap:11px;font-weight:900;letter-spacing:.03em}
+    .brandmark{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;background:linear-gradient(135deg,var(--red),#b8172b);box-shadow:0 8px 22px rgba(240,68,85,.25)}
+    .brandmark svg{width:20px;height:20px}
+    .home{color:var(--muted);text-decoration:none;font-size:14px;font-weight:700}
+    .home:hover{color:var(--text)}
+    .hero{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(260px,.65fr);gap:22px;align-items:stretch;margin-bottom:22px}
+    .hero-main,.progress-card{border:1px solid var(--line);border-radius:28px;background:linear-gradient(145deg,rgba(18,22,34,.96),rgba(12,15,24,.96));box-shadow:var(--shadow)}
+    .hero-main{padding:34px;position:relative;overflow:hidden}
+    .hero-main:after{content:"";position:absolute;width:280px;height:280px;border-radius:50%;right:-110px;top:-120px;background:radial-gradient(circle,rgba(240,68,85,.22),transparent 65%);pointer-events:none}
+    .eyebrow{display:inline-flex;align-items:center;gap:8px;color:#ff9ca7;font-size:12px;font-weight:900;letter-spacing:.12em;text-transform:uppercase}
+    .eyebrow-dot{width:7px;height:7px;border-radius:50%;background:var(--red);box-shadow:0 0 0 5px rgba(240,68,85,.12)}
+    h1{margin:14px 0 14px;font-size:clamp(38px,7vw,72px);line-height:.98;letter-spacing:-.055em;max-width:760px}
+    .lede{margin:0;max-width:720px;color:var(--muted);font-size:17px;line-height:1.65}
+    .hero-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:23px}
+    .hero-tag{font-size:12px;font-weight:800;color:#d6dbea;background:#1b202d;border:1px solid #2d3446;border-radius:999px;padding:8px 11px}
+    .progress-card{padding:26px;display:flex;flex-direction:column;justify-content:space-between}
+    .progress-top{display:flex;align-items:center;gap:18px}
+    .ring{--p:0;width:112px;height:112px;border-radius:50%;display:grid;place-items:center;background:conic-gradient(var(--red) calc(var(--p)*1%),#262c3b 0);position:relative;flex:0 0 auto}
+    .ring:before{content:"";position:absolute;inset:9px;border-radius:50%;background:#10141e}
+    .ring strong{position:relative;font-size:24px;letter-spacing:-.04em}
+    .progress-copy h2{font-size:18px;margin:0 0 5px}.progress-copy p{margin:0;color:var(--muted);font-size:13px;line-height:1.5}
+    .nextup{margin-top:22px;padding-top:18px;border-top:1px solid var(--line)}
+    .nextup-label{font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);font-weight:900}.nextup-title{font-weight:900;margin-top:6px;line-height:1.3}.nextup-meta{color:var(--muted);font-size:12px;margin-top:4px}
+    .controls{position:sticky;top:10px;z-index:30;border:1px solid var(--line);background:rgba(12,15,24,.9);backdrop-filter:blur(18px);border-radius:22px;padding:14px;margin-bottom:24px;box-shadow:0 10px 35px rgba(0,0,0,.2)}
+    .control-row{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+    .filters{display:flex;gap:7px;flex-wrap:wrap}
+    .pill,.action{border:1px solid #303748;background:#171c28;color:#c8cedc;border-radius:999px;padding:9px 12px;font-size:12px;font-weight:850;transition:.15s ease}
+    .pill:hover,.action:hover{border-color:#475269;color:#fff}.pill.active{background:#f4f6fb;color:#11141c;border-color:#f4f6fb}
+    .pill[data-filter="lean"].active{background:var(--red);border-color:var(--red);color:white}
+    .action{background:transparent}.action.danger:hover{border-color:#7f2c39;color:#ff9ca7}
+    .search{position:relative;min-width:min(270px,100%);flex:1;max-width:360px}.search input{width:100%;border:1px solid #303748;background:#121722;color:#fff;border-radius:999px;padding:10px 14px 10px 36px;outline:none}.search input:focus{border-color:#68748d;box-shadow:0 0 0 3px rgba(104,167,255,.12)}.search svg{position:absolute;left:13px;top:50%;transform:translateY(-50%);width:15px;height:15px;color:#7f879a}
+    .section{margin-top:34px;scroll-margin-top:110px}.section-head{display:flex;align-items:flex-end;justify-content:space-between;gap:14px;margin-bottom:13px}.section-kicker{font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.13em;color:#929aaf}.section h2{font-size:25px;letter-spacing:-.035em;margin:5px 0 0}.section-note{font-size:13px;color:var(--muted);max-width:470px;line-height:1.5;text-align:right}
+    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+    .item{border:1px solid var(--line);border-radius:20px;background:linear-gradient(145deg,#121620,#0e121b);padding:18px;display:grid;grid-template-columns:auto 1fr;gap:14px;position:relative;transition:.16s ease;min-width:0}
+    .item:hover{border-color:#353e53;transform:translateY(-1px)}
+    .item.done{opacity:.62}.item.done .title{text-decoration:line-through;text-decoration-color:#767d8e}
+    .item.hidden{display:none}.item.unreleased{background:linear-gradient(145deg,#11151e,#10131a)}
+    .check{width:29px;height:29px;border-radius:9px;border:1px solid #3b4356;background:#171c28;color:white;display:grid;place-items:center;padding:0;transition:.15s ease;flex:0 0 auto}.check:hover{border-color:#66718a}.done .check{background:var(--green);border-color:var(--green);color:#081510}.check svg{width:16px;height:16px;opacity:0}.done .check svg{opacity:1}.unreleased .check{cursor:not-allowed;opacity:.38}
+    .item-body{min-width:0}.item-top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}.title{font-size:16px;font-weight:900;line-height:1.28;letter-spacing:-.015em}.meta{margin-top:5px;color:#8f97aa;font-size:12px;font-weight:650}.why{margin:12px 0 0;color:#c0c6d4;font-size:13px;line-height:1.55}
+    .badges{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}.badge{font-size:10px;font-weight:900;text-transform:uppercase;letter-spacing:.055em;padding:5px 7px;border-radius:999px;border:1px solid transparent;white-space:nowrap}.must{color:#ff9ba6;background:rgba(240,68,85,.12);border-color:rgba(240,68,85,.25)}.recommended{color:#ffd683;background:rgba(241,184,75,.11);border-color:rgba(241,184,75,.23)}.optional{color:#a8cfff;background:rgba(104,167,255,.1);border-color:rgba(104,167,255,.23)}.lean{color:#ffced3;background:rgba(240,68,85,.08);border-color:rgba(240,68,85,.18)}.future{color:#b6bdca;background:#1d222e;border-color:#2e3545}
+    .phase-nav{display:flex;gap:8px;overflow:auto;padding:1px 1px 5px;scrollbar-width:none;margin-bottom:4px}.phase-nav::-webkit-scrollbar{display:none}.phase-nav a{flex:0 0 auto;text-decoration:none;border:1px solid var(--line);border-radius:12px;padding:9px 11px;color:#adb4c4;font-size:12px;font-weight:800;background:#11151e}.phase-nav a:hover{color:#fff;border-color:#3a4357}
+    details{border:1px solid var(--line);border-radius:18px;background:#10141d;margin-top:12px;overflow:hidden}summary{list-style:none;cursor:pointer;padding:16px 18px;font-weight:900;display:flex;align-items:center;justify-content:space-between;gap:12px}summary::-webkit-details-marker{display:none}summary span:last-child{color:var(--muted);font-size:12px;font-weight:700}.details-body{border-top:1px solid var(--line);padding:16px 18px;color:var(--muted);font-size:13px;line-height:1.65}.skip-list{display:flex;flex-wrap:wrap;gap:7px;margin-top:10px}.skip{padding:7px 9px;border-radius:9px;background:#171c27;color:#b7bdca;border:1px solid #292f3e;font-size:12px;font-weight:750}
+    .footer{margin-top:48px;padding-top:22px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:16px;color:#7f8798;font-size:12px;line-height:1.6;flex-wrap:wrap}.footer a{color:#adb5c6}.empty{display:none;border:1px dashed #394154;border-radius:18px;color:var(--muted);text-align:center;padding:32px 18px;margin-top:16px}.empty.show{display:block}
+    @media(max-width:820px){.hero{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.progress-card{min-height:190px}.section-note{text-align:left}.section-head{align-items:flex-start;flex-direction:column}.controls{top:6px}.control-row{align-items:stretch}.search{max-width:none;min-width:100%}}
+    @media(max-width:520px){.wrap{padding:22px 13px 56px}.hero-main{padding:25px 20px}.progress-card{padding:20px}.topbar{margin-bottom:18px}.brand span:last-child{font-size:14px}.item{padding:15px;gap:11px}.item-top{flex-direction:column}.badges{justify-content:flex-start}.controls{border-radius:18px;padding:10px}.pill,.action{padding:8px 10px}.ring{width:92px;height:92px}.hero-tags{gap:6px}.hero-tag{padding:7px 9px}.section{margin-top:29px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.item,.pill,.action{transition:none}}
+  </style>
+</head>
+<body>
+  <main class="wrap" id="app">
+    <header class="topbar">
+      <div class="brand"><div class="brandmark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M4 12h16M12 4v16" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg></div><span>MCU ROADMAP</span></div>
+      <a class="home" href="../">← All pages</a>
+    </header>
+
+    <section class="hero">
+      <div class="hero-main">
+        <div class="eyebrow"><span class="eyebrow-dot"></span> You finished the Infinity Saga</div>
+        <h1>Your road to<br>Avengers: Doomsday.</h1>
+        <p class="lede">A focused post–<strong>Far From Home</strong> watchlist built to give you the important Spider-Man, multiverse, New Avengers, Wakanda, Fantastic Four and X-Men context—without forcing you through every MCU release.</p>
+        <div class="hero-tags">
+          <span class="hero-tag">✓ Phases 1–3 complete</span>
+          <span class="hero-tag">Spider-Man focused</span>
+          <span class="hero-tag">Multiverse focused</span>
+          <span class="hero-tag">Doomsday → Secret Wars</span>
+        </div>
+      </div>
+      <aside class="progress-card" aria-live="polite">
+        <div class="progress-top">
+          <div class="ring" id="ring"><strong id="progressPct">0%</strong></div>
+          <div class="progress-copy"><h2>Your progress</h2><p><span id="doneCount">0</span> of <span id="availableCount">0</span> currently watchable entries complete.</p></div>
+        </div>
+        <div class="nextup">
+          <div class="nextup-label">Next up</div>
+          <div class="nextup-title" id="nextTitle">WandaVision</div>
+          <div class="nextup-meta" id="nextMeta">Series · Must watch</div>
+        </div>
+      </aside>
+    </section>
+
+    <nav class="phase-nav" aria-label="Jump to section">
+      <a href="#phase4">Phase 4</a><a href="#phase5">Phase 5</a><a href="#xmen">X-Men primer</a><a href="#newavengers">New Avengers</a><a href="#finalstretch">Final stretch</a><a href="#future">Future</a>
+    </nav>
+
+    <section class="controls" aria-label="Watchlist controls">
+      <div class="control-row">
+        <div class="filters" id="filters">
+          <button class="pill active" type="button" data-filter="all">All useful</button>
+          <button class="pill" type="button" data-filter="lean">Lean route</button>
+          <button class="pill" type="button" data-filter="must">Must watch</button>
+          <button class="pill" type="button" data-filter="unwatched">Unwatched only</button>
+        </div>
+        <div class="search"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="6.5" stroke="currentColor" stroke-width="2"/><path d="m16 16 4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><input id="search" type="search" placeholder="Search titles or characters…" aria-label="Search watchlist" /></div>
+        <div class="filters"><button class="action" type="button" id="markVisible">Mark visible watched</button><button class="action danger" type="button" id="reset">Reset</button></div>
+      </div>
+    </section>
+
+    <section class="section" id="phase4" data-section>
+      <div class="section-head"><div><div class="section-kicker">Start here</div><h2>Phase 4 — rebuild the board</h2></div><div class="section-note">The core introductions after Endgame: Wanda, Sam, Loki, Yelena, Shang-Chi and the new Spider-Man status quo.</div></div>
+      <div class="grid">
+        <article class="item" data-id="wandavision" data-priority="must" data-lean="true" data-search="wandavision wanda vision multiverse">
+          <button class="check" type="button" aria-label="Mark WandaVision watched"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="item-body"><div class="item-top"><div><div class="title">WandaVision</div><div class="meta">Series · 2021</div></div><div class="badges"><span class="badge must">Must</span><span class="badge lean">Lean route</span></div></div><p class="why">Sets up Wanda and Vision after Endgame and makes <em>Multiverse of Madness</em> land properly.</p></div>
+        </article>
+        <article class="item" data-id="fatws" data-priority="must" data-lean="true" data-search="falcon winter soldier sam wilson bucky john walker captain america">
+          <button class="check" type="button" aria-label="Mark The Falcon and the Winter Soldier watched"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="item-body"><div class="item-top"><div><div class="title">The Falcon and the Winter Soldier</div><div class="meta">Series · 2021</div></div><div class="badges"><span class="badge must">Must</span><span class="badge lean">Lean route</span></div></div><p class="why">Establishes Sam Wilson as Captain America and develops Bucky and John Walker before the New Avengers era.</p></div>
+        </article>
+        <article class="item" data-id="loki1" data-priority="must" data-lean="true" data-search="loki season 1 tva variants timelines multiverse">
+          <button class="check" type="button" aria-label="Mark Loki Season 1 watched"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="item-body"><div class="item-top"><div><div class="title">Loki — Season 1</div><div class="meta">Series · 2021</div></div><div class="badges"><span class="badge must">Must</span><span class="badge lean">Lean route</span></div></div><p class="why">The foundational multiverse/TVA story: variants, branching timelines and the machinery behind the saga.</p></div>
+        </article>
+        <article class="item" data-id="blackwidow" data-priority="must" data-lean="true" data-search="black widow natasha yelena red guardian taskmaster">
+          <button class="check" type="button" aria-label="Mark Black Widow watched"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="item-body"><div class="item-top"><div><div class="title">Black Widow</div><div class="meta">Movie · 2021</div></div><div class="badges"><span class="badge must">Must</span><span class="badge lean">Lean route</span></div></div><p class="why">Introduces Yelena and Red Guardian, both central to the team that later becomes the New Avengers.</p></div>
+        </article>
+        <article class="item" data-id="shangchi" data-priority="must" data-lean="true" data-search="shang chi ten rings wong bruce banner captain marvel">
+          <button class="check" type="button" aria-label="Mark Shang-Chi watched"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="item-body"><div class="item-top"><div><div class="title">Shang-Chi and the Legend of the Ten Rings</div><div class="meta">Movie · 2021</div></div><div class="badges"><span class="badge must">Must</span><span class="badge lean">Lean route</span></div></div><p class="why">Introduces Shang-Chi, a confirmed player in <em>Doomsday</em>, and leaves the Ten Rings mystery open.</p></div>
+        </article>
+        <article class="item" data-id="hawkeye" data-priority="recommended" data-lean="false" data-search="hawkeye clint barton kate bishop yelena kingpin">
+          <button class="check" type="button" aria-label="Mark Hawkeye watched"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="item-body"><div class="item-top"><div><div class="title">Hawkeye</div><div class="meta">Series · 2021</div></div><div class="badges"><span class="badge recommended">Recommended</span></div></div><p class="why">Useful continuation for Yelena after <em>Black Widow</em>, but not required to understand the New Avengers.</p></div>
+        </article>
+        <article class="item" data-id="nwh" data-priority="must" data-lean="true" data-search="spider man no way home peter parker doctor strange multiverse tobey andrew">
+          <button class="check" type="button" aria-label="Mark Spider-Man No Way Home watched"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="item-body"><div class="item-top"><div><div class="title">Spider-Man: No Way Home</div><div class="meta">Movie · 2021</div></div><div class="badges"><span class="badge must">Must</span><span class="badge lean">Lean route</span></div></div><p class="why">Direct continuation from <em>Far From Home</em>, major multiverse event, and the critical setup for <em>Brand New Day</em>.</p></div>
+        </article>
+        <article class="item" data-id="mom" data-priority="must" data-lean="true" data-search="doctor strange multiverse madness wanda scarlet witch incursions illuminati">
+          <button class="check" type="button" aria-label="Mark Doctor Strange in the Multiverse of Madness watched"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="item-body"><div class="item-top"><div><div class="title">Doctor Strange in the Multiverse of Madness</div><div class="meta">Movie · 2022</div></div><div class="badges"><span class="badge must">Must</span><span class="badge lean">Lean route</span></div></div><p class="why">Makes alternate universes and incursions concrete and directly continues Wanda's story from <em>WandaVision</em>.</p></div>
+        </article>
+        <article class="item" data-id="thor4" data-priority="recommended" data-lean="false" data-search="thor love thunder jane foster valkyrie">
+          <button class="check" type="button" aria-label="Mark Thor Love and Thunder watched"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="item-body"><div class="item-top"><div><div class="title">Thor: Love and Thunder</div><div class="meta">Movie · 2022</div></div><div class="badges"><span class="badge recommended">Recommended</span></div></div><p class="why">Useful mainly because Thor returns for <em>Doomsday</em>; this shows where his life went after Endgame.</p></div>
+        </article>
+        <article class="item" data-id="wakanda2" data-priority="must" data-lean="true" data-search="black panther wakanda forever shuri namor mbaku namora ironheart">
+          <button class="check" type="button" aria-label="Mark Black Panther Wakanda Forever watched"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="item-body"><div class="item-top"><div><div class="title">Black Panther: Wakanda Forever</div><div class="meta">Movie · 2022</div></div><div class="badges"><span class="badge must">Must</span><span class="badge lean">Lean route</span></div></div><p class="why">Establishes current Wakanda and introduces Namor/Talokan—several of these characters are part of <em>Doomsday</em>.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="phase5" data-section>
+      <div class="section-head"><div><div class="section-kicker">Multiverse escalation</div><h2>Phase 5 — connect the universes</h2></div><div class="section-note">Not every Phase 5 project matters. These are the ones that add useful Avengers or multiverse context.</div></div>
+      <div class="grid">
+        <article class="item" data-id="quantumania" data-priority="recommended" data-lean="false" data-search="ant man wasp quantumania scott lang cassie quantum realm kang">
+          <button class="check" type="button" aria-label="Mark Ant-Man and the Wasp Quantumania watched"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="item-body"><div class="item-top"><div><div class="title">Ant-Man and the Wasp: Quantumania</div><div class="meta">Movie · 2023</div></div><div class="badges"><span class="badge recommended">Recommended</span></div></div><p class="why">Scott and Cassie matter going forward. Watch more for their status than for the saga's now-reduced Kang setup.</p></div>
+        </article>
+        <article class="item" data-id="loki2" data-priority="must" data-lean="true" data-search="loki season 2 tva multiverse timelines mobius sylvie">
+          <button class="check" type="button" aria-label="Mark Loki Season 2 watched"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="item-body"><div class="item-top"><div><div class="title">Loki — Season 2</div><div class="meta">Series · 2023</div></div><div class="badges"><span class="badge must">Must</span><span class="badge lean">Lean route</span></div></div><p class="why">Arguably the most important Disney+ season for understanding the TVA and the state of the multiverse before <em>Doomsday</em>.</p></div>
+        </article>
+        <article class="item" data-id="marvels" data-priority="recommended" data-lean="false" data-search="the marvels captain marvel monica rambeau ms marvel kamala x men beast multiverse">
+          <button class="check" type="button" aria-label="Mark The Marvels watched"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="item-body"><div class="item-top"><div><div class="title">The Marvels</div><div class="meta">Movie · 2023</div></div><div class="badges"><span class="badge recommended">Strongly useful</span></div></div><p class="why">Its ending contains meaningful X-Men/multiverse setup. You can understand the movie without watching all of <em>Ms. Marvel</em>.</p></div>
+        </article>
+      </div>
+      <details><summary><span>Do I need Ms. Marvel first?</span><span>Optional</span></summary><div class="details-body">No. <em>Ms. Marvel</em> gives Kamala Khan a fuller introduction, but it is not important enough to the Doomsday path to make six extra episodes mandatory. Watch it only if you want more Kamala context before <em>The Marvels</em>.</div></details>
+    </section>
+
+    <section class="section" id="xmen" data-section>
+      <div class="section-head"><div><div class="section-kicker">Legacy universe primer</div><h2>X-Men / Fox detour</h2></div><div class="section-note">This detour is now genuine saga context rather than Easter-egg homework because several legacy X-Men characters feed into the next Avengers chapter.</div></div>
+      <div class="grid">
+        <article class="item" data-id="xmen1" data-priority="must" data-lean="true" data-search="x men 2000 professor x magneto cyclops mystique fox">
+          <button class="check" type="button" aria-label="Mark X-Men 2000 watched"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="item-body"><div class="item-top"><div><div class="title">X-Men</div><div class="meta">Movie · 2000 · Fox universe</div></div><div class="badges"><span class="badge must">Must</span><span class="badge lean">Lean route</span></div></div><p class="why">Introduces the classic Professor X, Magneto, Cyclops and Mystique versions relevant to the legacy-universe side of the saga.</p></div>
+        </article>
+        <article class="item" data-id="x2" data-priority="must" data-lean="true" data-search="x2 x men united nightcrawler professor x magneto cyclops fox">
+          <button class="check" type="button" aria-label="Mark X2 X-Men United watched"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="item-body"><div class="item-top"><div><div class="title">X2: X-Men United</div><div class="meta">Movie · 2003 · Fox universe</div></div><div class="badges"><span class="badge must">Must</span><span class="badge lean">Lean route</span></div></div><p class="why">Expands the classic team and introduces Nightcrawler. One of the two original X-Men films explicitly emphasized in current Doomsday prep.</p></div>
+        </article>
+        <article class="item" data-id="x3" data-priority="recommended" data-lean="false" data-search="x men last stand beast kelsey grammer magneto professor x">
+          <button class="check" type="button" aria-label="Mark X-Men The Last Stand watched"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="item-body"><div class="item-top"><div><div class="title">X-Men: The Last Stand</div><div class="meta">Movie · 2006 · Fox universe</div></div><div class="badges"><span class="badge recommended">Recommended</span></div></div><p class="why">Not essential, but useful for Kelsey Grammer's Beast and the original team's later status.</p></div>
+        </article>
+        <article class="item" data-id="deadpool1" data-priority="recommended" data-lean="false" data-search="deadpool wade wilson colossus negasonic fox">
+          <button class="check" type="button" aria-label="Mark Deadpool watched"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="item-body"><div class="item-top"><div><div class="title">Deadpool</div><div class="meta">Movie · 2016 · Fox universe</div></div><div class="badges"><span class="badge recommended">Recommended</span></div></div><p class="why">Gives you Wade's origin and tone before the multiverse jump. Helpful rather than essential.</p></div>
+        </article>
+        <article class="item" data-id="logan" data-priority="must" data-lean="true" data-search="logan wolverine hugh jackman xavier deadpool wolverine">
+          <button class="check" type="button" aria-label="Mark Logan watched"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="item-body"><div class="item-top"><div><div class="title">Logan</div><div class="meta">Movie · 2017 · Fox universe</div></div><div class="badges"><span class="badge must">Must</span><span class="badge lean">Lean route</span></div></div><p class="why">Important emotional and plot context for Wolverine before <em>Deadpool & Wolverine</em>.</p></div>
+        </article>
+        <article class="item" data-id="deadpool2" data-priority="recommended" data-lean="false" data-search="deadpool 2 wade cable domino x force">
+          <button class="check" type="button" aria-label="Mark Deadpool 2 watched"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="item-body"><div class="item-top"><div><div class="title">Deadpool 2</div><div class="meta">Movie · 2018 · Fox universe</div></div><div class="badges"><span class="badge recommended">Recommended</span></div></div><p class="why">Rounds out Wade's story before he collides with the TVA and MCU-adjacent multiverse.</p></div>
+        </article>
+        <article class="item" data-id="dpw" data-priority="must" data-lean="true" data-search="deadpool wolverine tva gambit legacy marvel universes void">
+          <button class="check" type="button" aria-label="Mark Deadpool and Wolverine watched"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="item-body"><div class="item-top"><div><div class="title">Deadpool & Wolverine</div><div class="meta">Movie · 2024</div></div><div class="badges"><span class="badge must">Must</span><span class="badge lean">Lean route</span></div></div><p class="why">Connects the TVA with legacy Marvel universes and introduces/reframes characters who now matter to the multiverse endgame.</p></div>
+        </article>
+      </div>
+      <details><summary><span>Other X-Men movies?</span><span>Safe to skip for now</span></summary><div class="details-body">For this focused route, you can leave <em>X-Men Origins: Wolverine</em>, <em>First Class</em>, <em>The Wolverine</em>, <em>Days of Future Past</em>, <em>Apocalypse</em>, <em>Dark Phoenix</em> and <em>New Mutants</em> for later. They add lore, but they are not required to follow the core route above.</div></details>
+    </section>
+
+    <section class="section" id="newavengers" data-section>
+      <div class="section-head"><div><div class="section-kicker">Team-building</div><h2>The New Avengers</h2></div><div class="section-note">These are direct setup for the contemporary Earth-based heroes who will share the board in Doomsday.</div></div>
+      <div class="grid">
+        <article class="item" data-id="bravenewworld" data-priority="must" data-lean="true" data-search="captain america brave new world sam wilson joaquin torres falcon red hulk">
+          <button class="check" type="button" aria-label="Mark Captain America Brave New World watched"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="item-body"><div class="item-top"><div><div class="title">Captain America: Brave New World</div><div class="meta">Movie · 2025</div></div><div class="badges"><span class="badge must">Must</span><span class="badge lean">Lean route</span></div></div><p class="why">Establishes Sam Wilson as the active Captain America on the world stage and advances Joaquin Torres.</p></div>
+        </article>
+        <article class="item" data-id="thunderbolts" data-priority="must" data-lean="true" data-search="thunderbolts new avengers yelena bucky red guardian john walker ghost sentry bob">
+          <button class="check" type="button" aria-label="Mark Thunderbolts watched"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="item-body"><div class="item-top"><div><div class="title">Thunderbolts* / The New Avengers</div><div class="meta">Movie · 2025</div></div><div class="badges"><span class="badge must">Must</span><span class="badge lean">Lean route</span></div></div><p class="why">One of the most direct team-building movies for <em>Doomsday</em>: Yelena, Bucky, Red Guardian, John Walker, Ghost and Bob/Sentry.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="finalstretch" data-section>
+      <div class="section-head"><div><div class="section-kicker">The final stretch</div><h2>Fantastic Four + Spider-Man</h2></div><div class="section-note">The two branches closest to your stated goal: Doctor Doom/Fantastic Four and Peter Parker's post–No Way Home story.</div></div>
+      <div class="grid">
+        <article class="item" data-id="fantastic4" data-priority="must" data-lean="true" data-search="fantastic four first steps reed richards sue storm johnny thing doctor doom">
+          <button class="check" type="button" aria-label="Mark The Fantastic Four First Steps watched"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="item-body"><div class="item-top"><div><div class="title">The Fantastic Four: First Steps</div><div class="meta">Movie · 2025</div></div><div class="badges"><span class="badge must">Must</span><span class="badge lean">Lean route</span></div></div><p class="why">Non-negotiable: introduces the exact Fantastic Four heading into <em>Doomsday</em> and begins the most direct Doctor Doom setup. Watch the credits.</p></div>
+        </article>
+        <article class="item" data-id="daredevil1" data-priority="optional" data-lean="false" data-search="daredevil born again season 1 matt murdock kingpin punisher street level spider man">
+          <button class="check" type="button" aria-label="Mark Daredevil Born Again Season 1 watched"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="item-body"><div class="item-top"><div><div class="title">Daredevil: Born Again — Season 1</div><div class="meta">Series · 2025</div></div><div class="badges"><span class="badge optional">Optional</span></div></div><p class="why">Extra street-level New York context if you want to deepen the world around the new Spider-Man movie. Not required.</p></div>
+        </article>
+        <article class="item" data-id="daredevil2" data-priority="optional" data-lean="false" data-search="daredevil born again season 2 matt murdock kingpin punisher street level spider man">
+          <button class="check" type="button" aria-label="Mark Daredevil Born Again Season 2 watched"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="item-body"><div class="item-top"><div><div class="title">Daredevil: Born Again — Season 2</div><div class="meta">Series · 2026</div></div><div class="badges"><span class="badge optional">Optional</span></div></div><p class="why">More current street-level context. Helpful if you enjoy Daredevil; still not essential homework for Peter Parker.</p></div>
+        </article>
+        <article class="item" data-id="punisher" data-priority="optional" data-lean="false" data-search="punisher one last kill frank castle spider man street level special">
+          <button class="check" type="button" aria-label="Mark The Punisher One Last Kill watched"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="item-body"><div class="item-top"><div><div class="title">The Punisher: One Last Kill</div><div class="meta">Special · 2026</div></div><div class="badges"><span class="badge optional">Optional</span></div></div><p class="why">Only for deeper Frank Castle/street-level context. The Spider-Man branch should still make sense without it.</p></div>
+        </article>
+        <article class="item" data-id="brandnewday" data-priority="must" data-lean="true" data-search="spider man brand new day peter parker 2026 new spider man">
+          <button class="check" type="button" aria-label="Mark Spider-Man Brand New Day watched"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="item-body"><div class="item-top"><div><div class="title">Spider-Man: Brand New Day</div><div class="meta">Movie · 2026</div></div><div class="badges"><span class="badge must">Must</span><span class="badge lean">Lean route</span></div></div><p class="why">The direct continuation of Peter Parker's story after <em>No Way Home</em> and the final Spider-Man stop on this route before the Avengers event.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="future" data-section>
+      <div class="section-head"><div><div class="section-kicker">Coming next</div><h2>Future milestones</h2></div><div class="section-note">These stay visible so the page remains a roadmap, but unreleased entries do not count against your progress.</div></div>
+      <div class="grid">
+        <article class="item unreleased" data-id="visionquest" data-priority="recommended" data-lean="false" data-search="visionquest vision ultron wanda agatha 2026" data-unreleased="true">
+          <button class="check" type="button" disabled aria-label="VisionQuest not yet released"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="item-body"><div class="item-top"><div><div class="title">VisionQuest</div><div class="meta">Series · 14 Oct 2026</div></div><div class="badges"><span class="badge recommended">Watch when released</span><span class="badge future">Future</span></div></div><p class="why">Continues Vision's story and brings Ultron back into the picture. Its exact Doomsday importance is not yet established, so it remains recommended rather than mandatory.</p></div>
+        </article>
+        <article class="item unreleased" data-id="doomsday" data-priority="must" data-lean="true" data-search="avengers doomsday doctor doom avengers x men fantastic four 2026" data-unreleased="true">
+          <button class="check" type="button" disabled aria-label="Avengers Doomsday not yet released"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="item-body"><div class="item-top"><div><div class="title">Avengers: Doomsday</div><div class="meta">Movie · 18 Dec 2026</div></div><div class="badges"><span class="badge must">Destination</span><span class="badge lean">Lean route</span><span class="badge future">Future</span></div></div><p class="why">The destination this entire page is designed around.</p></div>
+        </article>
+        <article class="item unreleased" data-id="secretwars" data-priority="must" data-lean="false" data-search="avengers secret wars 2027 multiverse" data-unreleased="true">
+          <button class="check" type="button" disabled aria-label="Avengers Secret Wars not yet released"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><div class="item-body"><div class="item-top"><div><div class="title">Avengers: Secret Wars</div><div class="meta">Movie · 17 Dec 2027</div></div><div class="badges"><span class="badge must">Finale</span><span class="badge future">Future</span></div></div><p class="why">After <em>Doomsday</em>, add any officially confirmed bridge projects that emerge, then finish the Multiverse Saga here.</p></div>
+        </article>
+      </div>
+      <details><summary><span>Safe to skip for now</span><span>Save a lot of time</span></summary><div class="details-body">These can stay on the shelf for your current goal. If future Marvel releases make one newly important, this roadmap can be updated.
+        <div class="skip-list"><span class="skip">What If…? S1–3</span><span class="skip">Eternals</span><span class="skip">Moon Knight</span><span class="skip">Ms. Marvel</span><span class="skip">She-Hulk</span><span class="skip">Werewolf by Night</span><span class="skip">Guardians Holiday Special</span><span class="skip">Guardians Vol. 3</span><span class="skip">Secret Invasion</span><span class="skip">Echo</span><span class="skip">Agatha All Along*</span><span class="skip">Ironheart</span><span class="skip">Eyes of Wakanda</span><span class="skip">Marvel Zombies</span><span class="skip">Your Friendly Neighborhood Spider-Man</span><span class="skip">Wonder Man</span></div>
+        <p style="margin-bottom:0">*Add <em>Agatha All Along</em> only if you decide you want the full WandaVision → Agatha → VisionQuest trilogy rather than the shortest Avengers route.</p>
+      </div></details>
+    </section>
+
+    <div class="empty" id="empty">No titles match this filter. Try another view or clear the search.</div>
+
+    <footer class="footer">
+      <div>Curated for a focused catch-up after <strong>Spider-Man: Far From Home</strong>.<br>Priority labels are editorial guidance, not an official Marvel ranking. Last updated 25 Aug 2026.</div>
+      <div><a href="https://movies.disney.com/avengers-doomsday" target="_blank" rel="noreferrer">Disney: Avengers Doomsday</a><br><a href="https://www.marvel.com/movies" target="_blank" rel="noreferrer">Marvel: Movies</a></div>
+    </footer>
+  </main>
+
+  <script>
+    (()=>{
+      const root=document.getElementById('app');
+      const items=[...root.querySelectorAll('.item')];
+      const filters=[...root.querySelectorAll('[data-filter]')];
+      const search=document.getElementById('search');
+      const ring=document.getElementById('ring');
+      const pct=document.getElementById('progressPct');
+      const doneCount=document.getElementById('doneCount');
+      const availableCount=document.getElementById('availableCount');
+      const nextTitle=document.getElementById('nextTitle');
+      const nextMeta=document.getElementById('nextMeta');
+      const empty=document.getElementById('empty');
+      const storageKey='mcu-doomsday-watchlist-v1';
+      let state={watched:[],filter:'all',query:''};
+
+      try{const saved=JSON.parse(localStorage.getItem(storageKey)||'null');if(saved&&Array.isArray(saved.watched)) state={...state,...saved};}catch(e){}
+      const watched=new Set(state.watched);
+
+      function labelFor(item){
+        const p=item.dataset.priority;
+        if(p==='must') return 'Must watch';
+        if(p==='recommended') return 'Recommended';
+        return 'Optional';
+      }
+      function save(){
+        state.watched=[...watched];state.query=search.value;
+        try{localStorage.setItem(storageKey,JSON.stringify(state));}catch(e){}
+      }
+      function render(){
+        const q=search.value.trim().toLowerCase();
+        let visible=0;
+        items.forEach(item=>{
+          const done=watched.has(item.dataset.id);
+          item.classList.toggle('done',done);
+          const matchesSearch=!q || item.dataset.search.includes(q) || item.querySelector('.title').textContent.toLowerCase().includes(q);
+          let matchesFilter=true;
+          if(state.filter==='lean') matchesFilter=item.dataset.lean==='true';
+          if(state.filter==='must') matchesFilter=item.dataset.priority==='must';
+          if(state.filter==='unwatched') matchesFilter=!done;
+          const show=matchesSearch&&matchesFilter;
+          item.classList.toggle('hidden',!show);
+          if(show) visible++;
+        });
+        root.querySelectorAll('[data-section]').forEach(sec=>{
+          const any=[...sec.querySelectorAll('.item')].some(i=>!i.classList.contains('hidden'));
+          sec.style.display=any?'':'none';
+        });
+        empty.classList.toggle('show',visible===0);
+        const available=items.filter(i=>i.dataset.unreleased!=='true');
+        const doneAvailable=available.filter(i=>watched.has(i.dataset.id));
+        const percent=available.length?Math.round(doneAvailable.length/available.length*100):0;
+        ring.style.setProperty('--p',percent);pct.textContent=percent+'%';doneCount.textContent=doneAvailable.length;availableCount.textContent=available.length;
+        const next=items.find(i=>i.dataset.unreleased!=='true'&&!watched.has(i.dataset.id));
+        if(next){nextTitle.textContent=next.querySelector('.title').textContent;nextMeta.textContent=next.querySelector('.meta').textContent.split('·')[0].trim()+' · '+labelFor(next);}else{nextTitle.textContent='You are caught up';nextMeta.textContent='Everything currently available is checked off.';}
+        filters.forEach(f=>f.classList.toggle('active',f.dataset.filter===state.filter));
+        save();
+      }
+
+      items.forEach(item=>{
+        const btn=item.querySelector('.check');
+        if(item.dataset.unreleased==='true') return;
+        btn.addEventListener('click',()=>{const id=item.dataset.id;watched.has(id)?watched.delete(id):watched.add(id);render();});
+      });
+      filters.forEach(btn=>btn.addEventListener('click',()=>{state.filter=btn.dataset.filter;render();}));
+      search.value=state.query||'';search.addEventListener('input',render);
+      document.getElementById('markVisible').addEventListener('click',()=>{items.filter(i=>!i.classList.contains('hidden')&&i.dataset.unreleased!=='true').forEach(i=>watched.add(i.dataset.id));render();});
+      document.getElementById('reset').addEventListener('click',()=>{if(confirm('Clear all watch progress on this device?')){watched.clear();state.filter='all';search.value='';render();}});
+      render();
+    })();
+  </script>
+</body>
+</html>
