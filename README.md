@@ -11,12 +11,13 @@ Each folder under the repository root represents a separate page or mini-site:
 ```text
 pages/
 ├── index.html
-├── mk5-nursery-comparison/
+├── weekly-saas-opportunities/
+│   ├── index.html
+│   └── data.json
+├── mcu-doomsday-watchlist/
 │   └── index.html
-└── another-page/
-    ├── index.html
-    ├── styles.css
-    └── script.js
+└── mk5-nursery-comparison/
+    └── index.html
 ```
 
 With GitHub Pages enabled for the `main` branch, the repository is published under:
@@ -28,10 +29,22 @@ https://mshokry10.github.io/pages/
 Individual pages are then available at their directory path, for example:
 
 ```text
-https://mshokry10.github.io/pages/mk5-nursery-comparison/
+https://mshokry10.github.io/pages/weekly-saas-opportunities/
 ```
 
 ## Current pages
+
+### Weekly SaaS Opportunities
+
+An interactive, continuously growing archive of research-backed SaaS/startup opportunities. The page reads its content from `data.json`; the weekly opportunity research task regenerates that file after updating the private Google Sheet, so the public dashboard stays current without exposing the spreadsheet or credentials.
+
+**Path:** [`/weekly-saas-opportunities/`](./weekly-saas-opportunities/)
+
+### MCU Road to Doomsday
+
+An interactive post–Far From Home MCU watchlist focused on the useful path toward Spider-Man, Avengers: Doomsday and Avengers: Secret Wars.
+
+**Path:** [`/mcu-doomsday-watchlist/`](./mcu-doomsday-watchlist/)
 
 ### MK5 Nursery Comparison
 
