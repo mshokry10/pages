@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-08-25T21:48:00Z",
+  "source": "Weekly SaaS Opportunity Log",
+  "ideas": [
+    {
+      "id": "2026-08-24-book-the-move",
+      "date": "2026-08-24",
+      "idea": "SmartMoving-native outbound lead engine for independent moving companies",
+      "incumbent": "Book The Move",
+      "traction": "$7,615 MRR from 8 active subscriptions (TrustMRR snapshot at time of research)",
+      "customer": "Independent US residential moving companies using SmartMoving, roughly 2–10 trucks, one metro",
+      "wedge": "SmartMoving-native lead delivery + smaller exclusive ZIP territories + done-for-you onboarding",
+      "why": "High ARPU, tiny required customer count, identifiable buyers, direct-sales friendly, licensable inputs, measurable ROI",
+      "risk": "The listing-to-booked-move conversion may be too weak to sustain repeatable ROI; incumbent could add the same integration wedge",
+      "score": 9.3,
+      "chat": "https://chatgpt.com/share/6a8c6dd0-cb18-83eb-afbe-a343a66cc57a",
+      "evidence": [
+        "https://trustmrr.com/startup/book-the-move",
+        "https://www.bookthemove.com/",
+        "https://help.smartmoving.com/en/articles/3994387-smartmoving-lead-api-integration-guide"
+      ]
+    }
+  ]
+}
