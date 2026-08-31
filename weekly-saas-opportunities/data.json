@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T21:59:28Z",
+  "generatedAt": "2026-08-31T08:47:20+01:00",
   "source": "Weekly SaaS Opportunity Log",
   "ideas": [
     {
@@ -19,6 +19,27 @@
         "https://trustmrr.com/startup/book-the-move",
         "https://www.bookthemove.com/",
         "https://help.smartmoving.com/en/articles/3994387-smartmoving-lead-api-integration-guide"
+      ]
+    },
+    {
+      "id": "2026-08-31-easy-app-reports-by-beyond-analytics",
+      "date": "2026-08-31",
+      "idea": "White-label mobile app performance reporting for ASO and mobile-growth agencies",
+      "description": "A reporting hub for agencies that manage multiple mobile-app clients. It connects each client's Apple App Store Connect, Google Play Console and selected acquisition sources, continuously normalizes performance data, and automatically produces branded client reports, portals and alerts instead of requiring analysts to rebuild dashboards or monthly decks.",
+      "incumbent": "Easy App Reports by Beyond Analytics",
+      "traction": "$3,474 MRR from 22 active subscriptions; $164,908 all-time revenue; 1-person bootstrapped team (TrustMRR, Aug 29 2026)",
+      "customer": "ASO and mobile-app growth agencies with ~5–50 active client apps and recurring retainers",
+      "wedge": "Own the client-delivery layer: white-label portals, scheduled branded reports, KPI goals, annotations and commentary—rather than selling generic BI/data connectors",
+      "why": "Verified low-customer-count B2B revenue, official/replicable data sources, enumerable agency buyers, recurring workflow pain, strong expansion pricing and a fast concierge validation path",
+      "risk": "Agencies may already be satisfied with AppTweak/Appfigures/Looker Studio; Apple/Google permissions and source-report delays could make onboarding/support too heavy",
+      "score": 9.0,
+      "chat": "https://docs.google.com/document/d/1LyoZECgFDO7FqSXHDmwX_fm4CWt0sJeu96hUmu5RcNE/edit",
+      "evidence": [
+        "https://trustmrr.com/startup/easy-app-reports-by-beyond-analytics",
+        "https://www.easyappreports.com/pricing",
+        "https://www.easyappreports.com/",
+        "https://developer.apple.com/app-store-connect/api/",
+        "https://developers.google.com/play/developer/reporting/reference/rest"
       ]
     }
   ]
