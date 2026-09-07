@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T08:47:20+01:00",
+  "generatedAt": "2026-09-07T08:42:24+01:00",
   "source": "Weekly SaaS Opportunity Log",
   "ideas": [
     {
@@ -15,11 +15,7 @@
       "risk": "The listing-to-booked-move conversion may be too weak to sustain repeatable ROI; incumbent could add the same integration wedge",
       "score": 9.3,
       "chat": "https://chatgpt.com/share/6a8c6dd0-cb18-83eb-afbe-a343a66cc57a",
-      "evidence": [
-        "https://trustmrr.com/startup/book-the-move",
-        "https://www.bookthemove.com/",
-        "https://help.smartmoving.com/en/articles/3994387-smartmoving-lead-api-integration-guide"
-      ]
+      "evidence": ["https://trustmrr.com/startup/book-the-move", "https://www.bookthemove.com/", "https://help.smartmoving.com/en/articles/3994387-smartmoving-lead-api-integration-guide"]
     },
     {
       "id": "2026-08-31-easy-app-reports-by-beyond-analytics",
@@ -34,13 +30,22 @@
       "risk": "Agencies may already be satisfied with AppTweak/Appfigures/Looker Studio; Apple/Google permissions and source-report delays could make onboarding/support too heavy",
       "score": 9.0,
       "chat": "https://docs.google.com/document/d/1LyoZECgFDO7FqSXHDmwX_fm4CWt0sJeu96hUmu5RcNE/edit",
-      "evidence": [
-        "https://trustmrr.com/startup/easy-app-reports-by-beyond-analytics",
-        "https://www.easyappreports.com/pricing",
-        "https://www.easyappreports.com/",
-        "https://developer.apple.com/app-store-connect/api/",
-        "https://developers.google.com/play/developer/reporting/reference/rest"
-      ]
+      "evidence": ["https://trustmrr.com/startup/easy-app-reports-by-beyond-analytics", "https://www.easyappreports.com/pricing", "https://www.easyappreports.com/", "https://developer.apple.com/app-store-connect/api/", "https://developers.google.com/play/developer/reporting/reference/rest"]
+    },
+    {
+      "id": "2026-09-07-feedguardians",
+      "date": "2026-09-07",
+      "idea": "AI Meta-ad comment-to-booking agent for home-improvement companies",
+      "description": "A conversion agent for home-improvement companies already running Facebook and Instagram ads. It watches ad comments and DMs, hides obvious spam, answers approved buyer questions, detects high intent, qualifies prospects in private messages, books estimates, and writes the lead plus conversation context into the company's CRM.",
+      "incumbent": "FeedGuardians",
+      "traction": "$8,363 MRR from 38 active subscriptions; $56,911 all-time revenue; Stripe-verified TrustMRR snapshot on 2026-09-07",
+      "customer": "US roofing companies with ~5–50 employees, meaningful Meta ad spend, and GoHighLevel/agency-managed lead workflows",
+      "wedge": "Meta-first + roofing-first; turn paid-ad comments into qualified DMs and booked estimates in GoHighLevel, with done-for-you setup and revenue attribution",
+      "why": "Strong verified ARPU with few incumbent customers, official/replicable platform APIs, easy-to-enumerate buyers, one job can pay for months of SaaS, and the core workflow can be concierge-validated before building broadly",
+      "risk": "ManyChat/HighLevel/native Meta tools may already be good enough, or Meta permissions may constrain comment-to-DM automation; the thesis fails if qualified comments do not become incremental booked estimates",
+      "score": 9.2,
+      "chat": "https://docs.google.com/document/d/13DnoYjtn8d41ZbriGFO0haO2Vibwk8L-G2Z8QVgugb0/edit",
+      "evidence": ["https://trustmrr.com/startup/feedguardians", "https://feedguardians.com/", "https://feedguardians.com/pricing", "https://appsumo.com/products/feedguardians/", "https://trustmrr.com/startup/aila"]
     }
   ]
 }
