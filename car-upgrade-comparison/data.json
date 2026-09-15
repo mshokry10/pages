@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "syncedAt": "2026-09-15T01:46:46.775Z",
+  "syncedAt": "2026-09-15T01:49:55.288Z",
   "sheetUrl": "https://docs.google.com/spreadsheets/d/1uHF8Yg4Ihms-_li-x0gGwLMUaspLfz4hcexK8SAH7p8/edit?usp=drivesdk",
   "fields": [
     [
@@ -238,7 +238,7 @@
       "Vehicle 3 years/60,000 miles; HV battery 8 years/100,000 miles with capacity conditions. Confirm Audi Approved cover and warranty start.",
       "45 has a 77 kWh usable battery and official range in the low-to-mid 300s depending trim/wheels. Cost scenario uses 3.4 mi/kWh plus 10% charging losses.",
       "About 260 miles mixed real-world; roughly 180–225 miles on a cold motorway depending conditions.",
-      "286PS RWD, 77 kWh usable, 11 kW AC and up to 175 kW DC; Audi quotes about 28 minutes from 10–80% in ideal conditions.",
+      "286PS RWD, 0–62 in about 6.7 sec, 77 kWh usable, 11 kW AC and up to 175 kW DC; Audi quotes about 28 minutes from 10–80% in ideal conditions.",
       "Confirm exact model year, Black Edition/Comfort Pack, seat functions, battery health, software/recalls and charging. Check tyre wear and insurance.",
       "2024 Q4 45 examples were observed at £26,686 and £28,990; exact Sport/S line/Black Edition equipment and mileage explain the spread.",
       "https://www.autotrader.co.uk/cars/used/audi/q4-e-tron/2024",
@@ -418,7 +418,7 @@
       "Vehicle warranty generally 3 years/unlimited mileage; HV battery 8 years/100,000 miles with capacity conditions. Confirm Approved Used cover.",
       "Official range around 282–285 miles when new. Cost scenario uses 3.3 mi/kWh plus 10% charging losses.",
       "About 235 miles mixed real-world; around 170 miles in extreme-cold motorway use and about 215 miles on a mild motorway.",
-      "74 kWh usable / 80 gross; 11 kW AC; 150 kW DC and about 32 min 10–80% in good conditions.",
+      "282 bhp RWD, 0–62 in about 6.8 sec, 74 kWh usable / 80 kWh gross, 11 kW AC and 150 kW DC; roughly 32 minutes from 10–80% in good conditions.",
       "Battery-health report, charging test, 20-inch tyre wear, service/recall record and all camera/seat functions. Check the remaining base warranty date.",
       "2023 M Sport Pro examples were observed around £27k–£31k, with several around £29k. Check BMW Approved stock and remaining warranty.",
       "https://www.autotrader.co.uk/cars/used/bmw/ix3/2023",
@@ -625,7 +625,7 @@
       "Standard on Premium / verify build",
       "Heated, electrically adjustable front seats; a lower, more cocooned driving position than the Qashqai. Excellent rear legroom and flat floor, but test seat shape and the firm suspension.",
       "15.5-inch SYNC 4, connected EV navigation/charging planning, phone integration and a distinctive cabin. Panoramic roof and parking equipment vary by year/build; verify the exact car.",
-      "Huge jump in acceleration, instant torque, refinement, handling, passenger space, technology and specialness. Extended Range RWD offers the strongest range in this group.",
+      "Huge jump in acceleration, instant torque, refinement, handling, passenger space, technology and specialness. Extended Range RWD is about 5.8 sec to 62 mph and offers the strongest range in this group.",
       "Firm/jiggly ride on broken roads, smaller single rear load area than Qashqai/Q4/iX3 and extra length when parking. Public-charging trips need more planning than petrol.",
       "8.5/10 upgrade from Qashqai — the emotional choice; shortlist it, but prove ride and luggage fit",
       "Yes",
