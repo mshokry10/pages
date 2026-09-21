@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T08:16:56+01:00",
+  "generatedAt": "2026-09-21T08:46:03+01:00",
   "source": "Weekly SaaS Opportunity Log",
   "ideas": [
     {
@@ -15,11 +15,7 @@
       "risk": "The listing-to-booked-move conversion may be too weak to sustain repeatable ROI; incumbent could add the same integration wedge",
       "score": 9.3,
       "chat": "https://chatgpt.com/share/6a8c6dd0-cb18-83eb-afbe-a343a66cc57a",
-      "evidence": [
-        "https://trustmrr.com/startup/book-the-move",
-        "https://www.bookthemove.com/",
-        "https://help.smartmoving.com/en/articles/3994387-smartmoving-lead-api-integration-guide"
-      ]
+      "evidence": ["https://trustmrr.com/startup/book-the-move", "https://www.bookthemove.com/", "https://help.smartmoving.com/en/articles/3994387-smartmoving-lead-api-integration-guide"]
     },
     {
       "id": "2026-08-31-easy-app-reports-by-beyond-analytics",
@@ -34,13 +30,7 @@
       "risk": "Agencies may already be satisfied with AppTweak/Appfigures/Looker Studio; Apple/Google permissions and source-report delays could make onboarding/support too heavy",
       "score": 9.0,
       "chat": "https://docs.google.com/document/d/1LyoZECgFDO7FqSXHDmwX_fm4CWt0sJeu96hUmu5RcNE/edit",
-      "evidence": [
-        "https://trustmrr.com/startup/easy-app-reports-by-beyond-analytics",
-        "https://www.easyappreports.com/pricing",
-        "https://www.easyappreports.com/",
-        "https://developer.apple.com/app-store-connect/api/",
-        "https://developers.google.com/play/developer/reporting/reference/rest"
-      ]
+      "evidence": ["https://trustmrr.com/startup/easy-app-reports-by-beyond-analytics", "https://www.easyappreports.com/pricing", "https://www.easyappreports.com/", "https://developer.apple.com/app-store-connect/api/", "https://developers.google.com/play/developer/reporting/reference/rest"]
     },
     {
       "id": "2026-09-07-feedguardians",
@@ -55,13 +45,7 @@
       "risk": "ManyChat/HighLevel/native Meta tools may already be good enough, or Meta permissions may constrain comment-to-DM automation; the thesis fails if qualified comments do not become incremental booked estimates",
       "score": 9.2,
       "chat": "https://docs.google.com/document/d/13DnoYjtn8d41ZbriGFO0haO2Vibwk8L-G2Z8QVgugb0/edit",
-      "evidence": [
-        "https://trustmrr.com/startup/feedguardians",
-        "https://feedguardians.com/",
-        "https://feedguardians.com/pricing",
-        "https://appsumo.com/products/feedguardians/",
-        "https://trustmrr.com/startup/aila"
-      ]
+      "evidence": ["https://trustmrr.com/startup/feedguardians", "https://feedguardians.com/", "https://feedguardians.com/pricing", "https://appsumo.com/products/feedguardians/", "https://trustmrr.com/startup/aila"]
     },
     {
       "id": "2026-09-14-sion",
@@ -76,13 +60,22 @@
       "risk": "Statement variability and ambiguous booking matching could force customer-specific integrations and turn the product into a services-heavy back-office implementation; incumbents may already solve enough of the problem.",
       "score": 9.1,
       "chat": "https://docs.google.com/document/d/1AvUEOZeuqbqXAekdRM_eQnSEP3pU6HiEmzObNh1CplI/edit",
-      "evidence": [
-        "https://www.phocuswire.com/news/finance/bilt-acquires-sion-30-million-dollars",
-        "https://trustmrr.com/startup/journeyfuse",
-        "https://www.toggle.travel/about",
-        "https://wihemi.com/",
-        "https://www.thetripledger.com/home"
-      ]
+      "evidence": ["https://www.phocuswire.com/news/finance/bilt-acquires-sion-30-million-dollars", "https://trustmrr.com/startup/journeyfuse", "https://www.toggle.travel/about", "https://wihemi.com/", "https://www.thetripledger.com/home"]
+    },
+    {
+      "id": "2026-09-21-hotelhero-ai",
+      "date": "2026-09-21",
+      "idea": "Event-triggered group-booking prospecting for independent hotels",
+      "description": "A revenue-generation SaaS for independent hotels that watches public event signals such as sports tournaments, conferences and festivals, identifies organizers likely to need room blocks, finds decision-maker contacts, and launches personalized outreach. Interested group-booking leads are qualified and routed into the hotel's existing sales workflow, with attribution from event signal through booked room revenue.",
+      "incumbent": "HotelHero.ai",
+      "traction": "TrustMRR: $2,545 MRR from 7 active subscriptions; $3,944 last 30 days; $25,226 all-time revenue; Stripe-verified, updated Sep 20 2026",
+      "customer": "Independent US hotels/small groups with ~40–150 rooms, limited in-house group sales, near sports complexes or recurring tournaments",
+      "wedge": "Productize only event-triggered group-sales prospecting, starting with sports tournaments; public event signals → organizer outreach → warm lead handoff, rather than a broad hotel marketing agency",
+      "why": "Very high implied ARPU with only 7 incumbent subscriptions, tiny founder audience/DR, measurable room-revenue ROI, enumerable buyers, and a concierge MVP that can be sold before deep integrations",
+      "risk": "Public event/contact data may be fragmented, organizers may already use housing partners, and proactive outreach may fail to produce incremental booked room blocks",
+      "score": 9.2,
+      "chat": "https://docs.google.com/document/d/1WPRzP4fVRl1Rwi15eC5qV3hTJR379b6oVn2snOlx2co/edit",
+      "evidence": ["https://trustmrr.com/startup/hotelhero-ai", "https://www.hotelhero.ai/service/remote-sales", "https://www.hotelhero.ai/service/social-media-management", "https://app.acquire.com/startup/djbdmzb2l1-a-platform-designed-to-drive-revenue-and-efficiency-for-hospitality-businesses", "https://flippa.com/13489769-b2b-website-in-app-conversion-saas-generating-90k-revenue-with-a-95-profit-margin-started-selling-in-2025-built-for-lean-scalable-growth"]
     }
   ]
 }
