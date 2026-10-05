@@ -64,6 +64,8 @@
     .phase-nav{display:flex;gap:8px;overflow:auto;padding:1px 1px 5px;scrollbar-width:none;margin-bottom:4px}.phase-nav::-webkit-scrollbar{display:none}.phase-nav a{flex:0 0 auto;text-decoration:none;border:1px solid var(--line);border-radius:12px;padding:9px 11px;color:#adb4c4;font-size:12px;font-weight:800;background:#11151e}.phase-nav a:hover{color:#fff;border-color:#3a4357}
     details{border:1px solid var(--line);border-radius:18px;background:#10141d;margin-top:12px;overflow:hidden}summary{list-style:none;cursor:pointer;padding:16px 18px;font-weight:900;display:flex;align-items:center;justify-content:space-between;gap:12px}summary::-webkit-details-marker{display:none}summary span:last-child{color:var(--muted);font-size:12px;font-weight:700}.details-body{border-top:1px solid var(--line);padding:16px 18px;color:var(--muted);font-size:13px;line-height:1.65}.skip-list{display:flex;flex-wrap:wrap;gap:7px;margin-top:10px}.skip{padding:7px 9px;border-radius:9px;background:#171c27;color:#b7bdca;border:1px solid #292f3e;font-size:12px;font-weight:750}
     .footer{margin-top:48px;padding-top:22px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:16px;color:#7f8798;font-size:12px;line-height:1.6;flex-wrap:wrap}.footer a{color:#adb5c6}.empty{display:none;border:1px dashed #394154;border-radius:18px;color:var(--muted);text-align:center;padding:32px 18px;margin-top:16px}.empty.show{display:block}
+    .dependency-help{display:flex;align-items:flex-start;gap:9px;margin-top:11px;padding:10px 12px;border-top:1px solid #242a39;color:#939bad;font-size:11.5px;line-height:1.45}.dependency-help svg{width:15px;height:15px;flex:0 0 auto;margin-top:1px;color:var(--blue)}
+    .dep-status{margin-top:13px;border-top:1px solid #242a37;padding-top:11px}.dep-toggle,.dep-ready{width:100%;display:flex;align-items:center;justify-content:space-between;gap:10px;border:0;background:transparent;padding:0;color:#aeb6c8;font-size:11.5px;font-weight:800;text-align:left}.dep-toggle{cursor:pointer}.dep-toggle:hover{color:#fff}.dep-left{display:flex;align-items:center;gap:7px;min-width:0}.dep-dot{width:7px;height:7px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 4px rgba(241,184,75,.08);flex:0 0 auto}.dep-ready .dep-dot{background:var(--green);box-shadow:0 0 0 4px rgba(87,214,154,.08)}.dep-count{color:#ffd683}.dep-chevron{color:#778196;transition:transform .15s ease}.dep-status.open .dep-chevron{transform:rotate(180deg)}.dep-list{display:none;gap:7px;flex-wrap:wrap;padding-top:10px}.dep-status.open .dep-list{display:flex}.dep-chip{border:1px solid #3b4253;background:#171c27;color:#d8ddea;border-radius:10px;padding:7px 9px;font-size:11.5px;font-weight:800;line-height:1.2;cursor:pointer}.dep-chip:hover{border-color:#65718b;background:#1c2230}.dep-chip:before{content:"↳";color:var(--gold);margin-right:6px}.dep-note{width:100%;color:#7f8798;font-size:10.5px;line-height:1.45;margin-top:2px}.item.dep-flash{animation:depflash 1.4s ease}@keyframes depflash{0%,100%{box-shadow:none}20%{box-shadow:0 0 0 3px rgba(241,184,75,.45),0 15px 40px rgba(0,0,0,.25)}}
     @media(max-width:820px){.hero{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.progress-card{min-height:190px}.section-note{text-align:left}.section-head{align-items:flex-start;flex-direction:column}.controls{top:6px}.control-row{align-items:stretch}.search{max-width:none;min-width:100%}}
     @media(max-width:520px){.wrap{padding:22px 13px 56px}.hero-main{padding:25px 20px}.progress-card{padding:20px}.topbar{margin-bottom:18px}.brand span:last-child{font-size:14px}.item{padding:15px;gap:11px}.item-top{flex-direction:column}.badges{justify-content:flex-start}.controls{border-radius:18px;padding:10px}.pill,.action{padding:8px 10px}.ring{width:92px;height:92px}.hero-tags{gap:6px}.hero-tag{padding:7px 9px}.section{margin-top:29px}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.item,.pill,.action{transition:none}}
@@ -112,10 +114,12 @@
           <button class="pill" type="button" data-filter="lean">Lean route</button>
           <button class="pill" type="button" data-filter="must">Must watch</button>
           <button class="pill" type="button" data-filter="unwatched">Unwatched only</button>
+          <button class="pill" type="button" data-filter="blocked">Needs prerequisites</button>
         </div>
         <div class="search"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="6.5" stroke="currentColor" stroke-width="2"/><path d="m16 16 4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><input id="search" type="search" placeholder="Search titles or characters…" aria-label="Search watchlist" /></div>
         <div class="filters"><button class="action" type="button" id="markVisible">Mark visible watched</button><button class="action danger" type="button" id="reset">Reset</button></div>
       </div>
+      <div class="dependency-help"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/><path d="M12 10v6M12 7h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span><strong>Prerequisite guide:</strong> each card now shows only the roadmap titles you still need before it. Tap the status to reveal them, then tap a title to jump straight to it. Phases 1–3 are treated as already complete; future-film links are focused prep guidance rather than an official Marvel requirement list.</span></div>
     </section>
 
     <section class="section" id="phase4" data-section>
@@ -253,7 +257,7 @@
     <div class="empty" id="empty">No titles match this filter. Try another view or clear the search.</div>
 
     <footer class="footer">
-      <div>Curated for a focused catch-up after <strong>Spider-Man: Far From Home</strong>.<br>Priority labels are editorial guidance, not an official Marvel ranking. Last updated 25 Aug 2026.</div>
+      <div>Curated for a focused catch-up after <strong>Spider-Man: Far From Home</strong>.<br>Priority labels are editorial guidance, not an official Marvel ranking. Last updated 5 Oct 2026.</div>
       <div><a href="https://movies.disney.com/avengers-doomsday" target="_blank" rel="noreferrer">Disney: Avengers Doomsday</a><br><a href="https://www.marvel.com/movies" target="_blank" rel="noreferrer">Marvel: Movies</a></div>
     </footer>
   </main>
@@ -272,6 +276,18 @@
       const nextMeta=document.getElementById('nextMeta');
       const empty=document.getElementById('empty');
       const storageKey='mcu-doomsday-watchlist-v1';
+      // Direct roadmap prerequisites only. Earlier MCU films from Phases 1–3 are assumed complete.
+      const dependencyMap={
+        wandavision:[],fatws:[],loki1:[],blackwidow:[],shangchi:[],
+        hawkeye:['blackwidow'],nwh:[],mom:['wandavision'],thor4:[],wakanda2:[],
+        quantumania:[],loki2:['loki1'],marvels:['wandavision'],
+        xmen1:[],x2:['xmen1'],x3:['x2'],deadpool1:[],logan:['x2'],deadpool2:['deadpool1'],
+        dpw:['deadpool2','logan','loki2'],bravenewworld:['fatws'],thunderbolts:['blackwidow','fatws'],
+        fantastic4:[],daredevil1:[],daredevil2:['daredevil1'],punisher:['daredevil1'],brandnewday:['nwh'],
+        visionquest:['wandavision'],
+        doomsday:['shangchi','mom','wakanda2','loki2','dpw','bravenewworld','thunderbolts','fantastic4','brandnewday'],
+        secretwars:['doomsday']
+      };
       let state={watched:[],filter:'all',query:''};
 
       try{const saved=JSON.parse(localStorage.getItem(storageKey)||'null');if(saved&&Array.isArray(saved.watched)) state={...state,...saved};}catch(e){}
@@ -282,6 +298,26 @@
         if(p==='must') return 'Must watch';
         if(p==='recommended') return 'Recommended';
         return 'Optional';
+      }
+      function depsFor(item){return dependencyMap[item.dataset.id]||[];}
+      function unresolvedDeps(item){return depsFor(item).filter(id=>!watched.has(id));}
+      function titleForId(id){const el=items.find(i=>i.dataset.id===id);return el?el.querySelector('.title').textContent:id;}
+      function renderDependencyStatus(item){
+        let box=item.querySelector('.dep-status');
+        if(!box){box=document.createElement('div');box.className='dep-status';item.querySelector('.item-body').appendChild(box);}
+        const deps=depsFor(item),open=box.classList.contains('open'),unresolved=unresolvedDeps(item);
+        if(!unresolved.length){
+          box.className='dep-status';
+          box.innerHTML='<div class="dep-ready"><span class="dep-left"><span class="dep-dot"></span><span>Ready</span></span><span>'+(deps.length?'All prerequisites complete':'No unfinished prerequisites')+'</span></div>';
+          return;
+        }
+        box.className='dep-status'+(open?' open':'');
+        box.innerHTML='<button class="dep-toggle" type="button" data-dep-toggle aria-expanded="'+(open?'true':'false')+'"><span class="dep-left"><span class="dep-dot"></span><span class="dep-count">'+unresolved.length+' before this</span></span><span class="dep-chevron">⌄</span></button><div class="dep-list">'+unresolved.map(id=>'<button class="dep-chip" type="button" data-dep-id="'+id+'">'+titleForId(id)+'</button>').join('')+'<div class="dep-note">Only unfinished titles are shown. Completing one removes it automatically.</div></div>';
+      }
+      function jumpToDependency(id){
+        const target=items.find(i=>i.dataset.id===id);if(!target)return;
+        state.filter='all';search.value='';render();
+        requestAnimationFrame(()=>{target.scrollIntoView({behavior:'smooth',block:'center'});target.classList.remove('dep-flash');void target.offsetWidth;target.classList.add('dep-flash');setTimeout(()=>target.classList.remove('dep-flash'),1500);});
       }
       function save(){
         state.watched=[...watched];state.query=search.value;
@@ -298,9 +334,11 @@
           if(state.filter==='lean') matchesFilter=item.dataset.lean==='true';
           if(state.filter==='must') matchesFilter=item.dataset.priority==='must';
           if(state.filter==='unwatched') matchesFilter=!done;
+          if(state.filter==='blocked') matchesFilter=!done&&unresolvedDeps(item).length>0;
           const show=matchesSearch&&matchesFilter;
           item.classList.toggle('hidden',!show);
           if(show) visible++;
+          renderDependencyStatus(item);
         });
         root.querySelectorAll('[data-section]').forEach(sec=>{
           const any=[...sec.querySelectorAll('.item')].some(i=>!i.classList.contains('hidden'));
@@ -311,8 +349,8 @@
         const doneAvailable=available.filter(i=>watched.has(i.dataset.id));
         const percent=available.length?Math.round(doneAvailable.length/available.length*100):0;
         ring.style.setProperty('--p',percent);pct.textContent=percent+'%';doneCount.textContent=doneAvailable.length;availableCount.textContent=available.length;
-        const next=items.find(i=>i.dataset.unreleased!=='true'&&!watched.has(i.dataset.id));
-        if(next){nextTitle.textContent=next.querySelector('.title').textContent;nextMeta.textContent=next.querySelector('.meta').textContent.split('·')[0].trim()+' · '+labelFor(next);}else{nextTitle.textContent='You are caught up';nextMeta.textContent='Everything currently available is checked off.';}
+        const next=items.find(i=>i.dataset.unreleased!=='true'&&!watched.has(i.dataset.id)&&unresolvedDeps(i).length===0)||items.find(i=>i.dataset.unreleased!=='true'&&!watched.has(i.dataset.id));
+        if(next){nextTitle.textContent=next.querySelector('.title').textContent;nextMeta.textContent=(unresolvedDeps(next).length?'Needs prerequisites':'Ready now')+' · '+next.querySelector('.meta').textContent.split('·')[0].trim()+' · '+labelFor(next);}else{nextTitle.textContent='You are caught up';nextMeta.textContent='Everything currently available is checked off.';}
         filters.forEach(f=>f.classList.toggle('active',f.dataset.filter===state.filter));
         save();
       }
@@ -321,6 +359,11 @@
         const btn=item.querySelector('.check');
         if(item.dataset.unreleased==='true') return;
         btn.addEventListener('click',()=>{const id=item.dataset.id;watched.has(id)?watched.delete(id):watched.add(id);render();});
+      });
+      root.addEventListener('click',e=>{
+        const toggle=e.target.closest('[data-dep-toggle]');
+        if(toggle){const box=toggle.closest('.dep-status');box.classList.toggle('open');toggle.setAttribute('aria-expanded',box.classList.contains('open')?'true':'false');return;}
+        const chip=e.target.closest('[data-dep-id]');if(chip)jumpToDependency(chip.dataset.depId);
       });
       filters.forEach(btn=>btn.addEventListener('click',()=>{state.filter=btn.dataset.filter;render();}));
       search.value=state.query||'';search.addEventListener('input',render);
