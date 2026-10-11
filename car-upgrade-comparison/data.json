@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "syncedAt": "2026-10-06T10:48:25.145Z",
+  "syncedAt": "2026-10-11T23:54:04.490Z",
   "sheetUrl": "https://docs.google.com/spreadsheets/d/1uHF8Yg4Ihms-_li-x0gGwLMUaspLfz4hcexK8SAH7p8/edit?usp=drivesdk",
   "fields": [
     [
@@ -251,7 +251,7 @@
     ],
     [
       "terramar-v2",
-      15,
+      16,
       "CUPRA Terramar",
       "2025–2026, first generation",
       "V2 1.5 eTSI 150 DSG (non-PHEV) + panoramic sunroof option; verify Top View/360°, heated steering wheel, heated seats and heated mirrors on the exact build",
@@ -287,7 +287,7 @@
     ],
     [
       "x1-u11",
-      16,
+      17,
       "BMW X1",
       "2023–2024, U11 generation",
       "sDrive18i xLine + panoramic glass sunroof + Parking Assistant Plus/360°-camera equipment + heated steering wheel; heated seats/mirrors and exact packs confirmed by VIN/build sheet",
@@ -323,7 +323,7 @@
     ],
     [
       "tiguan-2024",
-      17,
+      18,
       "Volkswagen Tiguan",
       "2024–2025, third generation",
       "1.5 eTSI 150 Elegance Launch Edition DSG + panoramic roof + Area View/360° parking equipment; heated steering wheel/seats/mirrors confirmed on build",
@@ -359,7 +359,7 @@
     ],
     [
       "capri-er",
-      23,
+      24,
       "Ford Capri",
       "2025–2026, first generation EV",
       "Extended Range RWD Premium + Driver Assistance Pack (for 360°); Premium supplies panoramic roof and winter comfort equipment — verify heated mirrors on build",
@@ -431,7 +431,7 @@
     ],
     [
       "id4-286",
-      14,
+      15,
       "Volkswagen ID.4",
       "2024–2025, 286PS drivetrain update",
       "2024–2025 Pro 77 kWh 286PS Match/Life + panoramic glass roof + Area View/360° parking equipment; heated wheel/seats/mirrors explicitly confirmed on build",
@@ -467,7 +467,7 @@
     ],
     [
       "q5-fy",
-      18,
+      19,
       "Audi Q5",
       "2023–2024, facelifted FY generation",
       "2023–2024 45 TFSI quattro S line/Edition 1 + Comfort & Sound/360° camera equipment + panoramic roof + heated steering wheel; verify exact factory build",
@@ -503,7 +503,7 @@
     ],
     [
       "x3-g01",
-      19,
+      20,
       "BMW X3",
       "2023–2024, G01 LCI",
       "2023–2024 xDrive20i M Sport + Parking Assistant Plus/360° + Comfort Pack + panoramic glass roof + heated steering wheel; verify all options by VIN",
@@ -539,7 +539,7 @@
     ],
     [
       "stelvio",
-      24,
+      25,
       "Alfa Romeo Stelvio",
       "2023–2024, MY23 facelift",
       "Veloce 2.0 Turbo Petrol 280 Q4; only book if the exact car proves panoramic roof + genuine 360° camera + heated wheel/seats/mirrors (many UK examples do not meet the full gate)",
@@ -575,7 +575,7 @@
     ],
     [
       "glc-x254",
-      21,
+      22,
       "Mercedes-Benz GLC",
       "2023–2024, X254 generation",
       "2023–2024 GLC 300 4MATIC AMG Line Premium Plus + heated steering wheel/Winter equipment confirmed; require panoramic roof + 360° + heated mirrors on build",
@@ -611,7 +611,7 @@
     ],
     [
       "mach-e-er",
-      22,
+      23,
       "Ford Mustang Mach-E",
       "2023–2024",
       "2023–2024 Premium Extended Range RWD; require panoramic roof + 360° camera/parking technology + heated wheel/seats/mirrors explicitly shown on the build",
@@ -647,7 +647,7 @@
     ],
     [
       "eqc-400",
-      20,
+      21,
       "Mercedes-Benz EQC",
       "2023",
       "2023 EQC 400 4MATIC AMG Line Premium Plus + heated steering wheel/Winter equipment explicitly confirmed",
@@ -683,7 +683,7 @@
     ],
     [
       "eqb-250plus",
-      9,
+      10,
       "Mercedes-Benz EQB",
       "2024–2025 facelift",
       "2024–2025 facelift EQB 250+ AMG Line Premium Plus + heated steering wheel/Winter Package (code 443) explicitly confirmed",
@@ -863,7 +863,7 @@
     ],
     [
       "egv70",
-      13,
+      14,
       "Genesis Electrified GV70",
       "2023–2024, original UK specification",
       "Electrified GV70 Sport + Innovation Pack + Convenience Pack + Sunroof Pack (used-era specification)",
@@ -935,7 +935,7 @@
     ],
     [
       "ix1-u11",
-      10,
+      11,
       "BMW iX1",
       "2023–2024, U11 generation",
       "eDrive20 xLine (efficiency/value pick) or xDrive30 xLine + Technology Plus/Parking Assistant Plus + panoramic glass sunroof + heated steering wheel; verify the exact VIN/build. Prefer smaller wheels for comfort.",
@@ -971,7 +971,7 @@
     ],
     [
       "countryman-e-l3",
-      11,
+      12,
       "MINI Countryman Electric",
       "2024–2025, U25 generation",
       "Countryman E Exclusive or Sport + Level 3 Pack. Prefer 18/19-inch wheels for comfort. Choose SE ALL4 only if AWD/performance matters more than efficiency and price.",
@@ -1007,7 +1007,7 @@
     ],
     [
       "ariya-87-evolve",
-      12,
+      13,
       "Nissan Ariya",
       "2023–2024",
       "87 kWh Evolve 2WD. Target 2WD specifically for the 466 L boot and best range; no extra pack hunt is needed for the core equipment gate.",
@@ -1040,6 +1040,42 @@
       3.3,
       "2026-10-06",
       "https://www.nissan.co.uk/kiosk-home/ariya-my23/versions-and-specs.html"
+    ],
+    [
+      "explorer-er-premium",
+      9,
+      "Ford Explorer EV",
+      "2024–2025, European MEB EV",
+      "2024–2025 77 kWh Extended Range RWD Premium on 20-inch Aero wheels + factory Driver Assistance Pack (HUD, true 360° cameras, lane centring/lane change, Active Park). Premium includes fixed panoramic roof, heated wheel/seats/mirrors. Heat pump desirable but optional; ask for VIN/build confirmation.",
+      "EV",
+      26000,
+      30000,
+      29900,
+      450,
+      "Ford's 2024 launch quoted up to 450 L of rear boot; ~29 L below the ~479 L 2022 Qashqai N-Connecta reference and 54 L below 504 L headline. Auto Express quotes ~470 L for some later RWD configurations. No useful standard frunk; test pushchair and underfloor storage in person.",
+      "4468 × 1871 × 1630 mm",
+      "Standard on Premium",
+      "12-way electric memory/massage driver's seat, heated front seats and heated steering wheel. Rear flat floor, child-seat ISOFIX and good width, but high floor and relatively short rear cushion compromise adult thigh support; try rear seat with child's seat installed.",
+      "Premium: 14.6-inch tilting SYNC Move touchscreen, fixed panoramic roof (no blind), B&O 10-speaker soundbar, matrix LEDs, dual-zone climate, hands-free tailgate, heated/folding exterior mirrors, adaptive cruise with Stop & Go. Driver Assistance Pack adds real 360° cameras, HUD, enhanced lane centring and Active Park. Check exact build.",
+      "Upright SUV styling, tech-rich dash, quiet motorway cruising, strong 286 PS RWD acceleration, claimed ~345–374-mile WLTP depending build and good long-range efficiency. Premium + Driver Assistance Pack is unusually complete at ~£30k used.",
+      "450 L official launch boot is smaller than Qashqai, 20-inch Premium wheels can be fidgety on rough roads, cabin has harder plastics/touchscreen climate controls and small 5.3-inch instrument display; owner complaints include charging schedules, software glitches and occasional 12V faults. Long-term reliability evidence is limited.",
+      "Test-drive finalist #9 — exact-spec £29.9k low-mile example clears equipment gate, but boot, ride and software are decisive Qashqai upgrade tests.",
+      "Yes",
+      "European 2024-on Ford Explorer EV, NOT the unrelated American Explorer. MY26 revisions exist: compare exact 2024–25 77 kWh Premium specification rather than assuming new MY26 features were present.",
+      "Yes",
+      "Ford UK new-car warranty 3 years/60,000 miles; HV battery 8 years/100,000 miles (check VIN). Ford Direct used can offer 2-year unlimited-mileage warranty, but confirm car qualifies; this used cover excludes HV battery itself.",
+      "77 kWh usable RWD; official WLTP ~345 miles in well-equipped cars, up to 374 miles on favourable specification. Cost scenario uses 3.5 mi/kWh plus 10% charging overhead.",
+      "~270 miles mixed-use EV Database estimate; 225 miles mixed cold-weather; around 190 miles at 70mph in very cold weather.",
+      "286 PS / 210 kW RWD; 0–62mph 6.4s; 77 kWh usable, 11 kW AC; up to 135 kW DC for MY24–25 77 kWh RWD and ~28 min 10–80% with preconditioning. AWD 79 kWh quicker but costs more, lower WLTP and can lose boot space.",
+      "Confirm Premium EXTENDED RANGE RWD plus factory Driver Assistance Pack via VIN; demonstrate 360°, HUD, roof, heated wheel/seats/mirrors, memory/massage seat, adaptive cruise and lane centring. Check recalls/software/12V, home timed charging, battery health, 20-inch rough-road ride, pushchair fit, rear-seat support and VED date. Ask if Ford Direct in writing.",
+      "EV Experts advertised Nov 2024 77kWh Premium RWD with Driver Assistance Pack, 6,500mi, £29,900 (observed 12 Oct 2026), Guildford. Listing stock unconfirmed. Generic Premium examples from ~£25k must be checked for Driver Assistance Pack.",
+      "https://www.evexperts.co.uk/electric-cars-for-sale/ford/explorer/50150/",
+      "https://www.ford.co.uk/cars/electric-explorer/technology",
+      "Relaxed-boot finalist",
+      "",
+      3.5,
+      "2026-10-12",
+      "https://www.autoexpress.co.uk/ford/explorer https://ev-database.org/uk/car/2168/Ford-Explorer-Extended-Range-RWD https://electricroad.co.uk/2026/08/honest-ford-explorer-ev-review-owners/ https://www.reddit.com/r/Ford/comments/1gsx2jr"
     ]
   ],
   "screened": [
