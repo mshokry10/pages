@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T22:13:52.951Z",
+  "generatedAt": "2026-10-26T08:31:38.834Z",
   "source": "Weekly SaaS Opportunity Log",
   "ideas": [
     {
@@ -150,6 +150,48 @@
         "https://www.capterra.com/p/10020966/SubBase/reviews/",
         "https://flippa.com/blog/call-tracking-saas-business-sold-on-flippa-for-725k/",
         "https://www.autopo.dev/"
+      ]
+    },
+    {
+      "id": "2026-10-19-basincheck",
+      "date": "2026-10-19",
+      "idea": "GC-ready safety evidence and corrective-action closeout for US commercial roofing contractors",
+      "description": "A tool for commercial roofing companies managing multiple jobsites. Foremen use phone checklists and photos to record issues and assign corrective work. Workers upload completion evidence and supervisors approve it. The system creates weekly client-ready reports with open items, completed actions and an audit trail.",
+      "incumbent": "BasinCheck; adjacent SafetyCulture and Stravil",
+      "traction": "19 Oct 2026 TrustMRR: $895 MRR, 5 active subscriptions, $2,225.96 last-30-day collected revenue. Founded 2025. Vendor lists $299/$599/$1,199 monthly, with 50% founding promotion.",
+      "customer": "US commercial roofing subcontractors with 20–150 workers and 3–20 active sites, regularly reporting to general contractors",
+      "wedge": "Roofing-specific weekly evidence packs, bilingual field forms, unlimited field workers, and assisted import of existing checklists",
+      "why": "Verified small-startup recurring revenue, identifiable contractor buyers, repeat documentation workflow, and an inexpensive concierge pilot",
+      "risk": "Incumbent has only five subscriptions; crews may resist; existing safety apps may suffice; buyers may require specialized expertise",
+      "score": 8.6,
+      "chat": "https://docs.google.com/document/d/1nuB3IGTtdnpBskI9WUT2cy24vtBhVKGsE0GsWs7hDLg/edit",
+      "evidence": [
+        "https://trustmrr.com/startup/basincheck",
+        "https://basincheck.com/pricing",
+        "https://basincheck.com/about",
+        "https://safetyculture.com/pricing/",
+        "https://www.nrca.net/Members"
+      ]
+    },
+    {
+      "id": "2026-10-26-avenue",
+      "date": "2026-10-26",
+      "idea": "Commercial HVAC lead-to-survey conversion widget for UK air-conditioning installers",
+      "description": "A branded website widget for commercial air-conditioning contractors that turns vague enquiries into qualified, bookable site surveys. Prospects choose their premises type and service need, enter site details and upload photos, then request a survey slot. The contractor receives a structured brief, confirms the appointment, and uses automated follow-ups and a simple pipeline to track enquiries through surveys, quotes and wins.",
+      "incumbent": "Avenue (onlyavenue.com); supporting UK validation from Heating Quote Pro and Vento",
+      "traction": "Starter Story interview 20 Sep 2026: Avenue founder reports A$85k monthly revenue (historical, founder-reported; not audited MRR). Live Avenue pricing advertises $199/$395/$399 monthly tiers in its Australian market; customer count undisclosed. Founder had an existing 70+ client agency and team, a material distribution advantage.",
+      "customer": "UK commercial air-conditioning installers/maintenance firms with 5–30 engineers, 15+ inbound enquiries/month and an existing website",
+      "wedge": "Commercial HVAC-specific enquiry-to-site-survey flow with site photos, premises/unit questions, after-hours constraints, calendar requests, done-for-you embed and measured enquiry→attended survey conversion; no speculative instant equipment quote",
+      "why": "Live premium-priced trade booking incumbent with reported substantial revenue, reproducible small MVP, easily identified UK trade buyers, concrete conversion wedge and paid-demo validation before heavy engineering",
+      "risk": "Few relevant inbound enquiries or no incremental booked surveys; cheap generic forms/field-service suites may suffice; founder's agency-led distribution is not transferable",
+      "score": 8.3,
+      "chat": "https://docs.google.com/document/d/1sVGO1eHkNatdhVbxSrc7rtZ_Sed8G56bRYWyqz31TF8/edit",
+      "evidence": [
+        "https://www.starterstory.com/stories/this-simple-widget-makes-50k-month",
+        "https://www.onlyavenue.com/pricing",
+        "https://heatingquotepro.co.uk/",
+        "https://www.refcom.org.uk/refcom-register",
+        "https://aircova.co.uk/commercial-air-conditioning/"
       ]
     }
   ]
