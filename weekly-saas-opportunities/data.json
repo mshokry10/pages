@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-26T08:31:38.834Z",
+  "generatedAt": "2026-11-02T09:07:24.124Z",
   "source": "Weekly SaaS Opportunity Log",
   "ideas": [
     {
-      "id": "2026-08-24-book-the-move",
-      "date": "2026-08-24",
+      "id": "46258-smartmoving-native-outbound-lead-engine-for",
+      "date": "46258",
       "idea": "SmartMoving-native outbound lead engine for independent moving companies",
       "description": "An outbound lead-generation service for residential moving companies. It monitors newly listed homes, finds and verifies each seller’s contact details, sends personalized outreach on the mover’s behalf, and routes interested replies directly into SmartMoving. The proposed version would sell smaller exclusive ZIP-code territories with done-for-you onboarding.",
       "incumbent": "Book The Move",
@@ -23,8 +23,8 @@
       ]
     },
     {
-      "id": "2026-08-31-easy-app-reports-by-beyond-analytics",
-      "date": "2026-08-31",
+      "id": "46265-white-label-mobile-app-performance-reporting",
+      "date": "46265",
       "idea": "White-label mobile app performance reporting for ASO and mobile-growth agencies",
       "description": "A reporting hub for agencies that manage multiple mobile-app clients. It connects each client's Apple App Store Connect, Google Play Console and selected acquisition sources, continuously normalizes performance data, and automatically produces branded client reports, portals and alerts instead of requiring analysts to rebuild dashboards or monthly decks.",
       "incumbent": "Easy App Reports by Beyond Analytics",
@@ -67,8 +67,8 @@
       ]
     },
     {
-      "id": "2026-09-14-sion",
-      "date": "2026-09-14",
+      "id": "46279-statement-first-travel-commission-reconciliation-and",
+      "date": "46279",
       "idea": "Statement-first travel commission reconciliation and advisor-payout SaaS",
       "description": "A back-office tool for travel agencies that ingests the supplier commission statements they already receive as PDF, Excel, CSV, email or pasted text. It extracts booking and commission lines, matches them against the agency's expected bookings, flags missing or incorrect payments, calculates advisor splits, and produces a reconciled payout report and audit trail without requiring the agency to replace its CRM.",
       "incumbent": "Sion (with supporting validation from Toggle Travel, Wihemi Travel and Trip Ledger)",
@@ -192,6 +192,27 @@
         "https://heatingquotepro.co.uk/",
         "https://www.refcom.org.uk/refcom-register",
         "https://aircova.co.uk/commercial-air-conditioning/"
+      ]
+    },
+    {
+      "id": "2026-11-02-booking-linked-operator-mobilisation-and-client",
+      "date": "2026-11-02",
+      "idea": "Booking-linked operator mobilisation and client-ready compliance packs for UK plant-hire firms",
+      "description": "A wet-hire plant contractor records each operator's relevant training cards and evidence, then links a named operator to a machine, customer and site booking. The software compares recorded credentials against that customer's checklist, flags missing or expiring evidence for human review, and generates a dated mobilisation pack to share with the hiring contractor. When the operator or booking changes, the pack updates and the hire desk is prompted to resolve exceptions.",
+      "incumbent": "Anonymous Acquire.com workforce certification SaaS (with SkillSignal and myComply as adjacent proof)",
+      "traction": "Acquire seller reports $149k ARR, $140k TTM revenue, 10–50 customers, 4,000+ workers and 30k+ records; 1–3% churn claimed. Marketplace figures, not audited; includes managed services.",
+      "customer": "UK specialist wet-hire plant/crane/telehandler firms with ~15–100 operators, frequent site bookings and a small central hire desk",
+      "wedge": "Booking-specific operator/category/client-requirement checks + human approval + one-click current customer mobilisation pack; no generic HR system or unlicensed live card verification",
+      "why": "Strong B2B pricing signal, recurring job-by-job workflow, enumerable CPA member buyers, and a paid concierge pilot using real booking records before significant engineering",
+      "risk": "Cheap expiry trackers and incumbent plant systems may suffice; customer-specific site rules or licensed card verification may destroy solo-founder economics",
+      "score": 8.2,
+      "chat": "https://docs.google.com/document/d/1dUZjc-ZkjnkSADBtVdpCk_kyBo9htYwh_RJLM64FOjc/edit",
+      "evidence": [
+        "https://app.acquire.com/public/12w5vir0xn-workforce-certification-and-compliance-saas-managing-30k-credential-records",
+        "https://www.skillsignal.com/pricing/",
+        "https://fieldclear.co.uk/industries/plant-hire/",
+        "https://www.cscsgroup.co.uk/cscs-smart-check/",
+        "https://cpa.uk.net/cpa-members-directory/"
       ]
     }
   ]
