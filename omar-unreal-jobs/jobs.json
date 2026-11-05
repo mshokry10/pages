@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-05",
+  "last_search_at": "2026-11-05",
+  "research_note": "Initial focused seed. Not a comprehensive sweep; future daily runs should search broadly, verify vacancies and append qualified findings.",
+  "scoring_weights": {
+    "realistic_hiring_probability": 30,
+    "unreal_relevance": 25,
+    "geography_and_work_authorization": 20,
+    "salary_and_growth": 15,
+    "mentorship": 10
+  },
+  "jobs": [
+    {
+      "id": "art-creator-unreal-developer-alexandria-2026",
+      "first_seen": "2026-11-05",
+      "last_verified": "2026-11-05",
+      "employer": "Art Creator",
+      "title": "Unreal Engine Developer",
+      "city": "Alexandria",
+      "country": "Egypt",
+      "region": "egypt",
+      "work_mode": "Remote initially; eventual Alexandria office",
+      "employment_type": "Full-time",
+      "experience": "0–1 year listed; no graduation-year rule stated",
+      "skills": [
+        "Unreal Engine",
+        "Blueprints",
+        "VR",
+        "3D visualisation",
+        "Blender / Maya",
+        "SketchUp"
+      ],
+      "salary": "Not disclosed",
+      "fit_score": 82,
+      "status": "needs_verification",
+      "egypt_eligibility": "Yes — Egypt-based, eventual Alexandria attendance",
+      "egypt_eligibility_status": "confirmed",
+      "visa_status": "Not applicable (Egypt-based)",
+      "summary": "Build interactive architectural and VR scenes with Unreal Engine, Blueprints, lighting, materials and optimisation.",
+      "why_fit": "Omar's UE5, Blueprint, Maya, Blender and SketchUp work aligns closely. A realistic non-gaming entry into professional Unreal projects.",
+      "caveats": "Only a third-party listing was located. Employer-side confirmation of current hiring, pay and application process is still needed; remote work is temporary.",
+      "source_type": "third_party",
+      "source_url": "https://stjegypt.com/public/job/n/109792_%D9%85%D8%B7%D9%88%D8%B1-Unreal-Engine-Unreal-Engine-Developer",
+      "apply_url": "https://stjegypt.com/public/job/n/109792_%D9%85%D8%B7%D9%88%D8%B1-Unreal-Engine-Unreal-Engine-Developer"
+    },
+    {
+      "id": "etc-interactive-junior-gameplay-nyc-2026",
+      "first_seen": "2026-11-05",
+      "last_verified": "2026-11-05",
+      "employer": "ETC Interactive",
+      "title": "Junior Gameplay Programmer (Unreal Engine)",
+      "city": "New York City",
+      "country": "United States",
+      "region": "stretch",
+      "work_mode": "Hybrid, New York City metro",
+      "employment_type": "Full-time",
+      "experience": "0–3 years; academic and indie projects accepted",
+      "skills": [
+        "Unreal Engine",
+        "C++",
+        "Blueprints",
+        "Shooter mechanics",
+        "Gameplay systems"
+      ],
+      "salary": "USD $85,000–$115,000 base/year (advertised)",
+      "fit_score": 51,
+      "status": "open",
+      "egypt_eligibility": "Only if he can relocate to NYC; work-authorisation support unconfirmed",
+      "egypt_eligibility_status": "unknown",
+      "visa_status": "Sponsorship and relocation support not stated",
+      "summary": "Junior role building core mechanics and shooter systems with UE C++ and Blueprints alongside senior engineers.",
+      "why_fit": "Echoes of Annihilation is a close portfolio match: third-person shooter, enemy AI, perception and navigation. Employer explicitly counts indie/academic projects.",
+      "caveats": "New York hybrid requirement is firm. No confirmation of US visa sponsorship; do not treat as feasible without asking the employer first.",
+      "source_type": "employer",
+      "source_url": "https://etcinteractive.com/junior-gameplay-programmer",
+      "apply_url": "https://etcinteractive.com/junior-gameplay-programmer"
+    }
+  ],
+  "sources_reviewed": [
+    "ETC Interactive careers",
+    "STJ Egypt / Art Creator listing",
+    "Mob Entertainment listing (US-based only, excluded)",
+    "Lycus Studios internship (Tamil required, excluded)",
+    "Rare Castle (paid vacancies not open, excluded)",
+    "Wuzzuf older game programmer listing (stale, excluded)"
+  ]
+}
