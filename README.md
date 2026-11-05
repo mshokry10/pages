@@ -34,6 +34,12 @@ https://mshokry10.github.io/pages/weekly-saas-opportunities/
 
 ## Current pages
 
+### Omar's Unreal Engine Jobs
+
+A mobile-friendly, continuously updated job board for Omar's first professional Unreal Engine role, with scored matches, direct application links, Egypt work-eligibility flags and relocation caveats. The public site reads from `omar-unreal-jobs/jobs.json` and is designed for direct updates by a daily ChatGPT automation.
+
+**Path:** [`/omar-unreal-jobs/`](./omar-unreal-jobs/)
+
 ### Weekly SaaS Opportunities
 
 An interactive, continuously growing archive of research-backed SaaS/startup opportunities. The page reads its content from `data.json`; the weekly opportunity research task regenerates that file after updating the private Google Sheet, so the public dashboard stays current without exposing the spreadsheet or credentials.
