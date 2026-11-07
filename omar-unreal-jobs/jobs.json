@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-06",
-  "last_search_at": "2026-11-06",
-  "research_note": "Incremental 6 Nov 2026 (overlap 31 Oct–6 Nov): 0 new qualified vacancies, 0 materially updated, 0 newly closed. Rechecked 2 existing employer pages: Aether Pixels remote Egypt role remains on employer site with application form; 24 Bit Games junior UE role remains on employer site with form, but cross-border eligibility and posting freshness remain unknown. Rotated sources: Work With Indies, Wuzzuf Egypt, Lever/Ashby ATS, recent remote/XR searches and animation/VFX job roundups. Rejected closed indie posts, senior-only and country-restricted roles. No verified new Egypt-eligible junior posting or vacancy-specific visa sponsorship.",
+  "updated_at": "2026-11-07",
+  "last_search_at": "2026-11-07",
+  "research_note": "Incremental 7 Nov 2026 (overlap 1–7 Nov): 0 new qualified roles, 0 materially changed, 0 newly closed; 1 older employer vacancy rechecked (Superseed technical animator, live application form; Egypt contracting still unknown). Rotated Work With Indies live listings, Ashby ATS, SmartRecruiters, Wuzzuf Egypt and remote XR/simulation searches. Excluded closed indie roles, UK/US/LATAM-restricted remotes, senior-only postings, profile pages mistaken for vacancies and already tracked Arventure. VOID BambooHR could not be verified due to access error; unchanged. No confirmed new sponsorship or 2024-graduate-eligible internship.",
   "scoring_weights": {
     "realistic_hiring_probability": 30,
     "unreal_relevance": 25,
@@ -243,7 +243,7 @@
       "source_url": "https://www.superseedstudios.com/jobs/technical-animator",
       "apply_url": "https://www.superseedstudios.com/jobs/technical-animator",
       "first_seen": "2026-11-05",
-      "last_verified": "2026-11-05"
+      "last_verified": "2026-11-07"
     },
     {
       "id": "tia-unity-developer-cairo-2026",
@@ -550,13 +550,12 @@
     }
   ],
   "sources_reviewed": [
-    "Aether Pixels employer job page (6 Nov; active form, Egypt remote stated)",
-    "24 Bit Games employer junior Unreal job page (6 Nov; form present, Egypt eligibility unknown)",
-    "Work With Indies recent UE/gameplay postings (Six Ton Axe, Mysteria, TigerRoll, others closed)",
-    "Wuzzuf Egypt Unreal/game development category (irrelevant keyword matches, no qualifying new job verified)",
-    "Lever Xsolla current board (UE5 tech lead senior and geographically restricted)",
-    "Ashby Redly Games and Rocket Science (senior or country-restricted)",
-    "Remote junior Unreal and XR search indexed 31 Oct–6 Nov (no eligible new original vacancy)",
-    "Animation World Network Nov 3–5 roundups (no verified junior Unreal fit)"
+    "Superseed Studios employer technical animator page (7 Nov; live application form, Egypt eligibility unknown)",
+    "Work With Indies current listing index and closed listings (7 Nov)",
+    "Ashby ATS: Rocket Science UK-only and Redly Games senior EU/Canada/UK",
+    "SmartRecruiters junior Unreal search (no qualifying new verified listing)",
+    "Wuzzuf Egypt Unreal November search (mostly candidate profiles, not vacancies)",
+    "Remote worldwide Unreal XR/simulation search (Arventure already archived; Brazil-restricted Side result excluded)",
+    "VOID Interactive BambooHR page attempted but inaccessible (not counted as rechecked)"
   ]
 }
