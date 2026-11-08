@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-07",
-  "last_search_at": "2026-11-07",
-  "research_note": "Incremental 7 Nov 2026 (overlap 1–7 Nov): 0 new qualified roles, 0 materially changed, 0 newly closed; 1 older employer vacancy rechecked (Superseed technical animator, live application form; Egypt contracting still unknown). Rotated Work With Indies live listings, Ashby ATS, SmartRecruiters, Wuzzuf Egypt and remote XR/simulation searches. Excluded closed indie roles, UK/US/LATAM-restricted remotes, senior-only postings, profile pages mistaken for vacancies and already tracked Arventure. VOID BambooHR could not be verified due to access error; unchanged. No confirmed new sponsorship or 2024-graduate-eligible internship.",
+  "updated_at": "2026-11-08",
+  "last_search_at": "2026-11-08",
+  "research_note": "Incremental 8 Nov 2026 (overlap 2–8 Nov): 0 new qualified jobs, 0 material changes, 0 confirmed closures, 0 older archived vacancies directly rechecked. Rotated Work With Indies programming/current listings, Lever/Ashby indexed Unreal searches, Wuzzuf Egypt Unreal searches, and worldwide XR/simulation searches. Recent results were either already archived (Arventure), explicitly closed (Lunacy, Mysteria, TigerRoll, Six Ton Axe), UK/US/LATAM restricted, senior/shipped-commercial-only, unrelated roles, or candidate profiles rather than vacancies. No new verified Egypt-eligible junior role or position-specific visa support.",
   "scoring_weights": {
     "realistic_hiring_probability": 30,
     "unreal_relevance": 25,
@@ -550,12 +550,10 @@
     }
   ],
   "sources_reviewed": [
-    "Superseed Studios employer technical animator page (7 Nov; live application form, Egypt eligibility unknown)",
-    "Work With Indies current listing index and closed listings (7 Nov)",
-    "Ashby ATS: Rocket Science UK-only and Redly Games senior EU/Canada/UK",
-    "SmartRecruiters junior Unreal search (no qualifying new verified listing)",
-    "Wuzzuf Egypt Unreal November search (mostly candidate profiles, not vacancies)",
-    "Remote worldwide Unreal XR/simulation search (Arventure already archived; Brazil-restricted Side result excluded)",
-    "VOID Interactive BambooHR page attempted but inaccessible (not counted as rechecked)"
+    "Work With Indies current programming listings and individual Lunacy/Mysteria/TigerRoll/Six Ton Axe closed job pages (8 Nov)",
+    "Wuzzuf Cairo/Giza Unreal searches (results largely candidate profiles, not job adverts)",
+    "Lever and Ashby indexed Unreal junior/remote search (no qualifying live vacancy)",
+    "Worldwide remote Unreal/XR searches (Arventure already archived; no new qualified employer vacancy)",
+    "Work With Indies Firefly, Skymap, Windy and Triplo Z exclusions (closed, location-restricted or senior)"
   ]
 }
