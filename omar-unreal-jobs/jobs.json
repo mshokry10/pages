@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-08",
-  "last_search_at": "2026-11-08",
-  "research_note": "Incremental 8 Nov 2026 (overlap 2–8 Nov): 0 new qualified jobs, 0 material changes, 0 confirmed closures, 0 older archived vacancies directly rechecked. Rotated Work With Indies programming/current listings, Lever/Ashby indexed Unreal searches, Wuzzuf Egypt Unreal searches, and worldwide XR/simulation searches. Recent results were either already archived (Arventure), explicitly closed (Lunacy, Mysteria, TigerRoll, Six Ton Axe), UK/US/LATAM restricted, senior/shipped-commercial-only, unrelated roles, or candidate profiles rather than vacancies. No new verified Egypt-eligible junior role or position-specific visa support.",
+  "updated_at": "2026-11-09",
+  "last_search_at": "2026-11-09",
+  "research_note": "Incremental 9 Nov 2026 (overlap 3–9 Nov): 1 new unverified Cairo UE5 digital-twin technical-art lead (Dar); 0 material changes, 0 closures, 0 older archive vacancies directly rechecked. Rotated Egyptian archviz/digital-twin listings (BeBee, Wuzzuf, Twine), Ashby Unreal positions, worldwide remote UE/XR and Work With Indies. Dar's third-party listing has 2+ years UE5 requirement and no confirmed original employer application page. Geopro older Wuzzuf listing has no visible Apply button; Adeer/Duroob senior roles require 5–8 years; Redly remote excludes Egypt; Rocket Science UK-only; several Work With Indies vacancies closed. No new confirmed Egypt-eligible junior programming role or vacancy-specific visa support.",
   "scoring_weights": {
     "realistic_hiring_probability": 30,
     "unreal_relevance": 25,
@@ -547,13 +547,55 @@
       "apply_url": "https://jobs.nitromaps.com/junior-unreal-developer",
       "first_seen": "2026-11-05",
       "last_verified": "2026-11-05"
+    },
+    {
+      "id": "dar-3d-technical-artist-cairo-2026",
+      "first_seen": "2026-11-09",
+      "last_verified": "2026-11-09",
+      "employer": "Dar",
+      "title": "3D Technical Artist",
+      "city": "Cairo",
+      "country": "Egypt",
+      "region": "egypt",
+      "work_mode": "Full-time Cairo-based; onsite/hybrid schedule not specified",
+      "employment_type": "Full-time",
+      "experience": "2+ years building real-time UE5 content; portfolio required; no graduation-year restriction stated",
+      "skills": [
+        "Unreal Engine 5",
+        "Nanite",
+        "Lumen",
+        "Blender or Maya",
+        "PBR materials",
+        "UV/lightmaps",
+        "LOD optimisation",
+        "Datasmith/BIM",
+        "World Partition",
+        "Git",
+        "Niagara",
+        "Python (bonus)"
+      ],
+      "salary": "Not disclosed",
+      "fit_score": 57,
+      "status": "needs_verification",
+      "egypt_eligibility": "Egypt-based role in Cairo; exact work arrangement to confirm",
+      "egypt_eligibility_status": "confirmed",
+      "visa_status": "Not applicable (Egypt-based)",
+      "summary": "Technical art and Unreal digital-twin environments, materials, lighting, asset optimisation and BIM/CAD import pipelines at an engineering and architecture consultancy.",
+      "why_fit": "The Other Side and Project Zero Requiem demonstrate UE5, Maya/Blender, interactive environments and pipelines; Omar's SketchUp, Git and Python add adjacent strengths. A potential professional Unreal entry via digital twins rather than games.",
+      "caveats": "Third-party BeBee listing appears recent and indicates applications until 12 December 2026, but no original employer vacancy/application URL verified. Requires 2+ years UE5 content and substantial advanced art/architecture pipeline expertise (Nanite, Lumen, UVs, Datasmith, World Partition). Verify on Dar's official recruitment channel before applying; not confirmed as currently hiring.",
+      "source_type": "third_party",
+      "source_url": "https://bebee.com/eg/jobs/3d-technical-artist-dar--techmap_eg_4476735903",
+      "apply_url": "https://bebee.com/eg/jobs/3d-technical-artist-dar--techmap_eg_4476735903"
     }
   ],
   "sources_reviewed": [
-    "Work With Indies current programming listings and individual Lunacy/Mysteria/TigerRoll/Six Ton Axe closed job pages (8 Nov)",
-    "Wuzzuf Cairo/Giza Unreal searches (results largely candidate profiles, not job adverts)",
-    "Lever and Ashby indexed Unreal junior/remote search (no qualifying live vacancy)",
-    "Worldwide remote Unreal/XR searches (Arventure already archived; no new qualified employer vacancy)",
-    "Work With Indies Firefly, Skymap, Windy and Triplo Z exclusions (closed, location-restricted or senior)"
+    "BeBee Dar 3D Technical Artist Cairo (third-party listing, dated roughly late October; original employer ATS not verified)",
+    "Wuzzuf Geopro Blender/Unreal/AR digital twin Cairo (8-month-old listing; no visible apply button, excluded)",
+    "Twine Adeer International Unreal Engine Artist Cairo (open third-party but senior; excluded)",
+    "Twine Vertex Studios Cairo Unreal ArchViz (closed, excluded)",
+    "BeBee/Trabajo Duroob Ventures senior Unreal architect New Cairo (6–8 years, excluded)",
+    "Ashby Redly Games senior Unreal (Finland/Canada/UK remote only, excluded)",
+    "Ashby Rocket Science Unreal contractor (UK-only, excluded)",
+    "Work With Indies Ride the Lion, Pine Creek, Six Ton Axe, Lunacy, Mysteria, Starchild and Skymap (all explicitly closed)"
   ]
 }
