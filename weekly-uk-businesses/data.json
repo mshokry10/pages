@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-02T09:47:05Z",
+  "generatedAt": "2026-11-09T09:32:32Z",
   "source": "Weekly UK Business Hunt",
-  "bestBuy": "Quick Court – Indoor Pickleball Court Tape",
+  "bestBuy": "No verified qualifying acquisition this week",
   "opportunities": [
     {
       "id": "2026-09-08-1-grow-with-me",
@@ -708,154 +708,126 @@
   ],
   "sourceCoverage": [
     {
-      "source": "BusinessesForSale.com UK",
-      "status": "Direct listings and category pages accessible, 2 Nov 2026",
-      "screened": "~14 surfaced/6 examined",
-      "finalists": 1,
-      "note": "Exeter golf box included; UK low-price e-commerce and physical categories screened. Liverpool vending and confectionery already archived."
+      "source": "BusinessesForSale UK",
+      "status": "Accessible; several candidate pages reviewed; no finalist cleared mandatory-price and maintainable-profit gates",
+      "finalists": 0
     },
     {
       "source": "Daltons Business",
-      "status": "Direct and indexed listings accessible",
-      "screened": "~8 surfaced/4 examined",
-      "finalists": 0,
-      "note": "Syndicated Liverpool vending, jewellery wholesaler, audio equipment, garden ecommerce and brokers; no stronger unarchived fully eligible deal."
+      "status": "Search attempted; no independently validated qualifying finalist",
+      "finalists": 0
     },
     {
       "source": "Rightbiz",
-      "status": "Direct listings and categories accessible",
-      "screened": "~12 surfaced/5 examined",
-      "finalists": 0,
-      "note": "Sweets retailer archived, £25k audio seller profit undisclosed, £50k turnover Shopify price POA, physical shops labour intensive."
+      "status": "Search attempted; no independently validated qualifying finalist",
+      "finalists": 0
     },
     {
-      "source": "Bizdaq / mybizdaq.com",
-      "status": "Homepage accessible; listings not publicly sufficiently verifiable",
-      "screened": "0 individually verifiable",
-      "finalists": 0,
-      "note": "Redirects to mybizdaq.com, no evidence-rich live sub-cap target confirmed."
+      "source": "Bizdaq",
+      "status": "Search attempted; insufficient publicly verifiable listings",
+      "finalists": 0
     },
     {
-      "source": "Business Sale Report / business-sale.com",
-      "status": "Homepage and marketplace accessible; detailed low-budget economics limited",
-      "screened": "~2 surfaced",
-      "finalists": 0,
-      "note": "No under-cap sufficiently documented non-SaaS candidate better than shortlist."
+      "source": "Business Sale Report",
+      "status": "Search attempted; no independently validated qualifying finalist",
+      "finalists": 0
     },
     {
       "source": "CoGoGo / Hilton Smythe",
-      "status": "Direct broker listings accessible",
-      "screened": "~8 surfaced/5 examined",
-      "finalists": 0,
-      "note": "Liverpool vending £29,999 plus SAV exceeds cap unless waived, Classy Gifts £19,995 plus ~£9k stock but owner-run; car parts £24,995 plus ~£70k stock."
+      "status": "Accessible; Energy Place and Callycosmetics reviewed, owner-dependence/stock uncertainty",
+      "finalists": 0
     },
     {
       "source": "Ernest Wilson",
-      "status": "Direct site accessible",
-      "screened": "~2 categories",
-      "finalists": 0,
-      "note": "Low-price stock mostly owner-operated hospitality/retail."
+      "status": "Search attempted; no qualifying finalist",
+      "finalists": 0
     },
     {
       "source": "Blacks Business Brokers",
-      "status": "Direct site accessible; syndicated listings examined",
-      "screened": "~2",
-      "finalists": 0,
-      "note": "No under-cap sufficiently owner-independent deal verified."
+      "status": "Accessible via syndicated listings; gymwear and pet e-commerce leads, stock/profit unknown",
+      "finalists": 0
     },
     {
       "source": "Nationwide Businesses",
-      "status": "Direct listings accessible",
-      "screened": "~3",
-      "finalists": 0,
-      "note": "Takeaways/shops rely on owner shifts, leases and stock-at-valuation."
+      "status": "Search attempted; no qualifying finalist",
+      "finalists": 0
     },
     {
       "source": "Knightsbridge Business Sales",
-      "status": "Direct site accessible (redirects to knightsbridgeplc.com)",
-      "screened": "~1",
-      "finalists": 0,
-      "note": "No under-cap sufficiently verifiable target surfaced."
+      "status": "Search attempted; no qualifying finalist",
+      "finalists": 0
     },
     {
       "source": "Intelligent Business Partners",
-      "status": "Direct listings accessible",
-      "screened": "~3",
-      "finalists": 0,
-      "note": "Southampton wireless gadgets £19k with compulsory stock value unclear; stronger opportunities higher priced."
+      "status": "Search attempted; no qualifying finalist",
+      "finalists": 0
     },
     {
       "source": "Christie & Co",
-      "status": "Direct site accessible",
-      "screened": "~2",
-      "finalists": 0,
-      "note": "Specialist property and operational assets mostly over cap or require owner shifts."
+      "status": "Search attempted; no qualifying finalist",
+      "finalists": 0
     },
     {
-      "source": "Flippa",
-      "status": "Direct UK marketplace and individual listings accessible",
-      "screened": "~12 surfaced/5 examined",
-      "finalists": 2,
-      "note": "Quick Court and Access Ropes selected; AnyCases paused, other verified UK stores above cap or weak economics."
+      "source": "Flippa / digital marketplaces",
+      "status": "Search attempted; no new UK non-SaaS listing with verifiable under-cap all-in and sustainable owner-independent earnings",
+      "finalists": 0
     },
     {
-      "source": "Gumtree / independent seller",
-      "status": "Direct live listing accessible",
-      "screened": "1",
-      "finalists": 1,
-      "note": "Maltby wholesale supplier-direct B2B model; direct-seller assertions require verification."
+      "source": "Screening depth",
+      "status": "Broad search-result review; fewer than 25 individually verified unique listings, so requested 25–40 full-screen target not achieved",
+      "finalists": 0
     }
   ],
   "screenedOut": [
     {
-      "business": "Liverpool 5-machine vending operation",
-      "reason": "£29,999 + SAV on broker, any compulsory stock exceeds hard £30k; already archived 2026-09-08; owner-restocking and £15k profit claim unverified",
-      "url": "https://letscogogo.com/businesses-for-sale/hands-off-income-stream-scalable-vending-machine-operation-9365/"
+      "business": "Energy Place Fires & Fireplaces, Enfield",
+      "reason": "£19,995 includes £20k stock; £150k revenue/£60k seller profit, but owner-led sales and subcontracted fitting; replacement labour and safety qualifications unknown",
+      "url": "https://uk.businessesforsale.com/uk/long-standing-fire-and-fireplace-business-for-sale-1.aspx"
     },
     {
-      "business": "Two-brand online confectionery wholesaler",
-      "reason": "Already archived 2026-09-14; £25k includes stock but £1.2m turnover/£143k profit implausible without liabilities, £73k annual rent, four employees, huge social following and short lease",
-      "url": "https://www.rightbiz.co.uk/online-businesses/view/3830-highly-rated-online-retailer-and-wholesaler-of-confectionary-and-sweets-for-sale"
+      "business": "Callycosmetics, Swinton",
+      "reason": "£29,995 asking leaves £5 under cap; mandatory inventory not confirmed, owner manually fulfils, net profit undisclosed",
+      "url": "https://uk.businessesforsale.com/uk/online-nail-supplies-business-for-sale-1.aspx"
     },
     {
-      "business": "BM Mini Parts",
-      "reason": "£24,995 + approximately £70k mandatory stock, materially over £30k",
-      "url": "https://letscogogo.com/businesses-for-sale/well-established-bm-mini-parts-supplier-for-sale-6820/"
+      "business": "Ringwood wholesale fashion and gifting",
+      "reason": "£29,995 asking, £4,819 seller profit and owner-operated dispatch; manager-adjusted economics unattractive",
+      "url": "https://uk.businessesforsale.com/uk/style-without-borders-global-wholesale-fashion-and-gifting-brand-for-sale.aspx"
     },
     {
-      "business": "Classy Gifts & Cards, Leeds",
-      "reason": "£19,995 + ~£9k stock (~£28,995) is under cap, but 6-day owner-operated shop, £45k revenue and undisclosed profit imply replacement wages likely erase earnings",
-      "url": "https://letscogogo.com/businesses-for-sale/curated-classy-profitable-own-this-gorgeous-gift-shop-8754/"
+      "business": "Hitchin specialist pet e-commerce",
+      "reason": "£9,950 ask, £23,263 turnover and £20,587 gross profit; stock inclusion, net profit and owner fulfilment unknown",
+      "url": "https://uk.businessesforsale.com/uk/search/businesses-for-sale-in-hitchin"
     },
     {
-      "business": "Bettylicious retro swimwear, Taunton",
-      "reason": "£28k advertised incl £15k stock, but narrative also offers inventory at wholesale cost; contradictory terms, 81% net margin claim on only 229 annual orders, ageing 25k-unit stock and social dependence",
-      "url": "https://uk.businessesforsale.com/uk/e-commerce-shopify-store-vintage-style-swimwear-and-clothing.aspx"
+      "business": "Eastleigh specialist swimwear e-commerce",
+      "reason": "£15,995 ask and £25,067 revenue; net profit, mandatory inventory and owner labour unverified",
+      "url": "https://uk.businessesforsale.com/uk/search/low-cost-websites-for-sale"
     },
     {
-      "business": "Hampshire nail-art e-commerce",
-      "reason": "£29,999 incl £11k-£15k stated stock; ten years trading but revenue and net profit undisclosed, no staff, manual fulfilment, no room under cap for compulsory extras",
-      "url": "https://uk.businessesforsale.com/uk/established-e-commerce-nail-art-business.aspx"
+      "business": "UK Amazon gymwear online business",
+      "reason": "£19,995 ask, £78,243 revenue and £22,501 gross profit; inventory inclusion and current net earnings unclear",
+      "url": "https://uk.businessesforsale.com/uk/search/low-cost-online-businesses-for-sale-5"
     },
     {
-      "business": "Southampton wireless gadgets retailer",
-      "reason": "£19k headline, £40k revenue/£18k seller profit, but stock-at-valuation amount unknown and owner-replacement economics unverified",
-      "url": "https://www.intelligent.co.uk/businesses-for-sale/reduced-19000-relocatable-e-commerce-business-specialising-in-wireless-gadgets-and-tech-accessories-int3386"
+      "business": "Prestige Number Plates, Stoke-on-Trent",
+      "reason": "£24,995 asking and £30k turnover; inconsistent profit disclosure, leasehold and owner-led sales/production",
+      "url": "https://uk.businessesforsale.com/uk/modern-car-accessories-shop-with-loyal-online-audience-for-sale.aspx"
     },
     {
-      "business": "AnyCases.shop",
-      "reason": "£~4.7k, seller states trading paused since June 2026; historic displayed monthly profit cannot be treated as current cash flow",
-      "url": "https://flippa.com/12243336-anycases-shop-shopify-phone-accessories-store-30-7k-net-sales-oct-2025-jun-2026-paused-june-2026-supplier-included"
+      "business": "Algorithum skincare, Waterlooville",
+      "reason": "£23k asking but ceased trading, no inventory, 2021 revenue only and influencer-led marketing",
+      "url": "https://uk.businessesforsale.com/uk/highly-rated-skincare-products-business-for-sale.aspx"
     },
     {
-      "business": "Pembrokeshire packaging distributor",
-      "reason": "£30k asking against £231k turnover and only £5k stated net profit; after delivery/owner replacement likely negative; equipment and stock obligations unclear",
-      "url": "https://uk.businessesforsale.com/uk/packaging-supply-and-delivery-business-with-loyal-client-base-across-south-west-wales-with-assets-circa-6k-for-sale.aspx"
+      "business": "Macclesfield clip-on jewellery brand",
+      "reason": "£45,000 asking exceeds hard £30,000 ceiling",
+      "url": "https://uk.businessesforsale.com/uk/search/online-businesses-for-sale-in-north-west"
     },
     {
-      "business": "Old Elephant Fudge",
-      "reason": "£14,995, £15k turnover and £10.3k stated profit, but handmade food production, food-safety/seasonality and owner labour make profit unlikely to survive replacement",
-      "url": "https://uk.businessesforsale.com/uk/search/low-cost-e-commerce-businesses-for-sale"
+      "business": "Online garden planter business, Lancashire",
+      "reason": "£39,995 asking exceeds hard ceiling before stock",
+      "url": "https://uk.businessesforsale.com/uk/search/low-cost-online-businesses-for-sale-5"
     }
   ]
 }
