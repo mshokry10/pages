@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-02T09:07:24.124Z",
+  "generatedAt": "2026-11-09T08:56:36.879Z",
   "source": "Weekly SaaS Opportunity Log",
   "ideas": [
     {
       "id": "46258-smartmoving-native-outbound-lead-engine-for",
-      "date": "46258",
+      "date": "2026-08-24",
       "idea": "SmartMoving-native outbound lead engine for independent moving companies",
       "description": "An outbound lead-generation service for residential moving companies. It monitors newly listed homes, finds and verifies each seller’s contact details, sends personalized outreach on the mover’s behalf, and routes interested replies directly into SmartMoving. The proposed version would sell smaller exclusive ZIP-code territories with done-for-you onboarding.",
       "incumbent": "Book The Move",
@@ -24,7 +24,7 @@
     },
     {
       "id": "46265-white-label-mobile-app-performance-reporting",
-      "date": "46265",
+      "date": "2026-08-31",
       "idea": "White-label mobile app performance reporting for ASO and mobile-growth agencies",
       "description": "A reporting hub for agencies that manage multiple mobile-app clients. It connects each client's Apple App Store Connect, Google Play Console and selected acquisition sources, continuously normalizes performance data, and automatically produces branded client reports, portals and alerts instead of requiring analysts to rebuild dashboards or monthly decks.",
       "incumbent": "Easy App Reports by Beyond Analytics",
@@ -68,7 +68,7 @@
     },
     {
       "id": "46279-statement-first-travel-commission-reconciliation-and",
-      "date": "46279",
+      "date": "2026-09-14",
       "idea": "Statement-first travel commission reconciliation and advisor-payout SaaS",
       "description": "A back-office tool for travel agencies that ingests the supplier commission statements they already receive as PDF, Excel, CSV, email or pasted text. It extracts booking and commission lines, matches them against the agency's expected bookings, flags missing or incorrect payments, calculates advisor splits, and produces a reconciled payout report and audit trail without requiring the agency to replace its CRM.",
       "incumbent": "Sion (with supporting validation from Toggle Travel, Wihemi Travel and Trip Ledger)",
@@ -213,6 +213,27 @@
         "https://fieldclear.co.uk/industries/plant-hire/",
         "https://www.cscsgroup.co.uk/cscs-smart-check/",
         "https://cpa.uk.net/cpa-members-directory/"
+      ]
+    },
+    {
+      "id": "2026-11-09-anonymous-australian-real-estate-media-workflow-saas",
+      "date": "2026-11-09",
+      "idea": "UK estate-agent property-media booking and delivery portal",
+      "description": "A workflow portal for independent property photography studios serving estate agents. An agent submits the property address, media services, access details and preferred appointment; the studio assigns the job, gathers photographs/floor plans/video, requests approval and delivers one branded download link. It tracks revisions and handoffs without replacing the agent's property CRM.",
+      "incumbent": "Anonymous Australian real-estate media workflow SaaS (Acquire.com)",
+      "traction": "Acquire listing: $74.7k TTM revenue, $36.5k ARR, 10–50 customers, +22% annual growth, 2–20 staff, founded Feb 2024; seller-reported, not audited.",
+      "customer": "UK property media studios with 3–15 photographers, 20–200 jobs/month and 10+ estate-agent branch clients",
+      "wedge": "UK multi-branch estate-agent ordering, service bundles (photos/floor plans/EPC/video), approval-to-listing delivery and done-for-you onboarding",
+      "why": "Documented niche willingness to pay, identifiable studios and agents, high-frequency workflow, small-team buildability, concierge pilot possible.",
+      "risk": "Strong low-priced incumbents (Spiro, Spatiko, HDPhotoHub); switching friction and uncertain willingness to pay £249+/month.",
+      "score": 8,
+      "chat": "https://docs.google.com/document/d/1d_X63Y8wJET0nZ9s6OyMw_AOJT5QjB3nKFbodKdZjHs/edit",
+      "evidence": [
+        "https://app.acquire.com/public/yoyd6mieu9-workflow-platform-for-real-estate-media-creators-to-manage-bookings-jobs-and-media-delivery",
+        "https://spatiko.com/",
+        "https://spiro.media/",
+        "https://www.hdphotohub.com/",
+        "https://www.photeria.io/"
       ]
     }
   ]
