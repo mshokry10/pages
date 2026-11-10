@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-09",
-  "last_search_at": "2026-11-09",
-  "research_note": "Incremental 9 Nov 2026 (overlap 3–9 Nov): 1 new unverified Cairo UE5 digital-twin technical-art lead (Dar); 0 material changes, 0 closures, 0 older archive vacancies directly rechecked. Rotated Egyptian archviz/digital-twin listings (BeBee, Wuzzuf, Twine), Ashby Unreal positions, worldwide remote UE/XR and Work With Indies. Dar's third-party listing has 2+ years UE5 requirement and no confirmed original employer application page. Geopro older Wuzzuf listing has no visible Apply button; Adeer/Duroob senior roles require 5–8 years; Redly remote excludes Egypt; Rocket Science UK-only; several Work With Indies vacancies closed. No new confirmed Egypt-eligible junior programming role or vacancy-specific visa support.",
+  "updated_at": "2026-11-10",
+  "last_search_at": "2026-11-10",
+  "research_note": "Incremental 10 Nov 2026 (overlap 4–10 Nov): 0 new qualified vacancies, 0 materially updated, 0 newly closed, 0 older archive entries directly reverified. Rotated Work With Indies live index and closed Unreal postings, Egypt Wuzzuf Unreal/VR/archviz, Ashby employer postings, and Lever/Greenhouse discovery. Excluded closed Gilded Games junior Egypt and Vertex ArchViz, geographic restrictions (US/Canada/Sweden/LATAM), senior-only jobs and candidate profiles masquerading as job results. Lunacy remains indexed on Work With Indies but prior closed evidence not overturned by an original active application. No new verified Egypt-eligible junior role or vacancy-specific relocation support.",
   "scoring_weights": {
     "realistic_hiring_probability": 30,
     "unreal_relevance": 25,
@@ -589,13 +589,12 @@
     }
   ],
   "sources_reviewed": [
-    "BeBee Dar 3D Technical Artist Cairo (third-party listing, dated roughly late October; original employer ATS not verified)",
-    "Wuzzuf Geopro Blender/Unreal/AR digital twin Cairo (8-month-old listing; no visible apply button, excluded)",
-    "Twine Adeer International Unreal Engine Artist Cairo (open third-party but senior; excluded)",
-    "Twine Vertex Studios Cairo Unreal ArchViz (closed, excluded)",
-    "BeBee/Trabajo Duroob Ventures senior Unreal architect New Cairo (6–8 years, excluded)",
-    "Ashby Redly Games senior Unreal (Finland/Canada/UK remote only, excluded)",
-    "Ashby Rocket Science Unreal contractor (UK-only, excluded)",
-    "Work With Indies Ride the Lion, Pine Creek, Six Ton Axe, Lunacy, Mysteria, Starchild and Skymap (all explicitly closed)"
+    "Work With Indies live careers index and indexed Unreal roles (10 Nov; recent index contains Lunacy but previous research marked it closed; not re-added without vacancy confirmation)",
+    "Work With Indies Skymap, Windy, Nightingale, TigerRoll, Firefly, Starchild and Six Ton Axe original job pages (all explicitly closed; excluded)",
+    "Egypt Wuzzuf indexed Unreal/VR and archviz searches (results were candidate profiles, not live vacancies)",
+    "Ashby indexed FS Studio, BulletFarm, Bjak and Onebrief postings (LATAM/US/Canada/Sweden restrictions or seniority; excluded)",
+    "Twine Vertex Studios Cairo ArchViz (explicitly closed; excluded)",
+    "LinkedIn Gilded Games junior Unreal remote Egypt (explicitly no longer accepting applications; excluded)",
+    "Lever and Greenhouse indexed Unreal developer discovery (no qualified fresh original vacancy established)"
   ]
 }
