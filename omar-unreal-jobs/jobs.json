@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-10",
-  "last_search_at": "2026-11-10",
-  "research_note": "Incremental 10 Nov 2026 (overlap 4–10 Nov): 0 new qualified vacancies, 0 materially updated, 0 newly closed, 0 older archive entries directly reverified. Rotated Work With Indies live index and closed Unreal postings, Egypt Wuzzuf Unreal/VR/archviz, Ashby employer postings, and Lever/Greenhouse discovery. Excluded closed Gilded Games junior Egypt and Vertex ArchViz, geographic restrictions (US/Canada/Sweden/LATAM), senior-only jobs and candidate profiles masquerading as job results. Lunacy remains indexed on Work With Indies but prior closed evidence not overturned by an original active application. No new verified Egypt-eligible junior role or vacancy-specific relocation support.",
+  "updated_at": "2026-11-11",
+  "last_search_at": "2026-11-11",
+  "research_note": "Incremental 11 Nov 2026 (overlap 5–11 Nov): 0 new qualified jobs, 0 materially updated, 0 closed, 0 existing archive entries directly rechecked. Rotated Work With Indies programming and new postings, Egypt archviz/VR and worldwide Unreal/ATS discovery. Rejected 42 Bits Nov 9 Mission Programmer (Germany work permit required, 3+ years), VOOM exterior visualizer (architecture degree and 3ds Max/D5, Unreal bonus), closed Floaty/Vertex/Skymap/Mysteria listings, and Brazil-restricted experienced VR simulation. No confirmed new Egypt-eligible junior Unreal vacancy or vacancy-specific relocation sponsorship.",
   "scoring_weights": {
     "realistic_hiring_probability": 30,
     "unreal_relevance": 25,
@@ -589,12 +589,12 @@
     }
   ],
   "sources_reviewed": [
-    "Work With Indies live careers index and indexed Unreal roles (10 Nov; recent index contains Lunacy but previous research marked it closed; not re-added without vacancy confirmation)",
-    "Work With Indies Skymap, Windy, Nightingale, TigerRoll, Firefly, Starchild and Six Ton Axe original job pages (all explicitly closed; excluded)",
-    "Egypt Wuzzuf indexed Unreal/VR and archviz searches (results were candidate profiles, not live vacancies)",
-    "Ashby indexed FS Studio, BulletFarm, Bjak and Onebrief postings (LATAM/US/Canada/Sweden restrictions or seniority; excluded)",
-    "Twine Vertex Studios Cairo ArchViz (explicitly closed; excluded)",
-    "LinkedIn Gilded Games junior Unreal remote Egypt (explicitly no longer accepting applications; excluded)",
-    "Lever and Greenhouse indexed Unreal developer discovery (no qualified fresh original vacancy established)"
+    "Work With Indies programming/current index (11 Nov; 42 Bits mission programmer excluded: EU permit required, 3 years)",
+    "Work With Indies Floaty Studio Technical Artist (closed; Unity specialist)",
+    "Work With Indies Skymap, Windy Games, Mysteria and Starchild (closed)",
+    "Egyptian archviz jobs: VOOM exterior visualizer (architecture degree, 3ds Max/D5 essential; Unreal bonus only)",
+    "Egyptian Vertex Studios UE5 ArchViz on Twine (closed)",
+    "Remote Unreal / ATS indexed searches (Lever, Greenhouse, Ashby)",
+    "Worldwide Unreal VR flight simulation at Side (Brazil-restricted, experienced)"
   ]
 }
