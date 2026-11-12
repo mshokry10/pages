@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-11",
-  "last_search_at": "2026-11-11",
-  "research_note": "Incremental 11 Nov 2026 (overlap 5–11 Nov): 0 new qualified jobs, 0 materially updated, 0 closed, 0 existing archive entries directly rechecked. Rotated Work With Indies programming and new postings, Egypt archviz/VR and worldwide Unreal/ATS discovery. Rejected 42 Bits Nov 9 Mission Programmer (Germany work permit required, 3+ years), VOOM exterior visualizer (architecture degree and 3ds Max/D5, Unreal bonus), closed Floaty/Vertex/Skymap/Mysteria listings, and Brazil-restricted experienced VR simulation. No confirmed new Egypt-eligible junior Unreal vacancy or vacancy-specific relocation sponsorship.",
+  "updated_at": "2026-11-12",
+  "last_search_at": "2026-11-12",
+  "research_note": "Incremental 12 Nov 2026 (overlap 6–12 Nov): 1 new employer-listed Unreal gameplay lead (Crater Studios, older Feb posting newly discovered), 0 existing materially updated, 0 closed, 0 existing records directly rechecked. Rotated GameJobsUK, employer careers, Djinni, Remote Work Ukraine, Hitmarker, Egyptian junior listings and XR internship sources. LITSLINK 10 Nov junior VR role excluded after primary Djinni showed Europe/Ukraine-only and Ukrainian native language. SenseGlove/ESA internship excluded: currently enrolled students and ESA eligible-country citizenship. Crystal Dynamics 2026+ graduate US internship excluded. No confirmed new Egypt-eligible junior vacancy or vacancy-specific sponsorship.",
   "scoring_weights": {
     "realistic_hiring_probability": 30,
     "unreal_relevance": 25,
@@ -586,15 +586,52 @@
       "source_type": "third_party",
       "source_url": "https://bebee.com/eg/jobs/3d-technical-artist-dar--techmap_eg_4476735903",
       "apply_url": "https://bebee.com/eg/jobs/3d-technical-artist-dar--techmap_eg_4476735903"
+    },
+    {
+      "id": "crater-studios-unreal-gameplay-engineer-remote-2026",
+      "first_seen": "2026-11-12",
+      "last_verified": "2026-11-12",
+      "employer": "Crater Studios",
+      "title": "Unreal Engine Gameplay Engineer",
+      "city": "Remote",
+      "country": "Serbia-based studio; worldwide advertised by third-party board",
+      "region": "stretch",
+      "work_mode": "Full-time remote; third-party board says worldwide, employer careers page says remote but Egypt eligibility not expressly confirmed",
+      "employment_type": "Full-time",
+      "experience": "Mid-level; deep UE5 C++ and Blueprints expertise; shipped AAA/Steam indie experience a plus rather than explicitly mandatory; no graduation-year restriction stated",
+      "skills": [
+        "Unreal Engine 5",
+        "C++",
+        "Blueprints",
+        "Gameplay systems",
+        "Combat mechanics",
+        "Niagara",
+        "Animation integration",
+        "Performance profiling",
+        "Debugging"
+      ],
+      "salary": "Not disclosed",
+      "fit_score": 66,
+      "status": "open",
+      "egypt_eligibility": "Unknown — third-party GameJobsUK labels worldwide; employer's careers page states remote without expressly listing Egypt",
+      "egypt_eligibility_status": "unknown",
+      "visa_status": "No vacancy-specific relocation or sponsorship offered; ask whether Egypt-based contractor/employment is accepted",
+      "summary": "Build UE5 combat, abilities, player interaction, gameplay architecture and prototypes across the studio's game projects. Official careers page currently lists this vacancy and links to a dedicated job page.",
+      "why_fit": "Echoes of Annihilation demonstrates C++ shooter gameplay, combat AI and debugging; The Other Side demonstrates UE5 C++ interactive systems; Project Zero Requiem supports animation integration.",
+      "caveats": "Advert originally posted February 2026 and expects mid-level self-direction, strong C++ and possibly shipped experience; Omar has only personal non-commercial projects. Employer page still lists role but application handling and Egypt hiring need confirmation. Check legitimacy and payment terms before sending sensitive details.",
+      "source_type": "employer",
+      "source_url": "https://craterstudiosgames.com/careers",
+      "apply_url": "https://craterstudiosgames.com/careers/gameplay-engineer"
     }
   ],
   "sources_reviewed": [
-    "Work With Indies programming/current index (11 Nov; 42 Bits mission programmer excluded: EU permit required, 3 years)",
-    "Work With Indies Floaty Studio Technical Artist (closed; Unity specialist)",
-    "Work With Indies Skymap, Windy Games, Mysteria and Starchild (closed)",
-    "Egyptian archviz jobs: VOOM exterior visualizer (architecture degree, 3ds Max/D5 essential; Unreal bonus only)",
-    "Egyptian Vertex Studios UE5 ArchViz on Twine (closed)",
-    "Remote Unreal / ATS indexed searches (Lever, Greenhouse, Ashby)",
-    "Worldwide Unreal VR flight simulation at Side (Brazil-restricted, experienced)"
+    "Crater Studios employer careers page (current listing for Unreal Gameplay Engineer; remote country scope unconfirmed)",
+    "GameJobsUK Crater Studios Unreal Gameplay Engineer (worldwide third-party claim; posted Feb 9)",
+    "Djinni LITSLINK Junior Unity VR/XR (Nov 10; Europe/Ukraine only, Ukrainian native; excluded)",
+    "Remote Work Ukraine and A1 Jobs LITSLINK duplicate",
+    "InternHunt SenseGlove / ESA XR Unreal intern (enrolled students + ESA country citizenship only; excluded)",
+    "Learn4Good Crystal Dynamics Unreal Gameplay Engineer intern (US onboarding and 2026+ graduate requirement; excluded)",
+    "Hitmarker recent Unreal / animation listings (senior and restricted positions)",
+    "Egyptian junior Unreal and simulation discovery searches (no qualifying new roles)"
   ]
 }
