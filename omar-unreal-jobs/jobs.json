@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-12",
-  "last_search_at": "2026-11-12",
-  "research_note": "Incremental 12 Nov 2026 (overlap 6–12 Nov): 1 new employer-listed Unreal gameplay lead (Crater Studios, older Feb posting newly discovered), 0 existing materially updated, 0 closed, 0 existing records directly rechecked. Rotated GameJobsUK, employer careers, Djinni, Remote Work Ukraine, Hitmarker, Egyptian junior listings and XR internship sources. LITSLINK 10 Nov junior VR role excluded after primary Djinni showed Europe/Ukraine-only and Ukrainian native language. SenseGlove/ESA internship excluded: currently enrolled students and ESA eligible-country citizenship. Crystal Dynamics 2026+ graduate US internship excluded. No confirmed new Egypt-eligible junior vacancy or vacancy-specific sponsorship.",
+  "updated_at": "2026-11-13",
+  "last_search_at": "2026-11-13",
+  "research_note": "Incremental 13 Nov 2026, overlap 7–13 Nov: 1 newly discovered employer-listed UE5 Technical Artist lead (Crater Studios, Egypt remote eligibility unconfirmed), 0 existing materially changed, 0 newly closed, 2 existing employer vacancies rechecked (Aether Pixels and Crater gameplay engineer). Rotated Work With Indies, Ashby, Hitmarker, Egyptian job discovery, remote talent marketplace and employer XR/technical-art pages. Excluded closed indie roles, UK-only hybrid, LATAM-only and senior-only roles. No verified new Egypt-eligible junior gameplay position or vacancy-specific visa sponsorship.",
   "scoring_weights": {
     "realistic_hiring_probability": 30,
     "unreal_relevance": 25,
@@ -108,7 +108,7 @@
       "source_url": "https://aetherpixels.com/jobs/unreal-engine-developer-mid-level/",
       "apply_url": "https://aetherpixels.com/jobs/unreal-engine-developer-mid-level/",
       "first_seen": "2026-11-05",
-      "last_verified": "2026-11-05"
+      "last_verified": "2026-11-13"
     },
     {
       "id": "indie-unreal-source-gameplay-contract-2026",
@@ -590,7 +590,7 @@
     {
       "id": "crater-studios-unreal-gameplay-engineer-remote-2026",
       "first_seen": "2026-11-12",
-      "last_verified": "2026-11-12",
+      "last_verified": "2026-11-13",
       "employer": "Crater Studios",
       "title": "Unreal Engine Gameplay Engineer",
       "city": "Remote",
@@ -622,16 +622,52 @@
       "source_type": "employer",
       "source_url": "https://craterstudiosgames.com/careers",
       "apply_url": "https://craterstudiosgames.com/careers/gameplay-engineer"
+    },
+    {
+      "id": "crater-studios-technical-artist-ue5-remote-2026",
+      "first_seen": "2026-11-13",
+      "last_verified": "2026-11-13",
+      "employer": "Crater Studios",
+      "title": "Technical Artist",
+      "city": "Remote (employer location unspecified)",
+      "country": "Not specified",
+      "region": "stretch",
+      "work_mode": "Full-time remote; employer has not confirmed work-from-Egypt eligibility",
+      "employment_type": "Full-time",
+      "experience": "No minimum years or graduation-year restriction stated; practical UE5, Niagara, VFX and shader proficiency required",
+      "skills": [
+        "Unreal Engine 5",
+        "Blueprints",
+        "Niagara",
+        "VFX",
+        "Shaders",
+        "Materials",
+        "Animation integration",
+        "Performance optimisation",
+        "C++ or Python (plus)"
+      ],
+      "salary": "Not disclosed",
+      "fit_score": 57,
+      "status": "needs_verification",
+      "egypt_eligibility": "Unknown — employer says remote but does not explicitly confirm Egypt contracts/payroll",
+      "egypt_eligibility_status": "unknown",
+      "visa_status": "Not stated; no vacancy-specific relocation or sponsorship offered",
+      "summary": "Employer-listed technical artist working across UE5 VFX, Niagara, shaders, animation integration, optimisation and prototyping for game projects.",
+      "why_fit": "Project Zero Requiem's Unreal animation/cinematic pipeline and The Other Side's UE5, MetaHuman and 3D assets give Omar partial overlap; C++/Python are helpful extras.",
+      "caveats": "Substantial Niagara, shader/material and VFX reel required; Omar's demonstrated work is more gameplay/animation than specialised technical art. Remote Egypt eligibility and employer legitimacy/contract terms must be confirmed. Employer page lists role but has no visible posting date.",
+      "source_type": "employer",
+      "source_url": "https://craterstudiosgames.com/careers/technical-artist",
+      "apply_url": "https://craterstudiosgames.com/careers/technical-artist"
     }
   ],
   "sources_reviewed": [
-    "Crater Studios employer careers page (current listing for Unreal Gameplay Engineer; remote country scope unconfirmed)",
-    "GameJobsUK Crater Studios Unreal Gameplay Engineer (worldwide third-party claim; posted Feb 9)",
-    "Djinni LITSLINK Junior Unity VR/XR (Nov 10; Europe/Ukraine only, Ukrainian native; excluded)",
-    "Remote Work Ukraine and A1 Jobs LITSLINK duplicate",
-    "InternHunt SenseGlove / ESA XR Unreal intern (enrolled students + ESA country citizenship only; excluded)",
-    "Learn4Good Crystal Dynamics Unreal Gameplay Engineer intern (US onboarding and 2026+ graduate requirement; excluded)",
-    "Hitmarker recent Unreal / animation listings (senior and restricted positions)",
-    "Egyptian junior Unreal and simulation discovery searches (no qualifying new roles)"
+    "Aether Pixels official mid-level Unreal developer page (still lists Egypt, remote, worldwide; rechecked)",
+    "Crater Studios official careers and Technical Artist job page (new lead; remote Egypt eligibility unknown)",
+    "Crater Studios official careers listing for existing Unreal Gameplay Engineer (rechecked)",
+    "Work With Indies recent Unreal/gameplay/animation listings (Firefly, Windy, Triplo Z, Mysteria, Starchild: closed or geographically restricted)",
+    "Ashby Rocket Science Group Game Engineer Unreal (Cardiff hybrid, 3 days on-site; excluded)",
+    "Hitmarker game programming board and current role samples (no new eligible junior match)",
+    "Egyptian Unreal/junior developer searches and GulfTalent Egypt (no qualifying Unreal match)",
+    "Lemon.io Unreal talent marketplace (5+ years senior developer requirement; excluded)"
   ]
 }
