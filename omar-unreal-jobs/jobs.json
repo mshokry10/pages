@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-13",
-  "last_search_at": "2026-11-13",
-  "research_note": "Incremental 13 Nov 2026, overlap 7–13 Nov: 1 newly discovered employer-listed UE5 Technical Artist lead (Crater Studios, Egypt remote eligibility unconfirmed), 0 existing materially changed, 0 newly closed, 2 existing employer vacancies rechecked (Aether Pixels and Crater gameplay engineer). Rotated Work With Indies, Ashby, Hitmarker, Egyptian job discovery, remote talent marketplace and employer XR/technical-art pages. Excluded closed indie roles, UK-only hybrid, LATAM-only and senior-only roles. No verified new Egypt-eligible junior gameplay position or vacancy-specific visa sponsorship.",
+  "updated_at": "2026-11-14",
+  "last_search_at": "2026-11-14",
+  "research_note": "Incremental 14 Nov 2026 (overlap 8–14 Nov): 0 new qualified vacancies, 0 material job changes, 0 confirmed closures; 1 existing employer vacancy rechecked (Mare Group, original form still live, Egypt remote eligibility unconfirmed). VOID BambooHR page attempted but inaccessible, not reverified. Rotated Work With Indies programming (checked direct listings), Hitmarker, ATS-indexed Unreal searches, Egyptian Wuzzuf/Bayt/GulfTalent discovery, global remote XR/simulation and defence synthetic-data searches. Excluded explicitly closed Work With Indies listings (Darkriver, makRP, Happiest Dark Corner), UK/US/Mexico-only remotes, senior-only positions and unrelated profiles. No new Egypt-eligible junior Unreal vacancy or vacancy-specific visa assistance verified.",
   "scoring_weights": {
     "realistic_hiring_probability": 30,
     "unreal_relevance": 25,
@@ -176,7 +176,7 @@
       "source_url": "https://www.maregroup.it/en/jobs/junior-unreal-engine-developer",
       "apply_url": "https://www.maregroup.it/en/jobs/junior-unreal-engine-developer",
       "first_seen": "2026-11-05",
-      "last_verified": "2026-11-05"
+      "last_verified": "2026-11-14"
     },
     {
       "id": "noghost-unreal-technical-artist-mr-2026",
@@ -661,13 +661,13 @@
     }
   ],
   "sources_reviewed": [
-    "Aether Pixels official mid-level Unreal developer page (still lists Egypt, remote, worldwide; rechecked)",
-    "Crater Studios official careers and Technical Artist job page (new lead; remote Egypt eligibility unknown)",
-    "Crater Studios official careers listing for existing Unreal Gameplay Engineer (rechecked)",
-    "Work With Indies recent Unreal/gameplay/animation listings (Firefly, Windy, Triplo Z, Mysteria, Starchild: closed or geographically restricted)",
-    "Ashby Rocket Science Group Game Engineer Unreal (Cardiff hybrid, 3 days on-site; excluded)",
-    "Hitmarker game programming board and current role samples (no new eligible junior match)",
-    "Egyptian Unreal/junior developer searches and GulfTalent Egypt (no qualifying Unreal match)",
-    "Lemon.io Unreal talent marketplace (5+ years senior developer requirement; excluded)"
+    "Mare Group official Junior Unreal Engine Developer page, 14 Nov (application form live; existing lead reverified)",
+    "VOID Interactive BambooHR Associate Cinematic Animator (access failed; not reverified)",
+    "Work With Indies programming category and individual Darkriver Team, makRP, Happiest Dark Corner postings (all marked closed)",
+    "Hitmarker current listings and High Voltage Software Mexico-specific remote job",
+    "Wuzzuf Egypt indexed Unreal/VR results (mostly candidate profiles rather than vacancies)",
+    "Bayt and GulfTalent Cairo junior/developer results (no Unreal-specific qualified lead)",
+    "Indexed Greenhouse/Lever/Ashby Unreal and worldwide remote job searches (no qualifying new role)",
+    "Remote Unreal/XR/simulation and synthetic-data search (Arventure and Crater already archived; other matches senior or location restricted)"
   ]
 }
