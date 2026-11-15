@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-14",
-  "last_search_at": "2026-11-14",
-  "research_note": "Incremental 14 Nov 2026 (overlap 8–14 Nov): 0 new qualified vacancies, 0 material job changes, 0 confirmed closures; 1 existing employer vacancy rechecked (Mare Group, original form still live, Egypt remote eligibility unconfirmed). VOID BambooHR page attempted but inaccessible, not reverified. Rotated Work With Indies programming (checked direct listings), Hitmarker, ATS-indexed Unreal searches, Egyptian Wuzzuf/Bayt/GulfTalent discovery, global remote XR/simulation and defence synthetic-data searches. Excluded explicitly closed Work With Indies listings (Darkriver, makRP, Happiest Dark Corner), UK/US/Mexico-only remotes, senior-only positions and unrelated profiles. No new Egypt-eligible junior Unreal vacancy or vacancy-specific visa assistance verified.",
+  "updated_at": "2026-11-15",
+  "last_search_at": "2026-11-15",
+  "research_note": "Incremental 15 Nov 2026 (overlap 9–15 Nov): 1 new employer-confirmed worldwide remote Unreal XR contractor lead (Kost; undated listing), 0 material changes, 0 confirmed closures, 0 archived jobs directly reverified. Rotated official immersive/XR employer careers, Hitmarker Unreal listings, Work With Indies direct posts, ATS-indexed junior Unreal, Egypt/MENA junior game development and global simulation/VR searches. Excluded Mysteria Unreal Cinematic Designer (explicitly closed, 5 years/shipped game), Windy Games and Binary Spiders (closed), US/UK-restricted roles, Arventure (already archived), and dated/expired Cocos2d-x AI-training post. No vacancy-specific relocation sponsorship or 2024-graduate-eligible internship confirmed.",
   "scoring_weights": {
     "realistic_hiring_probability": 30,
     "unreal_relevance": 25,
@@ -658,16 +658,56 @@
       "source_type": "employer",
       "source_url": "https://craterstudiosgames.com/careers/technical-artist",
       "apply_url": "https://craterstudiosgames.com/careers/technical-artist"
+    },
+    {
+      "id": "kost-unreal-engine-xr-developer-global-contractor-2026",
+      "first_seen": "2026-11-15",
+      "last_verified": "2026-11-15",
+      "employer": "Kost",
+      "title": "Unreal Engine XR Developer",
+      "city": "Los Angeles preferred / remote",
+      "country": "United States / worldwide",
+      "region": "remote",
+      "work_mode": "Remote open to candidates globally; Los Angeles preferred",
+      "employment_type": "Full-time or part-time contractor",
+      "experience": "Proven Unreal XR development and Meta SDK experience; no minimum years or graduation-year rule stated",
+      "skills": [
+        "Unreal Engine 5",
+        "Blueprints",
+        "PCVR",
+        "Meta Quest",
+        "Apple Vision Pro",
+        "Meta SDK",
+        "XR optimisation",
+        "AI characters",
+        "Niagara",
+        "Shaders",
+        "Animation Blueprints",
+        "C++ (nice to have)",
+        "Python (nice to have)"
+      ],
+      "salary": "Not disclosed",
+      "fit_score": 79,
+      "status": "open",
+      "egypt_eligibility": "Employer explicitly accepts remote candidates globally; Egypt residence is geographically eligible, with contract/payment arrangements to confirm",
+      "egypt_eligibility_status": "confirmed",
+      "visa_status": "Remote contractor route; no relocation or visa sponsorship advertised",
+      "summary": "Develop immersive UE5 VR/AR experiences across headsets, implement interactive mechanics, AI characters and performance-sensitive XR environments; original employer opportunities page invites applications by email.",
+      "why_fit": "The Other Side is a direct UE5 C++ PC/VR and AI NPC portfolio match; Project Zero Requiem offers animation and cinematic integration, while Maya/Blender support real-time 3D work. No commercial shipped game requirement is stated.",
+      "caveats": "Role mixes XR development and technical art; Omar must demonstrate actual headset deployment, Meta SDK proficiency, shader/lighting/Niagara work and QA-quality VR optimisation. No stated minimum experience does not mean entry-level. Listing has no published posting date, so newly discovered rather than newly posted; confirm hiring and Egypt contractor/payment arrangements before applying.",
+      "source_type": "employer",
+      "source_url": "https://www.kost.ai/apply",
+      "apply_url": "https://www.kost.ai/apply"
     }
   ],
   "sources_reviewed": [
-    "Mare Group official Junior Unreal Engine Developer page, 14 Nov (application form live; existing lead reverified)",
-    "VOID Interactive BambooHR Associate Cinematic Animator (access failed; not reverified)",
-    "Work With Indies programming category and individual Darkriver Team, makRP, Happiest Dark Corner postings (all marked closed)",
-    "Hitmarker current listings and High Voltage Software Mexico-specific remote job",
-    "Wuzzuf Egypt indexed Unreal/VR results (mostly candidate profiles rather than vacancies)",
-    "Bayt and GulfTalent Cairo junior/developer results (no Unreal-specific qualified lead)",
-    "Indexed Greenhouse/Lever/Ashby Unreal and worldwide remote job searches (no qualifying new role)",
-    "Remote Unreal/XR/simulation and synthetic-data search (Arventure and Crater already archived; other matches senior or location restricted)"
+    "Kost official Opportunities: Unreal Engine XR Developer (global contractor, employer application invitation live, checked 15 Nov)",
+    "Hitmarker Unreal Engine Jobs current listing feed (15 Nov; mostly senior/location-restricted)",
+    "Work With Indies homepage and Mysteria Studio Unreal Cinematic Designer direct posting (explicitly closed)",
+    "Work With Indies Windy Games Senior Unreal Programmer and Binary Spiders Mid/Senior Games Programmer (closed)",
+    "Indexed Lever/Ashby junior Unreal and gameplay developer searches (no qualifying new employer vacancy)",
+    "Egypt junior Unreal/game development and MENA remote discovery (no new verified suitable role)",
+    "Global XR/VR simulation listings (Arventure already archived; Side remote Brazil/US restricted)",
+    "Egypt Mimusjobs Cocos2d-x junior AI-training listing (deadline 9 Oct, excluded)"
   ]
 }
