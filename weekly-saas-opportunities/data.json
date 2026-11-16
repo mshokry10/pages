@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-09T08:56:36.879Z",
+  "generatedAt": "2026-11-16T08:34:29Z",
   "source": "Weekly SaaS Opportunity Log",
   "ideas": [
     {
-      "id": "46258-smartmoving-native-outbound-lead-engine-for",
+      "id": "2026-08-24-book-the-move",
       "date": "2026-08-24",
       "idea": "SmartMoving-native outbound lead engine for independent moving companies",
       "description": "An outbound lead-generation service for residential moving companies. It monitors newly listed homes, finds and verifies each seller’s contact details, sends personalized outreach on the mover’s behalf, and routes interested replies directly into SmartMoving. The proposed version would sell smaller exclusive ZIP-code territories with done-for-you onboarding.",
@@ -23,7 +23,7 @@
       ]
     },
     {
-      "id": "46265-white-label-mobile-app-performance-reporting",
+      "id": "2026-08-31-easy-app-reports-by-beyond-analytics",
       "date": "2026-08-31",
       "idea": "White-label mobile app performance reporting for ASO and mobile-growth agencies",
       "description": "A reporting hub for agencies that manage multiple mobile-app clients. It connects each client's Apple App Store Connect, Google Play Console and selected acquisition sources, continuously normalizes performance data, and automatically produces branded client reports, portals and alerts instead of requiring analysts to rebuild dashboards or monthly decks.",
@@ -67,7 +67,7 @@
       ]
     },
     {
-      "id": "46279-statement-first-travel-commission-reconciliation-and",
+      "id": "2026-09-14-sion-with-supporting-validation-from-toggle-travel-wihemi-travel-",
       "date": "2026-09-14",
       "idea": "Statement-first travel commission reconciliation and advisor-payout SaaS",
       "description": "A back-office tool for travel agencies that ingests the supplier commission statements they already receive as PDF, Excel, CSV, email or pasted text. It extracts booking and commission lines, matches them against the agency's expected bookings, flags missing or incorrect payments, calculates advisor splits, and produces a reconciled payout report and audit trail without requiring the agency to replace its CRM.",
@@ -153,7 +153,7 @@
       ]
     },
     {
-      "id": "2026-10-19-basincheck",
+      "id": "2026-10-19-basincheck-adjacent-safetyculture-and-stravil",
       "date": "2026-10-19",
       "idea": "GC-ready safety evidence and corrective-action closeout for US commercial roofing contractors",
       "description": "A tool for commercial roofing companies managing multiple jobsites. Foremen use phone checklists and photos to record issues and assign corrective work. Workers upload completion evidence and supervisors approve it. The system creates weekly client-ready reports with open items, completed actions and an audit trail.",
@@ -174,7 +174,7 @@
       ]
     },
     {
-      "id": "2026-10-26-avenue",
+      "id": "2026-10-26-avenue-onlyavenue-com-supporting-uk-validation-from-heating-quote",
       "date": "2026-10-26",
       "idea": "Commercial HVAC lead-to-survey conversion widget for UK air-conditioning installers",
       "description": "A branded website widget for commercial air-conditioning contractors that turns vague enquiries into qualified, bookable site surveys. Prospects choose their premises type and service need, enter site details and upload photos, then request a survey slot. The contractor receives a structured brief, confirms the appointment, and uses automated follow-ups and a simple pipeline to track enquiries through surveys, quotes and wins.",
@@ -195,7 +195,7 @@
       ]
     },
     {
-      "id": "2026-11-02-booking-linked-operator-mobilisation-and-client",
+      "id": "2026-11-02-anonymous-acquire-com-workforce-certification-saas-with-skillsign",
       "date": "2026-11-02",
       "idea": "Booking-linked operator mobilisation and client-ready compliance packs for UK plant-hire firms",
       "description": "A wet-hire plant contractor records each operator's relevant training cards and evidence, then links a named operator to a machine, customer and site booking. The software compares recorded credentials against that customer's checklist, flags missing or expiring evidence for human review, and generates a dated mobilisation pack to share with the hiring contractor. When the operator or booking changes, the pack updates and the hire desk is prompted to resolve exceptions.",
@@ -216,7 +216,7 @@
       ]
     },
     {
-      "id": "2026-11-09-anonymous-australian-real-estate-media-workflow-saas",
+      "id": "2026-11-09-anonymous-australian-real-estate-media-workflow-saas-acquire-com",
       "date": "2026-11-09",
       "idea": "UK estate-agent property-media booking and delivery portal",
       "description": "A workflow portal for independent property photography studios serving estate agents. An agent submits the property address, media services, access details and preferred appointment; the studio assigns the job, gathers photographs/floor plans/video, requests approval and delivers one branded download link. It tracks revisions and handoffs without replacing the agent's property CRM.",
@@ -234,6 +234,27 @@
         "https://spiro.media/",
         "https://www.hdphotohub.com/",
         "https://www.photeria.io/"
+      ]
+    },
+    {
+      "id": "2026-11-16-acquire-com-uk-ai-commercial-lease-abstraction-saas-leasescale-le",
+      "date": "2026-11-16",
+      "idea": "Human-reviewed UK commercial lease critical-date assurance",
+      "description": "A commercial property managing agent uploads lease PDFs and amendments. The system extracts rent-review dates, break options, notice windows and expiry dates, linking every proposed event to its source clause for human approval. It then assigns responsibility, sends escalating reminders and generates a portfolio-wide exception report.",
+      "incumbent": "Acquire.com UK AI commercial lease abstraction SaaS; LeaseScale; LeaseAbstracts",
+      "traction": "Acquire seller reports $38.4k TTM revenue, $4.1k last month and +1000% annual growth (unverified listing claims). LeaseScale publishes $49–249/month; LeaseAbstracts $49–399/month (pricing, not revenue).",
+      "customer": "UK independent commercial property managing agents with 30–300 commercial leases and 2–20 office staff",
+      "wedge": "UK break/notice deadline accountability, clause-linked reviewer approval and escalation; no lease-accounting migration",
+      "why": "Revenue-producing young adjacent business; high-cost missed deadlines; enumerable managing agents; clear £299+ recurring wedge and paid concierge validation",
+      "risk": "Legal/date interpretation mistakes, confidentiality barriers and existing lease platforms offering similar alerts",
+      "score": 8.1,
+      "chat": "https://docs.google.com/document/d/1cgWH_o94_C8RJDW1FAl-apfjUvQgvE4dB4FTHyPsBlA/edit",
+      "evidence": [
+        "https://app.acquire.com/public/ovb2umrw04-ai-driven-app-that-turns-commercial-property-lease-documents-into-cross-referenced-reports",
+        "https://leasescale.io/",
+        "https://leaseabstracts.com/pricing",
+        "https://www.leasecake.com/pricing",
+        "https://www.reddit.com/r/CommercialRealEstate/comments/1crafl1"
       ]
     }
   ]
