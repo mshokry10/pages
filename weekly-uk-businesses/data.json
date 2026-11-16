@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-09T09:32:32Z",
+  "generatedAt": "2026-11-16T10:42:26Z",
   "source": "Weekly UK Business Hunt",
-  "bestBuy": "No verified qualifying acquisition this week",
+  "bestBuy": "Hazkit Ltd (conditional research lead; no unconditional buy)",
   "opportunities": [
     {
       "id": "2026-09-08-1-grow-with-me",
@@ -704,130 +704,147 @@
       "evidence": [
         "https://uk.businessesforsale.com/uk/uk-mystery-golf-subscription-box-company.aspx"
       ]
+    },
+    {
+      "id": "2026-11-16-1-hazkit-ltd",
+      "date": "2026-11-16",
+      "rank": 1,
+      "business": "Hazkit Ltd",
+      "category": "B2B industrial PPE e-commerce",
+      "location": "Maldon, Essex, UK",
+      "format": "Relocatable Shopify dropshipping; no shop lease disclosed",
+      "marketplace": "Flippa",
+      "listingUrl": "https://flippa.com/13697854-3-5-year-old-shopify-store-and-pwa-app-b2b-industrial-equipment-and-ppe-no-paid-advertising-57-000-turnover-drop-shipping-model",
+      "description": "UK industrial PPE and high-hazard equipment Shopify business, supplier-direct fulfilment and organic B2B demand; seller has specialist safety qualifications, creating key-person risk.",
+      "askingPrice": "£20,362 displayed (USD $27,540)",
+      "allIn": "Provisionally £20,362; no compulsory stock identified in public listing; confirm any transfer fees, supplier deposits and assets.",
+      "extraCash": "Estimated £2,000–£5,000 for refunds, supplier float, legal diligence and operating liquidity, separate from acquisition.",
+      "revenue": "£57,000 trailing-year seller narrative; Flippa displays 1,361 page views/month",
+      "profit": "Flippa £748/month (annualised £8,976), 16% margin; seller also claims 30–40% margins, likely different metric.",
+      "adjustedProfit": "Scenario £0–£5,000 after replacing founder's technical sales/support/oversight; actual hours and replacement costs unverified.",
+      "multiple": "2.27× displayed annualised profit; >4.1× if £5k adjusted; undefined if adjusted earnings zero.",
+      "age": "Established 2023; Companies House incorporated 22 March 2023 (14750128)",
+      "lease": "Online / no premises transferred disclosed; registered office Maldon, Essex",
+      "staff": "Exact payroll and contractor support unknown; one active director listed at Companies House.",
+      "ownerHours": "Not disclosed; estimate 8–15 hrs/week now and 4–8 hrs/week after delegation, conditional on technical customer support.",
+      "passiveScore": 5.6,
+      "socialDependence": "Very Low — seller says no paid advertising and organic search/B2B demand; social dependence not established.",
+      "acquisitionChannels": "Shopify organic/search and repeat B2B; GA integration connected; domain, Shopify store, brand and VOIP listed as included; verify transfer.",
+      "repeatDemand": "Seller claims 26% returning customer rate; concentration, cohort data and supplier relationships unverified.",
+      "inventory": "Dropship model limits inventory; confirm whether any stock, minimum supplier orders, returns liabilities or safety certifications are mandatory.",
+      "dependencies": "Technical PPE advice, product conformity, manufacturer approvals, supplier accounts, Google search, Shopify and qualified founder knowledge.",
+      "growth": "Improve SKU margin analytics, B2B reorder reminders, quotation workflows and SEO; no growth credited to present earnings.",
+      "dueDiligenceConfidence": 7.2,
+      "redFlags": "Founder is NEBOSH-qualified DGSA with deep safety expertise; transfer of advisory work and compliance is uncertain. Seller narrative claims 30–40% margin vs Flippa 16% profit margin. Profit may vanish after replacement labour.",
+      "fit": "Strong B2B repeat-purchase and low social dependence, but only a conditional fit due to technical founder dependency.",
+      "recommendation": "WATCH / BUY IF VERIFIED ONLY — indicative £12k–£16k asset purchase if ≥£6k annual maintainable profit after paid technical support, supplier transfers and zero compulsory inventory.",
+      "plan90": "Days 1–30: reconcile 24 months Shopify, bank, VAT, supplier and accounts data, test customer concentration and technical advice load. Days 31–60: formalise supplier agreements and compliance workflows, appoint qualified support. Days 61–90: automate quotations, reorder email, inventory-less purchasing and margin dashboards.",
+      "evidence": [
+        "https://flippa.com/13697854-3-5-year-old-shopify-store-and-pwa-app-b2b-industrial-equipment-and-ppe-no-paid-advertising-57-000-turnover-drop-shipping-model",
+        "https://find-and-update.company-information.service.gov.uk/company/14750128",
+        "https://hazkit.co.uk/pages/about-us",
+        "https://uk.trustpilot.com/review/hazkit.co.uk"
+      ]
     }
   ],
   "sourceCoverage": [
     {
-      "source": "BusinessesForSale UK",
-      "status": "Accessible; several candidate pages reviewed; no finalist cleared mandatory-price and maintainable-profit gates",
-      "finalists": 0
+      "source": "BusinessesForSale.com UK",
+      "status": "Accessible; listings screened, no stronger new finalist"
     },
     {
       "source": "Daltons Business",
-      "status": "Search attempted; no independently validated qualifying finalist",
-      "finalists": 0
+      "status": "Accessible; low-priced entries mostly owner-operated or over cap"
     },
     {
       "source": "Rightbiz",
-      "status": "Search attempted; no independently validated qualifying finalist",
-      "finalists": 0
+      "status": "Accessible; vending reviewed; short site agreement or weak yield"
     },
     {
       "source": "Bizdaq",
-      "status": "Search attempted; insufficient publicly verifiable listings",
-      "finalists": 0
+      "status": "Attempted; no verifiable new qualifying opportunity"
     },
     {
       "source": "Business Sale Report",
-      "status": "Search attempted; no independently validated qualifying finalist",
-      "finalists": 0
+      "status": "Attempted; no adequately verified low-budget finalist"
     },
     {
       "source": "CoGoGo / Hilton Smythe",
-      "status": "Accessible; Energy Place and Callycosmetics reviewed, owner-dependence/stock uncertainty",
-      "finalists": 0
+      "status": "Accessible; stock-at-valuation and owner labour concerns"
     },
     {
       "source": "Ernest Wilson",
-      "status": "Search attempted; no qualifying finalist",
-      "finalists": 0
+      "status": "Attempted via targeted search; no qualifying finalist"
     },
     {
       "source": "Blacks Business Brokers",
-      "status": "Accessible via syndicated listings; gymwear and pet e-commerce leads, stock/profit unknown",
-      "finalists": 0
+      "status": "Accessible; Crafty Girl Maria £32,500 + SAV excluded"
     },
     {
       "source": "Nationwide Businesses",
-      "status": "Search attempted; no qualifying finalist",
-      "finalists": 0
+      "status": "Attempted; no qualifying finalist"
     },
     {
       "source": "Knightsbridge Business Sales",
-      "status": "Search attempted; no qualifying finalist",
-      "finalists": 0
+      "status": "Attempted; no qualifying finalist"
     },
     {
       "source": "Intelligent Business Partners",
-      "status": "Search attempted; no qualifying finalist",
-      "finalists": 0
+      "status": "Accessible; example £180k exceeds cap"
     },
     {
       "source": "Christie & Co",
-      "status": "Search attempted; no qualifying finalist",
-      "finalists": 0
+      "status": "Attempted; no qualifying finalist"
     },
     {
-      "source": "Flippa / digital marketplaces",
-      "status": "Search attempted; no new UK non-SaaS listing with verifiable under-cap all-in and sustainable owner-independent earnings",
-      "finalists": 0
+      "source": "Flippa",
+      "status": "Accessible; Hazkit finalist, fashion listing screened out"
     },
     {
-      "source": "Screening depth",
-      "status": "Broad search-result review; fewer than 25 individually verified unique listings, so requested 25–40 full-screen target not achieved",
-      "finalists": 0
+      "source": "Other digital marketplaces",
+      "status": "Search attempted; no sufficiently verified new candidate"
     }
   ],
   "screenedOut": [
     {
-      "business": "Energy Place Fires & Fireplaces, Enfield",
-      "reason": "£19,995 includes £20k stock; £150k revenue/£60k seller profit, but owner-led sales and subcontracted fitting; replacement labour and safety qualifications unknown",
-      "url": "https://uk.businessesforsale.com/uk/long-standing-fire-and-fireplace-business-for-sale-1.aspx"
+      "business": "Confidential nine-month fashion Shopify store",
+      "reason": "£23,634 asking but extraordinary 74% price reduction, owner-managed Google Ads, short history and fragile paid acquisition; insufficient confidence in maintainable profit."
     },
     {
-      "business": "Callycosmetics, Swinton",
-      "reason": "£29,995 asking leaves £5 under cap; mandatory inventory not confirmed, owner manually fulfils, net profit undisclosed",
-      "url": "https://uk.businessesforsale.com/uk/online-nail-supplies-business-for-sale-1.aspx"
+      "business": "Killingworth shopping centre vending machine",
+      "reason": "£20,000 price versus £9,200 annual sales; short 12-month site agreement from Jan 2026 and site-renewal risk."
     },
     {
-      "business": "Ringwood wholesale fashion and gifting",
-      "reason": "£29,995 asking, £4,819 seller profit and owner-operated dispatch; manager-adjusted economics unattractive",
-      "url": "https://uk.businessesforsale.com/uk/style-without-borders-global-wholesale-fashion-and-gifting-brand-for-sale.aspx"
+      "business": "Crafty Girl Maria",
+      "reason": "£32,500 plus stock at valuation breaches £30k mandatory consideration cap."
     },
     {
-      "business": "Hitchin specialist pet e-commerce",
-      "reason": "£9,950 ask, £23,263 turnover and £20,587 gross profit; stock inclusion, net profit and owner fulfilment unknown",
-      "url": "https://uk.businessesforsale.com/uk/search/businesses-for-sale-in-hitchin"
+      "business": "E.Bays Hawks Ltd",
+      "reason": "£59,999 asking price exceeds cap."
     },
     {
-      "business": "Eastleigh specialist swimwear e-commerce",
-      "reason": "£15,995 ask and £25,067 revenue; net profit, mandatory inventory and owner labour unverified",
-      "url": "https://uk.businessesforsale.com/uk/search/low-cost-websites-for-sale"
+      "business": "High Wycombe diversified e-commerce",
+      "reason": "£180,000 asking price exceeds cap; £20k leasehold figure is not full acquisition price."
     },
     {
-      "business": "UK Amazon gymwear online business",
-      "reason": "£19,995 ask, £78,243 revenue and £22,501 gross profit; inventory inclusion and current net earnings unclear",
-      "url": "https://uk.businessesforsale.com/uk/search/low-cost-online-businesses-for-sale-5"
+      "business": "Liverpool five-machine vending",
+      "reason": "Previously archived and stock-at-valuation uncertainty."
     },
     {
-      "business": "Prestige Number Plates, Stoke-on-Trent",
-      "reason": "£24,995 asking and £30k turnover; inconsistent profit disclosure, leasehold and owner-led sales/production",
-      "url": "https://uk.businessesforsale.com/uk/modern-car-accessories-shop-with-loyal-online-audience-for-sale.aspx"
+      "business": "Norwich NHS-site vending",
+      "reason": "Previously archived; not novel."
     },
     {
-      "business": "Algorithum skincare, Waterlooville",
-      "reason": "£23k asking but ceased trading, no inventory, 2021 revenue only and influencer-led marketing",
-      "url": "https://uk.businessesforsale.com/uk/highly-rated-skincare-products-business-for-sale.aspx"
+      "business": "Men's underwear e-commerce",
+      "reason": "£20k plus ~£15k compulsory stock exceeds cap."
     },
     {
-      "business": "Macclesfield clip-on jewellery brand",
-      "reason": "£45,000 asking exceeds hard £30,000 ceiling",
-      "url": "https://uk.businessesforsale.com/uk/search/online-businesses-for-sale-in-north-west"
+      "business": "Callycosmetics",
+      "reason": "£29,995 asking with unclear stock inclusion and no disclosed maintainable net profit."
     },
     {
-      "business": "Online garden planter business, Lancashire",
-      "reason": "£39,995 asking exceeds hard ceiling before stock",
-      "url": "https://uk.businessesforsale.com/uk/search/low-cost-online-businesses-for-sale-5"
+      "business": "Targetinvest.uk",
+      "reason": "Listing explicitly states currently not trading."
     }
   ]
 }
