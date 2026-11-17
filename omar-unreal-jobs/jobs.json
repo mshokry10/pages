@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-16",
-  "last_search_at": "2026-11-16",
-  "research_note": "16 Nov 2026 incremental catch-up (10–16 Nov overlap, extended to 4 Nov for late-discovered official roles): 3 new leads (Argentics employer-listed, Argent Games UE5 narrative RPG and Simulated Minds VR contractor Discord-sourced), 0 materially changed, 0 newly closed, 3 archived listings directly rechecked (Aether Pixels, 24 Bit Games, Kost: no substantive change). Rotated official studio careers, IndieGameJobs/Discord imports, Game Jobs UK, recent Egyptian Unity/VR and archviz listings, indexed ATS and worldwide UE contract searches. Excluded Soluis Egypt repost (near-identical prior expired listing, unconfirmed reopening), Bluebell Unity-only 3D modelling (not programming), Estoc $50/task VR-unrelated low-pay work, AI-built games $15–20/game/deferred-pay jobs, senior multiplayer role and internship with uncertain graduation eligibility. No newly verified vacancy-specific UK/EU sponsorship.",
+  "updated_at": "2026-11-17",
+  "last_search_at": "2026-11-17",
+  "research_note": "Incremental 17 Nov 2026 (overlap 11–17 Nov): 0 new qualified jobs, 0 material changes, 0 newly closed, 2 archived jobs directly rechecked (Mare Group Junior Unreal XR, Kost Unreal XR; employer application pages remain live, no changes). Rotated IndieGameJobs/Unreal Source Discord imported listings, Work With Indies current feed, Egypt Wuzzuf Unreal/game developer search, indexed Ashby/Lever/Greenhouse discovery and XR/simulation roles. New-to-research candidates excluded: Marezz Solutions Unreal gameplay/animation requires professional or shipped project and original ApexTeamHiring application inaccessible; Ludum Elite AI Programmer requires shipped commercial game and EU preferred (official studio has general novice programmer invitation but no confirmation of this specific role); VOID CROWN STUDIO gameplay post has no pay or Egypt eligibility confirmation and Discord DM only; Lunacy UE5 role and Mysteria intern explicitly closed; Half Mermaid senior animator closed, other listings senior/UK-only. No new confirmed Egypt-eligible junior role, vacancy-specific sponsorship, or eligible 2024 graduate internship. No other archived entries were reverified.",
   "scoring_weights": {
     "realistic_hiring_probability": 30,
     "unreal_relevance": 25,
@@ -176,7 +176,7 @@
       "source_url": "https://www.maregroup.it/en/jobs/junior-unreal-engine-developer",
       "apply_url": "https://www.maregroup.it/en/jobs/junior-unreal-engine-developer",
       "first_seen": "2026-11-05",
-      "last_verified": "2026-11-14"
+      "last_verified": "2026-11-17"
     },
     {
       "id": "noghost-unreal-technical-artist-mr-2026",
@@ -662,7 +662,7 @@
     {
       "id": "kost-unreal-engine-xr-developer-global-contractor-2026",
       "first_seen": "2026-11-15",
-      "last_verified": "2026-11-16",
+      "last_verified": "2026-11-17",
       "employer": "Kost",
       "title": "Unreal Engine XR Developer",
       "city": "Los Angeles preferred / remote",
@@ -804,19 +804,14 @@
     }
   ],
   "sources_reviewed": [
-    "Argentics official careers: Unreal Engine Game Developer listed, work-from-home option; Game Jobs UK dated 4 Nov and labels worldwide",
-    "IndieGameJobs Unreal Source Discord-imported: UE5 C++/Blueprint narrative RPG contract (deadline 22 Nov); Argent Games official contact page confirms listed email",
-    "IndieGameJobs Unreal Source Discord-imported: Simulated Minds VR Gameplay Programmer (8 Nov post, deadline 7 Jan); verified studio/game and email through official pages, Meta developer coverage and Steam",
-    "Aether Pixels official mid-level Unreal listing and Egypt/remote application form rechecked 16 Nov",
-    "24 Bit Games official Junior Unreal Developer form and requirements rechecked 16 Nov; Egypt eligibility still unconfirmed",
-    "Kost official Unreal XR opportunities page rechecked 16 Nov; remote globally accepted",
-    "VOID Interactive BambooHR page attempted 16 Nov, inaccessible; not counted as reverified",
-    "Game Jobs UK recent listings (Argentics, Lunacy Studios) and Work With Indies programming feed",
-    "DrJob/Wathaif Soluis Unreal Artist Cairo 14 Nov but older matching post expired 13 Nov; no new employer-confirmed listing",
-    "Wuzzuf Geopro digital-twin Unreal job posted 9 months ago, no active application shown; excluded",
-    "LinkedIn Bluebell Cairo VR Unity 3D Designer, recent but modelling-only, excluded",
-    "IndieGameJobs Estoc Studios UE5 programmer $50/task; quality/pay concerns, excluded",
-    "IndieGameJobs AI-built games $15–20/approved game and deferred payment technical artist roles, excluded",
-    "Gametalents official Unreal SDK networking vacancy requires 5+ commercial years and shipped multiplayer title, excluded"
+    "IndieGameJobs: Marezz Solutions Unreal Engine Programmer Gameplay & Animation Systems, Discord-imported; employer ApexTeamHiring apply page inaccessible; strong shipped/pro experience required",
+    "IndieGameJobs: Ludum Elite AI Programmer (EU preferred, commercial shipped experience required); Ludum Elite official studio and general careers/contacts inspected, specific AI vacancy not on careers",
+    "IndieGameJobs: VOID CROWN STUDIOS Gameplay Programmer Discord-imported (remote, no compensation disclosed, no Egypt eligibility); official studio/team site inspected",
+    "Work With Indies current programming listings and direct pages: Lunacy Studios Unreal 5 Programmer closed, Mysteria Gameplay Intern closed, Half Mermaid Senior Gameplay Animator closed, Firefly Studios UK-only closed",
+    "Wuzzuf Unreal Engine Egypt and Unreal Developer Egypt search feeds; broad counts not treated as verified job vacancies",
+    "Indexed Greenhouse/Lever/Ashby Unreal junior and global remote discovery; no verified qualified fresh ATS opening",
+    "Mare Group official Junior Unreal Engine Developer XR page directly rechecked 17 Nov (live application, €25–35k, 2 years C++, remote geography not clarified)",
+    "Kost official Unreal Engine XR Developer opportunities directly rechecked 17 Nov (live, worldwide remote contractors)",
+    "IndieGameJobs Unreal Source narrative RPG and VR contractor feeds inspected as already archived, not counted as direct employer reverification"
   ]
 }
