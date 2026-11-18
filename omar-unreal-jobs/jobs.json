@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-17",
-  "last_search_at": "2026-11-17",
-  "research_note": "Incremental 17 Nov 2026 (overlap 11–17 Nov): 0 new qualified jobs, 0 material changes, 0 newly closed, 2 archived jobs directly rechecked (Mare Group Junior Unreal XR, Kost Unreal XR; employer application pages remain live, no changes). Rotated IndieGameJobs/Unreal Source Discord imported listings, Work With Indies current feed, Egypt Wuzzuf Unreal/game developer search, indexed Ashby/Lever/Greenhouse discovery and XR/simulation roles. New-to-research candidates excluded: Marezz Solutions Unreal gameplay/animation requires professional or shipped project and original ApexTeamHiring application inaccessible; Ludum Elite AI Programmer requires shipped commercial game and EU preferred (official studio has general novice programmer invitation but no confirmation of this specific role); VOID CROWN STUDIO gameplay post has no pay or Egypt eligibility confirmation and Discord DM only; Lunacy UE5 role and Mysteria intern explicitly closed; Half Mermaid senior animator closed, other listings senior/UK-only. No new confirmed Egypt-eligible junior role, vacancy-specific sponsorship, or eligible 2024 graduate internship. No other archived entries were reverified.",
+  "updated_at": "2026-11-18",
+  "last_search_at": "2026-11-18",
+  "research_note": "Incremental 18 Nov 2026 (12–18 Nov overlap): 0 new qualified vacancies, 0 materially updated, 0 newly closed; 3 archived positions directly rechecked (Golden Lynx Unreal internship, ETC Interactive junior gameplay, Argentics Unreal developer). All original pages still advertise roles, no new material evidence: Golden Lynx accepts students/recent graduates but 2024 recency and pay unspecified; ETC NYC hybrid with relocation requirement and no position-specific visa sponsorship; Argentics offers work from home without confirming Egypt-based contracts. Rotated Work With Indies, Hitmarker junior/Unreal feeds, Workable, Greenhouse/Lever/Ashby indexed discovery, Wuzzuf Egypt Unreal/archviz, and international game/XR roles. Excluded Pixomondo KSA-citizens-only, Triplo Z Brazil/LATAM closed, Nightingale and Binary Spiders closed, UK senior/US-only and unrelated AI/marketing roles. No confirmed new Egypt-eligible entry vacancy or vacancy-specific visa pathway.",
   "scoring_weights": {
     "realistic_hiring_probability": 30,
     "unreal_relevance": 25,
@@ -47,7 +47,7 @@
     {
       "id": "etc-interactive-junior-gameplay-nyc-2026",
       "first_seen": "2026-11-05",
-      "last_verified": "2026-11-05",
+      "last_verified": "2026-11-18",
       "employer": "ETC Interactive",
       "title": "Junior Gameplay Programmer (Unreal Engine)",
       "city": "New York City",
@@ -513,7 +513,7 @@
       "source_url": "https://goldenlynxes.com/unreal-engine-intern-game-developer/",
       "apply_url": "https://goldenlynxes.com/job-apply/",
       "first_seen": "2026-11-05",
-      "last_verified": "2026-11-05"
+      "last_verified": "2026-11-18"
     },
     {
       "id": "nitro-studios-junior-unreal-uefn-tel-aviv-2026",
@@ -731,7 +731,7 @@
       "source_url": "https://www.argentics.io/careers",
       "apply_url": "https://www.argentics.io/careers",
       "first_seen": "2026-11-16",
-      "last_verified": "2026-11-16"
+      "last_verified": "2026-11-18"
     },
     {
       "id": "argent-games-narrative-rpg-ue5-contract-2026",
@@ -804,14 +804,16 @@
     }
   ],
   "sources_reviewed": [
-    "IndieGameJobs: Marezz Solutions Unreal Engine Programmer Gameplay & Animation Systems, Discord-imported; employer ApexTeamHiring apply page inaccessible; strong shipped/pro experience required",
-    "IndieGameJobs: Ludum Elite AI Programmer (EU preferred, commercial shipped experience required); Ludum Elite official studio and general careers/contacts inspected, specific AI vacancy not on careers",
-    "IndieGameJobs: VOID CROWN STUDIOS Gameplay Programmer Discord-imported (remote, no compensation disclosed, no Egypt eligibility); official studio/team site inspected",
-    "Work With Indies current programming listings and direct pages: Lunacy Studios Unreal 5 Programmer closed, Mysteria Gameplay Intern closed, Half Mermaid Senior Gameplay Animator closed, Firefly Studios UK-only closed",
-    "Wuzzuf Unreal Engine Egypt and Unreal Developer Egypt search feeds; broad counts not treated as verified job vacancies",
-    "Indexed Greenhouse/Lever/Ashby Unreal junior and global remote discovery; no verified qualified fresh ATS opening",
-    "Mare Group official Junior Unreal Engine Developer XR page directly rechecked 17 Nov (live application, €25–35k, 2 years C++, remote geography not clarified)",
-    "Kost official Unreal Engine XR Developer opportunities directly rechecked 17 Nov (live, worldwide remote contractors)",
-    "IndieGameJobs Unreal Source narrative RPG and VR contractor feeds inspected as already archived, not counted as direct employer reverification"
+    "Golden Lynx official Unreal Engine / Intern Game Developer page (18 Nov; 0 experience, students/recent graduates, on-site Egypt; no pay or grad-year definition)",
+    "ETC Interactive official Junior Gameplay Programmer page (18 Nov; 0–3 years, NYC hybrid, no role-specific visa support)",
+    "Argentics official Unreal Engine Game Developer careers page (18 Nov; UE4, C++, 2+ years, work-from-home option, Egypt eligibility unknown)",
+    "24 Bit Games official Junior Unreal Engine Developer page (viewed 18 Nov; still has application form, ZAR 15–25k monthly, remote eligibility not confirmed; verified 16 Nov already)",
+    "Work With Indies current feed and Triplo Z, Binary Spiders, Nightingale direct postings (closed or senior/location-restricted)",
+    "Hitmarker Unreal Engine and entry-level game developer pages (JS-rendered listings incomplete; visible Game Developer feed largely senior/region restricted)",
+    "Wuzzuf Unreal Engine, Unreal Developer and visualisation Egypt result pages (many keyword false positives, no new verified entry Unreal job)",
+    "Indexed Greenhouse, Lever, Ashby, Workable junior Unreal, XR, simulation and virtual production search (no qualifying verified recent position)",
+    "Pixomondo Workable Unreal Artist Riyadh (Saudi citizenship explicitly mandatory; excluded)",
+    "Avomind Malaysia junior/fresh-graduate 3D Animator (posting over one year old, hybrid Malaysia, no verified sponsorship; excluded)",
+    "Tamatem Cairo AI Artist creative automation (production-scale AI/creative tools rather than Unreal gameplay; excluded)"
   ]
 }
