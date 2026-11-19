@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-18",
-  "last_search_at": "2026-11-18",
-  "research_note": "Incremental 18 Nov 2026 (12–18 Nov overlap): 0 new qualified vacancies, 0 materially updated, 0 newly closed; 3 archived positions directly rechecked (Golden Lynx Unreal internship, ETC Interactive junior gameplay, Argentics Unreal developer). All original pages still advertise roles, no new material evidence: Golden Lynx accepts students/recent graduates but 2024 recency and pay unspecified; ETC NYC hybrid with relocation requirement and no position-specific visa sponsorship; Argentics offers work from home without confirming Egypt-based contracts. Rotated Work With Indies, Hitmarker junior/Unreal feeds, Workable, Greenhouse/Lever/Ashby indexed discovery, Wuzzuf Egypt Unreal/archviz, and international game/XR roles. Excluded Pixomondo KSA-citizens-only, Triplo Z Brazil/LATAM closed, Nightingale and Binary Spiders closed, UK senior/US-only and unrelated AI/marketing roles. No confirmed new Egypt-eligible entry vacancy or vacancy-specific visa pathway.",
+  "updated_at": "2026-11-19",
+  "last_search_at": "2026-11-19",
+  "research_note": "Incremental 19 Nov 2026 (13–19 Nov overlap): 0 new qualified vacancies, 0 materially updated, 0 newly closed; 3 archived jobs directly rechecked (No Ghost Unreal Generalist, Superseed technical animator, Golden Lynx Unreal developer), all still advertised without verified material change. Rotated Work With Indies programming/art feeds, IndieGameJobs Unreal Source Discord imports, Wuzzuf Egypt Unreal and visualisation listings, indexed ATS junior Unreal searches and employer career pages. No Ghost newly noticed Junior–Mid Unreal Game Developer is explicitly UK-based, so excluded; Lunacy Studios UE5 Programmer, Ride the Lion UE4 environment/lighting listings explicitly closed; Wildlife Studios technical-art intern requires current enrolment; Discord-only anonymous rigging/VR roles lack verifiable employer and/or Egypt eligibility. No new Egypt-eligible junior vacancy, 2024-grad-eligible internship, or vacancy-specific visa sponsorship verified.",
   "scoring_weights": {
     "realistic_hiring_probability": 30,
     "unreal_relevance": 25,
@@ -210,7 +210,7 @@
       "source_url": "https://www.noghost.co.uk/careers",
       "apply_url": "https://www.noghost.co.uk/careers",
       "first_seen": "2026-11-05",
-      "last_verified": "2026-11-05"
+      "last_verified": "2026-11-19"
     },
     {
       "id": "superseed-technical-animator-unreal-contract-2026",
@@ -243,7 +243,7 @@
       "source_url": "https://www.superseedstudios.com/jobs/technical-animator",
       "apply_url": "https://www.superseedstudios.com/jobs/technical-animator",
       "first_seen": "2026-11-05",
-      "last_verified": "2026-11-07"
+      "last_verified": "2026-11-19"
     },
     {
       "id": "tia-unity-developer-cairo-2026",
@@ -480,7 +480,7 @@
       "source_url": "https://goldenlynxes.com/unreal-engine-game-developer/",
       "apply_url": "https://goldenlynxes.com/job-apply/",
       "first_seen": "2026-11-05",
-      "last_verified": "2026-11-05"
+      "last_verified": "2026-11-19"
     },
     {
       "id": "golden-lynx-unreal-intern-egypt-evergreen-2024",
@@ -804,16 +804,13 @@
     }
   ],
   "sources_reviewed": [
-    "Golden Lynx official Unreal Engine / Intern Game Developer page (18 Nov; 0 experience, students/recent graduates, on-site Egypt; no pay or grad-year definition)",
-    "ETC Interactive official Junior Gameplay Programmer page (18 Nov; 0–3 years, NYC hybrid, no role-specific visa support)",
-    "Argentics official Unreal Engine Game Developer careers page (18 Nov; UE4, C++, 2+ years, work-from-home option, Egypt eligibility unknown)",
-    "24 Bit Games official Junior Unreal Engine Developer page (viewed 18 Nov; still has application form, ZAR 15–25k monthly, remote eligibility not confirmed; verified 16 Nov already)",
-    "Work With Indies current feed and Triplo Z, Binary Spiders, Nightingale direct postings (closed or senior/location-restricted)",
-    "Hitmarker Unreal Engine and entry-level game developer pages (JS-rendered listings incomplete; visible Game Developer feed largely senior/region restricted)",
-    "Wuzzuf Unreal Engine, Unreal Developer and visualisation Egypt result pages (many keyword false positives, no new verified entry Unreal job)",
-    "Indexed Greenhouse, Lever, Ashby, Workable junior Unreal, XR, simulation and virtual production search (no qualifying verified recent position)",
-    "Pixomondo Workable Unreal Artist Riyadh (Saudi citizenship explicitly mandatory; excluded)",
-    "Avomind Malaysia junior/fresh-graduate 3D Animator (posting over one year old, hybrid Malaysia, no verified sponsorship; excluded)",
-    "Tamatem Cairo AI Artist creative automation (production-scale AI/creative tools rather than Unreal gameplay; excluded)"
+    "No Ghost official careers page (19 Nov): archived Technical Artist / Unreal Generalist still listed; separate Junior–Mid Unreal Game Developer explicitly UK-based, excluded",
+    "Superseed Studios official Technical Animator / Animation Engineer Unreal contract form (19 Nov): active; no Egypt-specific contracting confirmation",
+    "Golden Lynx official Unreal Engine / Game Developer page (19 Nov): 1–2 years, Egypt on-site, application link; ongoing evergreen listing",
+    "Work With Indies programming and art categories (19 Nov): Lunacy UE5 Programmer, Ride the Lion UE4 Environment Artist and Lighting Artist all marked closed on original pages",
+    "IndieGameJobs Unreal Source imported freelance feed (19 Nov): VOID CROWN gameplay programmer unverified Discord-only, unknown compensation/eligibility; anonymous UE5 rigging $13/hr listing lacks employer identification",
+    "IndieGameJobs Wildlife Studios Tech Art Intern (18 Nov posting): requires currently enrolled undergraduate, excluded for 2024 graduate",
+    "Wuzzuf Unreal Engine Egypt listing (19 Nov): current keyword results mostly marketing, accounting, unrelated roles",
+    "Indexed Lever/Greenhouse/Ashby junior Unreal remote and Egypt searches (19 Nov): no newly employer-confirmed suitable opening"
   ]
 }
