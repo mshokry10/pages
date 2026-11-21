@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f5f7fb">
+<meta name="description" content="Cheap Car Comparisons. Compare real UK used electric SUV listings under £21,000, based on an up-to-date research spreadsheet.">
+<title>Cheap Car Comparisons · UK Electric SUVs Under £21k</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap');
+:root{--bg:#f4f6fa;--paper:#ffffff;--ink:#152139;--sub:#66758a;--line:#e4e9f0;--line2:#d7e1ec;--accent:#1664e8;--a2:#eff5ff;--mint:#0f926e;--mintbg:#e8f8f1;--gold:#a56a21;--goldbg:#fff4e5;--danger:#be4c55;--dangerbg:#fff0f1;--shadow:0 12px 36px rgba(18,37,67,.045)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.5 "DM Sans",system-ui,-apple-system,"Segoe UI",sans-serif}
+button,input,select{font:inherit}button{cursor:pointer}a{color:inherit}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #87affd;outline-offset:3px}
+.shell{max-width:1430px;margin:auto;padding:0 28px}
+.topbar{background:rgba(255,255,255,.95);border-bottom:1px solid var(--line);position:sticky;z-index:30;top:0;backdrop-filter:blur(15px)}
+.top-inner{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.identity{border:0;background:none;display:flex;align-items:center;gap:11px;text-align:left;color:var(--ink);padding:0}
+.logo{height:37px;width:37px;border-radius:12px;background:linear-gradient(145deg,#153b80,#2474ef);color:#fff;display:grid;place-items:center;box-shadow:0 6px 16px rgba(30,95,210,.2)}
+.logo svg{width:23px;height:23px}
+.brand{font-family:Manrope,system-ui;font-weight:800;font-size:17px;letter-spacing:-.055em;line-height:1.15}
+.brand small{display:block;color:var(--sub);font-family:"DM Sans",system-ui;font-size:10px;letter-spacing:.055em;text-transform:uppercase;font-weight:700;margin-top:4px}
+.navigation{display:flex;align-items:center;gap:5px}
+.navbutton{border:0;background:transparent;color:#66758a;padding:10px 14px;border-radius:10px;font-weight:800;font-size:12px;white-space:nowrap}
+.navbutton.active{color:var(--accent);background:var(--a2)}
+.navbutton:hover{background:#f2f5fb;color:#28466f}
+.sheetlink{border:1px solid var(--line2);border-radius:10px;padding:10px 12px;text-decoration:none;font-weight:800;font-size:12px;white-space:nowrap;background:#fff}
+.sheetlink:hover{border-color:var(--accent)}
+.hero{margin-top:24px;border-radius:27px;min-height:258px;position:relative;background:#112440;overflow:hidden;color:white;display:flex;align-items:center;box-shadow:0 16px 35px rgba(16,37,67,.13)}
+.hero:before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 89% 26%,rgba(83,138,245,.28),transparent 36%),radial-gradient(ellipse at 59% 93%,rgba(23,157,168,.18),transparent 48%)}
+.hero:after{content:"";position:absolute;right:-45px;top:-160px;width:450px;height:450px;border:1px solid rgba(255,255,255,.09);border-radius:50%;box-shadow:0 0 0 65px rgba(255,255,255,.02),0 0 0 135px rgba(255,255,255,.023),0 0 0 205px rgba(255,255,255,.018)}
+.hero-copy{padding:32px 38px;position:relative;z-index:1;max-width:740px}
+.eyebrow{font-size:10px;font-weight:800;letter-spacing:.17em;color:#90c5ff;text-transform:uppercase}
+h1{font:800 clamp(31px,3.5vw,55px)/1.1 Manrope,system-ui;letter-spacing:-.06em;margin:11px 0 12px}
+.hero p{color:#b9c9df;margin:0;max-width:550px;font-size:14px;line-height:1.75}
+.hero-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.hero-chips span{font-size:11px;font-weight:700;color:#e3edff;border:1px solid rgba(210,229,255,.23);background:rgba(255,255,255,.065);padding:6px 10px;border-radius:999px}
+.hero-art{position:absolute;right:45px;bottom:6px;width:35%;height:85%;opacity:.65;z-index:1}
+.hero-art svg{width:100%;height:100%}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:16px}
+.stat{padding:19px 21px;border-radius:17px;border:1px solid var(--line);background:var(--paper);box-shadow:var(--shadow)}
+.stat small{font-size:11px;color:var(--sub);font-weight:700;display:block}
+.stat strong{font-family:Manrope;font-weight:800;font-size:27px;letter-spacing:-.045em;display:block;margin-top:5px;font-variant-numeric:tabular-nums;line-height:1.1}
+.stat span{font-size:10px;color:var(--sub);display:block;margin-top:6px}
+.section{margin-top:32px}
+.sectionhead{display:flex;justify-content:space-between;align-items:end;gap:16px;margin-bottom:14px}
+.sectionhead h2{font:800 21px/1.2 Manrope,system-ui;letter-spacing:-.045em;margin:0}
+.sectionhead p{margin:6px 0 0;color:var(--sub);font-size:12px}
+.tiny{font-size:11px;color:var(--sub)}
+.actionlink{border:0;background:none;color:var(--accent);font-weight:800;font-size:12px;padding:5px 0}
+.cardgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}
+.modelcard,.adcard,.pickcard{background:#fff;border:1px solid var(--line);border-radius:17px;box-shadow:var(--shadow)}
+.modelcard{padding:17px;cursor:pointer;transition:transform .12s,border-color .12s}
+.modelcard:hover{border-color:#a9c4ed;transform:translateY(-2px)}
+.model-top,.adtop{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.modelcard h3,.adcard h3{font:800 15px/1.35 Manrope;letter-spacing:-.034em;margin:4px 0}
+.modelcard p{font-size:11px;color:var(--sub);line-height:1.6;min-height:34px;margin:7px 0 0}
+.kicker{font-size:10px;letter-spacing:.12em;font-weight:800;color:var(--sub);text-transform:uppercase}
+.badge{display:inline-flex;align-items:center;gap:5px;border-radius:7px;background:#f1f4f8;color:#5d6c80;padding:4px 7px;font-size:10px;font-weight:800;white-space:nowrap}
+.badge.blue{color:#1e58b0;background:#eef4ff}.badge.green{color:#096d51;background:var(--mintbg)}.badge.amber{color:#945d22;background:var(--goldbg)}.badge.red{color:#ad4650;background:var(--dangerbg)}
+.model-bottom{display:flex;justify-content:space-between;gap:8px;border-top:1px solid var(--line);margin-top:17px;padding-top:13px}
+.pricecell small{display:block;color:var(--sub);font-size:10px;font-weight:700;margin-bottom:3px}
+.pricecell b{font:800 18px Manrope;letter-spacing:-.04em;font-variant-numeric:tabular-nums}
+.pricecell b.blue{color:#1f65ca}
+.picks{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px}
+.pickcard{padding:15px;display:flex;flex-direction:column;min-height:205px}
+.pickcard .rank{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.pickcard h3{font:800 15px/1.3 Manrope;letter-spacing:-.04em;margin:15px 0 1px}
+.pickcard .trimline{color:var(--sub);font-size:11px;min-height:36px}
+.pickcard .pickprice{font:800 26px Manrope;letter-spacing:-.055em;margin:10px 0 3px}
+.pickcard .pickmi{color:var(--sub);font-size:11px}
+.pickcard .push{margin-top:auto;padding-top:12px}
+.btn{border:0;border-radius:10px;background:var(--accent);padding:10px 15px;color:white;font-weight:800;font-size:12px}
+.btn:hover{background:#1251b8}
+.btn.secondary{background:#f0f4fa;color:#29415f}.btn.secondary:hover{background:#e8eef6}
+.btn.outline{background:#fff;color:var(--accent);border:1px solid #c7d7f7}.btn.outline:hover{background:#f3f7ff}
+.btn.sm{padding:8px 11px;font-size:11px}
+.btn.ghost{background:#fff;color:var(--ink);border:1px solid var(--line)}
+.toolbar{background:#fff;border:1px solid var(--line);border-radius:15px;padding:12px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;box-shadow:var(--shadow)}
+.field{display:flex;align-items:center;gap:7px;border:1px solid var(--line);border-radius:10px;background:#fff;padding:0 11px;height:39px}
+.field label,.field .fieldlabel{color:var(--sub);font-size:11px;font-weight:700;white-space:nowrap}
+.field input,.field select{border:0;outline:0;background:transparent;min-width:0;color:var(--ink);font-size:12px}
+.field.search{flex:1 1 230px}.field.search input{width:100%}
+.field select{max-width:175px;cursor:pointer}
+.checkbox{display:flex;align-items:center;gap:7px;font-size:11px;font-weight:700;color:#52657c;user-select:none;cursor:pointer}
+.checkbox input{accent-color:var(--accent)}
+.splithead{display:flex;justify-content:space-between;align-items:center;margin:13px 2px 12px;gap:10px;color:var(--sub);font-size:11px}
+.listgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.adcard{padding:17px}
+.adcard h3{font-size:15px;margin:7px 0 5px}
+.adtitle{color:var(--sub);font-size:11px;margin-top:3px}
+.adprice{font:800 24px Manrope;letter-spacing:-.045em;white-space:nowrap}
+.adfacts{display:flex;gap:7px;flex-wrap:wrap;margin-top:14px}
+.adfacts span{font-size:11px;background:#f3f6fa;color:#486079;border-radius:8px;padding:5px 8px;font-weight:700}
+.adfeatures{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px 12px;margin-top:15px;border-top:1px solid var(--line);padding-top:14px}
+.adfeatures div small{display:block;font-size:10px;color:#8590a0;font-weight:700}
+.adfeatures div span{font-size:11px;color:#354960;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin-top:3px}
+.adfoot{display:flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:space-between;margin-top:15px}
+.inlineactions{display:flex;gap:7px;flex-wrap:wrap}
+.seller{font-size:10px;color:var(--sub);margin-top:10px}
+.empty{border:1px dashed #bec9da;border-radius:17px;background:#fff;padding:38px;text-align:center;color:var(--sub)}
+.empty strong{display:block;font:800 17px Manrope;color:var(--ink);margin-bottom:8px}
+.tray{position:fixed;bottom:calc(15px + env(safe-area-inset-bottom));left:50%;transform:translateX(-50%);z-index:35;width:min(640px,calc(100% - 30px));box-shadow:0 20px 60px rgba(17,41,75,.22);background:#122a48;color:white;border-radius:15px;padding:12px 14px;display:flex;align-items:center;gap:12px;justify-content:space-between}
+.tray small{display:block;color:#b2c8e8}.tray strong{font-size:13px}
+.footer{margin:34px 0 32px;padding-top:18px;border-top:1px solid var(--line);font-size:11px;color:var(--sub);display:flex;justify-content:space-between;align-items:center;gap:15px}
+.footer a{color:var(--accent);font-weight:800}
+.warnbox{border-radius:13px;padding:14px 16px;background:#fdf8ed;border:1px solid #f4e7cd;color:#7b6035;font-size:12px;line-height:1.6;margin-top:13px}
+.backlink{border:0;background:none;font-weight:800;color:var(--accent);font-size:12px;padding:0 0 14px}
+.page-title{font:800 29px/1.18 Manrope;letter-spacing:-.06em;margin:5px 0}
+.page-sub{color:var(--sub);font-size:13px;max-width:820px;margin:7px 0 20px}
+.detailhead{padding:20px 21px;background:#fff;border:1px solid var(--line);border-radius:17px;margin:20px 0}
+.detailhead .flex{display:flex;justify-content:space-between;align-items:flex-start;gap:15px;flex-wrap:wrap}
+.detailhead p{color:var(--sub);margin:8px 0 0;font-size:12px;max-width:900px}
+.pillrow{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.pillrow span{font-size:11px;padding:6px 10px;border-radius:20px;color:#486079;background:#f3f6fb}
+.cmptable{width:100%;border-collapse:collapse;min-width:720px}
+.cmptable th,.cmptable td{border-bottom:1px solid var(--line);padding:12px 14px;text-align:left;vertical-align:top;font-size:11px;line-height:1.5}
+.cmptable th{font-size:12px;color:var(--ink);background:#f8fafc;min-width:155px}
+.cmptable td:first-child{font-weight:800;background:#f8fafc;color:#5e6f82;min-width:130px;max-width:170px}
+.cmpwrap{overflow:auto;border:1px solid var(--line);border-radius:16px;background:#fff;margin-top:16px}
+.cmphead{font:800 15px/1.2 Manrope;letter-spacing:-.03em}
+.errorbox{padding:25px;background:#fff;border:1px solid #f1b6b9;border-radius:16px;margin-top:28px}
+.note{font-size:11px;color:var(--sub);margin:10px 0}
+.loader{padding:60px 0;text-align:center;color:var(--sub)}
+.hide{display:none!important}
+@media(max-width:1050px){.cardgrid{grid-template-columns:repeat(2,minmax(0,1fr))}.picks{grid-template-columns:repeat(2,minmax(0,1fr))}.hero-art{right:-60px;width:42%;opacity:.36}}
+@media(max-width:660px){.shell{padding:0 14px}.top-inner{min-height:64px;flex-wrap:wrap;gap:7px;padding-top:9px;padding-bottom:9px}.brand{font-size:15px}.brand small{font-size:9px}.logo{height:34px;width:34px}.sheetlink{display:none}.navigation{gap:1px}.navbutton{font-size:10px;padding:9px 8px}.hero{margin-top:14px;min-height:255px;border-radius:18px}.hero-copy{padding:25px 20px}.hero-art{right:-45px;bottom:-65px;opacity:.15;width:80%}.hero p{font-size:12px}.stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:10px}.stat{padding:15px}.stat strong{font-size:24px}.cardgrid,.listgrid,.picks{grid-template-columns:1fr}.modelcard{padding:17px}.pickcard{min-height:180px}.section{margin-top:25px}.sectionhead h2{font-size:19px}.sectionhead{align-items:start}.field{flex:1 1 128px}.field.search{flex:1 1 100%}.field select{max-width:125px}.toolbar{gap:8px}.adfeatures{grid-template-columns:repeat(2,minmax(0,1fr))}.adprice{font-size:21px}.footer{flex-direction:column;align-items:flex-start}.detailhead{padding:17px}.page-title{font-size:25px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+<header class="topbar"><div class="shell top-inner">
+  <button class="identity" type="button" data-nav="overview" aria-label="Go to overview">
+    <span class="logo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m4 15 1.8-5.2A2 2 0 0 1 7.7 8.5h8.6a2 2 0 0 1 1.9 1.3L20 15"/><path d="M3 15h18v4H3z"/><path d="M6.5 18v2M17.5 18v2M4 12h16"/></svg></span>
+    <span class="brand">Cheap Car Comparisons<small>Real UK used electric SUVs</small></span>
+  </button>
+  <nav class="navigation" aria-label="Main navigation">
+    <button type="button" class="navbutton active" data-nav="overview">Overview</button>
+    <button type="button" class="navbutton" data-nav="listings">All listings</button>
+    <button type="button" class="navbutton" data-nav="compare">Compare <span id="nav-compare-count"></span></button>
+  </nav>
+  <a class="sheetlink" href="https://docs.google.com/spreadsheets/d/1i2gxx3dNMdbsgtMD-A9N6DzcQhkNJ6hKjMV3lwZNsa0/edit" target="_blank" rel="noopener noreferrer">Open source sheet ↗</a>
+</div></header>
+<main class="shell" id="app"><div class="loader">Loading the latest published car data…</div></main>
+<div id="compare-tray"></div>
+<script>
+(function(){
+"use strict";
+var SOURCE_SHEET="https://docs.google.com/spreadsheets/d/1i2gxx3dNMdbsgtMD-A9N6DzcQhkNJ6hKjMV3lwZNsa0/edit";
+var state={data:null,page:"overview",model:"",query:"",sort:"recommended",budget:20999,miles:50000,onlyApproved:false,excluded:false,modelFilter:"",limit:24,comparison:[]};
+var root=document.getElementById("app");
+function esc(v){return String(v===null||v===undefined?"":v).replace(/[&<>"']/g,function(a){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[a]})}
+function money(n){return n===null||!Number.isFinite(Number(n))?"—":new Intl.NumberFormat("en-GB",{style:"currency",currency:"GBP",maximumFractionDigits:0}).format(Number(n))}
+function miles(n){return n===null||!Number.isFinite(Number(n))?"—":new Intl.NumberFormat("en-GB").format(Number(n))+" mi"}
+function safeUrl(url){return /^https:\/\/[a-z0-9.-]+(?:\/|$)/i.test(url||"")?url:""}
+function all(){return(state.data?.models||[]).flatMap(function(m){return m.listings.map(function(a){return a})})}
+function eligible(a){return !/^EXCLUDED\b/i.test(a.priority||"")&&a.price!==null&&a.price<21000&&a.mileage!==null&&a.mileage<=50000}
+function chosen(a){return state.comparison.indexOf(a.model+"|"+a.id)>=0}
+function getKey(a){return a.model+"|"+a.id}
+function metric(a,label,key){return '<div><small>'+label+'</small><span title="'+esc(a[key])+'">'+esc(a[key]||"Not verified")+'</span></div>'}
+function status(m){if(!m.overview?.stage)return"Unresearched";return m.overview.stage.startsWith("Deep")?"Researched":m.overview.stage.startsWith("Seeded")?"Seeded":"Pending"}
+function statusClass(s){return s==="Researched"?"green":s==="Seeded"?"blue":"amber"}
+function allEligible(){return all().filter(eligible)}
+function totals(){var eligibleCount=allEligible().length;var ex=all().length-eligibleCount;return{eligible:eligibleCount,excluded:ex}}
+function selectedFor(m){return m.listings.find(function(a){return a.selected})||m.listings.find(eligible)}
+function clamp(t,n){return t.length>n?t.slice(0,n-1)+"…":t}
+function badge(t,c){return'<span class="badge '+(c||"")+'">'+esc(t)+'</span>'}
+function hero(){var total=totals();return'<section class="hero"><div class="hero-copy"><div class="eyebrow">Your UK used-EV buying dashboard</div><h1>Cheap Car<br>Comparisons.</h1><p>Real electric SUV listings, compared by the features that matter. The data comes from our car research spreadsheet, with no guesswork about which advert belongs to which trim.</p><div class="hero-chips"><span>Under £21,000</span><span>Up to 50,000 miles</span><span>23 EV models</span><span>Read-only sheet snapshot</span></div></div><div class="hero-art" aria-hidden="true"><svg viewBox="0 0 440 250" fill="none"><ellipse cx="235" cy="207" rx="174" ry="19" fill="#568BE0" opacity=".18"/><path d="M46 165 L77 142 L119 103 C138 87 168 76 215 76 H294 C312 77 329 89 341 107 L379 143 L401 153 Q415 160 414 178 V197 H32 V178 Q30 170 46 165Z" stroke="#91C2FF" stroke-width="3"/><path d="M124 104 C150 87 175 83 210 83 H280 L314 143 H85Z" stroke="#91C2FF" stroke-width="2"/><path d="M226 85 V142 M347 149 H398 M53 164 H96 M101 151 H331" stroke="#91C2FF" stroke-width="2"/><circle cx="112" cy="195" r="31" fill="#112440" stroke="#91C2FF" stroke-width="3"/><circle cx="340" cy="195" r="31" fill="#112440" stroke="#91C2FF" stroke-width="3"/><circle cx="112" cy="195" r="14" stroke="#91C2FF" stroke-width="2"/><circle cx="340" cy="195" r="14" stroke="#91C2FF" stroke-width="2"/></svg></div></section>'+
+'<section class="stats"><div class="stat"><small>Within our listing limits</small><strong>'+total.eligible+'</strong><span>Adverts saved from the sheet</span></div><div class="stat"><small>EV models compared</small><strong>'+state.data.models.length+'</strong><span>Across the UK market</span></div><div class="stat"><small>Deep-search completed</small><strong>'+state.data.models.filter(function(x){return status(x)==="Researched"}).length+'</strong><span>Evidence-backed model research</span></div><div class="stat"><small>Target cash budget</small><strong>£21k</strong><span>Excludes '+total.excluded+' out-of-limits watchlist ads</span></div></section>'}
+function pickCard(m,i){var a=selectedFor(m);if(!a)return"";return'<article class="pickcard"><div class="rank"><span class="kicker">Notable match</span>'+badge("From sheet","blue")+'</div><h3>'+esc(m.name)+'</h3><div class="trimline">'+esc(a.year+" · "+a.trim)+'</div><div class="pickprice">'+money(a.price)+'</div><div class="pickmi">'+miles(a.mileage)+' · '+esc(a.seller||"Seller unverified")+'</div><div class="push"><button type="button" class="btn secondary sm" data-model="'+esc(m.name)+'">Explore listings →</button></div></article>'}
+function modelCard(m){var ov=m.overview||{};var count=m.listings.filter(eligible).length;var s=status(m);return'<article class="modelcard" role="button" tabindex="0" data-model="'+esc(m.name)+'"><div class="model-top"><div><span class="kicker">Electric SUV</span><h3>'+esc(m.name)+'</h3></div>'+badge(s,statusClass(s))+'</div><p>'+esc(clamp(ov.fit||"Not deeply researched yet",99))+'</p><div class="model-bottom"><div class="pricecell"><small>Lowest price</small><b>'+money(ov.lowestPrice)+'</b></div><div class="pricecell"><small>Best-match price</small><b class="blue">'+money(ov.bestPrice)+'</b></div><div class="pricecell"><small>Adverts</small><b>'+count+'</b></div></div></article>'}
+function overviewPage(){var preferred=["Nissan Ariya","VW ID.4","Volvo XC40 Recharge","Ford Mustang Mach-E"];var picks=preferred.map(function(n){return state.data.models.find(function(m){return m.name===n})}).filter(Boolean);return hero()+'<section class="section"><div class="sectionhead"><div><h2>Where I would start</h2><p>Selected variants worth investigating first, not guarantees that every required feature is verified.</p></div><button class="actionlink" type="button" data-nav="listings">See every advert →</button></div><div class="picks">'+picks.map(pickCard).join("")+'</div></section><section class="section"><div class="sectionhead"><div><h2>All '+state.data.models.length+' models</h2><p>Best-match price is different from the absolute cheapest listing.</p></div>'+badge("10 thoroughly researched","blue")+'</div><div class="cardgrid">'+state.data.models.map(modelCard).join("")+'</div></section><div class="warnbox">Prices and equipment are taken from saved research adverts, not live dealer quotes. A model can be listed here even when no individual vehicle passes all your preferences. Always check the actual car, history, equipment packs, total price and stock with the seller.</div>'}
+function listingControls(scope){var o='<option value="">All models</option>'+state.data.models.map(function(x){return'<option value="'+esc(x.name)+'"'+(state.modelFilter===x.name?' selected':'')+'>'+esc(x.name)+'</option>'}).join("");
+return'<div class="toolbar"><div class="field search"><span aria-hidden="true">⌕</span><input id="searchBox" type="search" placeholder="Search trims, models, dealers, equipment…" aria-label="Search listings" value="'+esc(state.query)+'"></div>'+
+(scope==="all"?'<div class="field"><label for="modelPicker">Model</label><select id="modelPicker">'+o+'</select></div>':"")+
+'<div class="field"><label for="sortPicker">Sort</label><select id="sortPicker"><option value="recommended"'+(state.sort==="recommended"?" selected":"")+'>Best match</option><option value="price"'+(state.sort==="price"?" selected":"")+'>Lowest price</option><option value="miles"'+(state.sort==="miles"?" selected":"")+'>Lowest miles</option><option value="newest"'+(state.sort==="newest"?" selected":"")+'>Newest year</option><option value="range"'+(state.sort==="range"?" selected":"")+'>Most WLTP</option></select></div>'+
+'<div class="field"><label for="maxPrice">Max £</label><select id="maxPrice">'+[16000,18000,19000,20000,20999].map(function(n){return'<option value="'+n+'"'+(state.budget===n?' selected':'')+'>'+money(n)+'</option>'}).join("")+'</select></div>'+
+'<div class="field"><label for="maxMiles">Max miles</label><select id="maxMiles">'+[20000,30000,40000,50000].map(function(n){return'<option value="'+n+'"'+(state.miles===n?' selected':'')+'>'+miles(n)+'</option>'}).join("")+'</select></div>'+
+'<label class="checkbox"><input id="approvedOnly" type="checkbox"'+(state.onlyApproved?" checked":"")+'> Manufacturer approved only</label>'+
+'<label class="checkbox"><input id="includeExcluded" type="checkbox"'+(state.excluded?" checked":"")+'> Include excluded watchlist</label></div>'}
+function filterResults(){var q=state.query.toLowerCase().trim();var base=state.page==="model"?all().filter(function(a){return a.model===state.model}):all();if(state.modelFilter&&state.page!=="model")base=base.filter(function(a){return a.model===state.modelFilter});base=base.filter(function(a){return (eligible(a)||state.excluded)&&a.price!==null&&(state.excluded&&!eligible(a)||a.price<=state.budget&&a.mileage<=state.miles)});if(state.onlyApproved)base=base.filter(function(a){return String(a.approved).toLowerCase()==="confirmed"});if(q)base=base.filter(function(a){return[a.model,a.trim,a.seller,a.location,a.registration,a.fit,a.evidence,a.priority,a.heatPump].join(" ").toLowerCase().includes(q)});base.sort(function(a,b){if(state.sort==="price")return a.price-b.price;if(state.sort==="miles")return a.mileage-b.mileage;if(state.sort==="newest")return b.year-a.year;if(state.sort==="range")return(b.wltp||0)-(a.wltp||0);return (a.selected===b.selected?0:a.selected?-1:1)||Number(eligible(b))-Number(eligible(a))||a.price-b.price});return base}
+function adCard(a){var ex=!eligible(a),isApproved=String(a.approved).toLowerCase()==="confirmed",flag=ex?badge("Outside limits","red"):a.selected?badge("Best-match pick","blue"):a.priority.toLowerCase().includes("top")||a.priority.toLowerCase().includes("strong")?badge("Worth a look","green"):badge("Conditional","");
+return'<article class="adcard"><div class="adtop"><div><div>'+flag+(isApproved?' '+badge("Manufacturer approved","green"):"")+'</div><h3>'+esc(a.model)+'</h3><div class="adtitle">'+esc(a.year+" · "+a.trim)+'</div></div><div style="text-align:right"><div class="adprice">'+money(a.price)+'</div><div class="tiny">'+miles(a.mileage)+'</div></div></div>'+
+'<div class="adfacts"><span>'+esc(a.drivetrain||"Drivetrain unverified")+'</span>'+(a.wltp?'<span>'+a.wltp+' mi WLTP*</span>':"")+(a.boot?'<span>'+a.boot+'L boot*</span>':"")+'</div>'+
+'<div class="adfeatures">'+metric(a,"Glass roof","glassRoof")+metric(a,"Heated steering","heatedWheel")+metric(a,"360° / parking","camera")+metric(a,"Adaptive cruise / lane","driverAssist")+'</div>'+
+'<div class="seller">'+esc(a.seller||"Seller not confirmed")+(a.location&&a.location!=="UK; verify dealer"?" · "+esc(a.location):"")+' · Checked '+esc(a.checked||"date not recorded")+'</div>'+
+'<div class="adfoot"><div class="inlineactions">'+(safeUrl(a.url)?'<a class="btn sm" href="'+esc(safeUrl(a.url))+'" target="_blank" rel="noopener noreferrer">View advert ↗</a>':"")+'<button type="button" class="btn outline sm" data-detail="'+esc(getKey(a))+'">Specs & caveats</button></div><button type="button" class="btn sm '+(chosen(a)?"secondary":"ghost")+'" data-compare="'+esc(getKey(a))+'">'+(chosen(a)?"✓ Added":"+ Compare")+'</button></div></article>'}
+function renderListResults(){var items=filterResults();var count=document.getElementById("result-count");if(count)count.textContent=items.length+" results";var target=document.getElementById("list-results");if(target)target.innerHTML=items.length?items.slice(0,state.limit).map(adCard).join(""):'<div class="empty" style="grid-column:1/-1"><strong>No matching listings</strong>Try different filters or enable the excluded watchlist. Unresearched models may still have only a few seeded adverts.</div>';var more=document.getElementById("loadMore");if(more){more.classList.toggle("hide",state.limit>=items.length)}}
+function listingsPage(){return'<section class="section"><div class="sectionhead"><div><h2>Search every listing</h2><p>Filter the vehicles we have already researched or recorded.</p></div></div>'+listingControls("all")+'<div class="splithead"><span id="result-count"></span><span>Prices are asking prices, not guaranteed availability</span></div><div class="listgrid" id="list-results"></div><div style="text-align:center;margin-top:15px"><button type="button" class="btn secondary hide" id="loadMore" data-load-more>Load more adverts</button></div></section>'}
+function modelPage(){var m=state.data.models.find(function(x){return x.name===state.model});if(!m)return listingsPage();var ov=m.overview||{};var elig=m.listings.filter(eligible);return'<section class="section"><button type="button" class="backlink" data-nav="overview">← All models</button><div class="detailhead"><div class="flex"><div><div class="kicker">Cheap Car Comparisons / Model research</div><h2 class="page-title">'+esc(m.name)+'</h2><p>'+esc(ov.fit||"Detailed research not completed yet.")+'</p></div><div style="display:flex;gap:20px"><div class="pricecell"><small>Lowest asking</small><b>'+money(ov.lowestPrice)+'</b></div><div class="pricecell"><small>Best-match price</small><b class="blue">'+money(ov.bestPrice)+'</b></div></div></div><div class="pillrow"><span>'+elig.length+' qualifying/conditional adverts</span><span>'+esc(ov.stage||"Research pending")+'</span></div><p><b>Watch-outs:</b> '+esc(ov.caveat||"Confirm equipment and condition for every advert.")+'</p><p><b>Next step:</b> '+esc(ov.next||"Further model research")+'</p></div>'+
+listingControls("model")+'<div class="splithead"><span id="result-count"></span><span>Tap “Specs & caveats” for individual evidence</span></div><div class="listgrid" id="list-results"></div><div style="text-align:center;margin-top:15px"><button type="button" class="btn secondary hide" id="loadMore" data-load-more>Load more adverts</button></div></section>'}
+function comparePage(){var a=state.comparison.map(function(key){return all().find(function(x){return getKey(x)===key})}).filter(Boolean);if(!a.length)return'<section class="section"><div class="sectionhead"><div><h2>Side-by-side comparisons</h2><p>Pick up to four specific adverts to see which has the features you want.</p></div></div><div class="empty"><strong>No cars selected yet</strong>Browse listings, then tap “+ Compare” on up to four vehicles.<p><button type="button" class="btn" data-nav="listings">Browse listings</button></p></div></section>';
+var fields=[["Price","price"],["Mileage","mileage"],["Year","year"],["Trim & battery","trim"],["Drivetrain","drivetrain"],["Glass roof","glassRoof"],["Heated steering wheel","heatedWheel"],["Heated seats","heatedSeats"],["360° / parking","camera"],["Adaptive cruise / lane","driverAssist"],["Heat pump","heatPump"],["WLTP claimed range","wltp"],["Boot capacity","boot"],["Manufacturer approved?","approved"],["Seller","seller"],["Gaps / checks","checks"]];
+return'<section class="section"><div class="sectionhead"><div><h2>Side-by-side comparisons</h2><p>Comparing '+a.length+' specific adverts. The spec notes preserve uncertainty where evidence is missing.</p></div><button class="btn secondary sm" type="button" data-clear-compare>Clear comparison</button></div><div class="cmpwrap"><table class="cmptable"><thead><tr><th>Specification</th>'+a.map(function(x){return'<th><div class="cmphead">'+esc(x.model)+'</div><div class="note">'+esc(x.trim)+'</div><button type="button" class="actionlink" data-compare="'+esc(getKey(x))+'">Remove ×</button></th>'}).join("")+'</tr></thead><tbody>'+
+fields.map(function(f){return'<tr><td>'+esc(f[0])+'</td>'+a.map(function(x){var v=x[f[1]];if(f[1]==="price")v=money(v);else if(f[1]==="mileage")v=miles(v);else if(f[1]==="wltp")v=v?String(v)+" miles*":"Not verified";else if(f[1]==="boot")v=v?String(v)+" litres*":"Not verified";return'<td>'+esc(v===null||v===""?"Not verified":v)+'</td>'}).join("")+'</tr>'}).join("")+
+'<tr><td>Original advert</td>'+a.map(function(x){return'<td>'+(safeUrl(x.url)?'<a class="actionlink" href="'+esc(safeUrl(x.url))+'" target="_blank" rel="noopener noreferrer">Open advert ↗</a>':"Not available")+'</td>'}).join("")+'</tr></tbody></table></div><div class="note">*WLTP/boot figures are approximate trim-level research values. Verify the exact vehicle and model year.</div></section>'}
+function detailModal(key){var a=all().find(function(x){return getKey(x)===key});if(!a)return;var dialog=document.getElementById("detailDialog");if(dialog)dialog.remove();
+var d=document.createElement("dialog");d.id="detailDialog";d.style.cssText="width:min(660px,calc(100vw - 20px));max-height:88vh;border:1px solid #dae3ee;border-radius:18px;padding:0;box-shadow:0 25px 90px #0d223f55;background:#fff;color:#152139";
+d.innerHTML='<div style="padding:20px 22px;overflow:auto;max-height:86vh"><div style="display:flex;justify-content:space-between;gap:15px;align-items:start"><div><div class="kicker">Vehicle evidence card</div><h2 style="font:800 23px Manrope;letter-spacing:-.05em;margin:6px 0">'+esc(a.model)+'</h2><div class="note">'+esc(a.year+" · "+a.trim+" · "+a.registration)+'</div></div><button class="btn ghost sm" data-close-dialog>Close ×</button></div><div style="font:800 29px Manrope;letter-spacing:-.05em;margin:12px 0">'+money(a.price)+' <small style="font:600 12px DM Sans;color:#6d7b90">'+miles(a.mileage)+'</small></div>'+
+'<div class="adfeatures">'+metric(a,"Glass roof","glassRoof")+metric(a,"Heated steering wheel","heatedWheel")+metric(a,"Heated seats","heatedSeats")+metric(a,"360° / parking","camera")+metric(a,"Adaptive cruise / lane","driverAssist")+metric(a,"Heat pump","heatPump")+'</div>'+
+'<h3 style="font:800 14px Manrope;margin:20px 0 6px">What the advert supports</h3><p class="note" style="font-size:12px">'+esc(a.evidence||"No independent feature evidence recorded.")+'</p><h3 style="font:800 14px Manrope;margin:20px 0 6px">Outstanding checks</h3><p class="note" style="font-size:12px">'+esc(a.checks||"Verify equipment, history and ownership details.")+'</p><div class="pillrow">'+badge(a.approved==="Confirmed"?"Manufacturer approval indicated":"Manufacturer approval not confirmed",a.approved==="Confirmed"?"green":"amber")+' '+badge(a.priority,/EXCLUDED/.test(a.priority)?"red":"blue")+'</div>'+
+'<div style="display:flex;gap:9px;flex-wrap:wrap;margin-top:22px"><button type="button" class="btn secondary" data-compare="'+esc(getKey(a))+'">'+(chosen(a)?"Remove from compare":"Add to compare")+'</button>'+(safeUrl(a.url)?'<a class="btn" href="'+esc(safeUrl(a.url))+'" rel="noopener noreferrer" target="_blank">Open advert ↗</a>':"")+'</div></div>';document.body.appendChild(d);d.addEventListener("click",function(ev){if(ev.target===d)d.close()});d.addEventListener("close",function(){d.remove()});d.showModal()}
+function footer(){var date=state.data?.generatedAt?new Date(state.data.generatedAt).toLocaleString("en-GB",{dateStyle:"medium",timeStyle:"short",timeZone:"Europe/London"}):"Unknown";
+return'<footer class="footer"><div><b>Cheap Car Comparisons</b> · A research dashboard, not a car retailer.<br>Published snapshot: '+esc(date)+' UK time. Individual adverts may have changed or sold.</div><div><a href="'+esc(SOURCE_SHEET)+'" target="_blank" rel="noopener noreferrer">Private Google Sheet ↗</a> &nbsp; <button type="button" class="actionlink" data-reload>Check for published updates ↻</button></div></footer>'}
+function tray(){var el=document.getElementById("compare-tray");if(!state.comparison.length){el.innerHTML="";return}el.innerHTML='<div class="tray"><div><strong>'+state.comparison.length+' car'+(state.comparison.length===1?"":"s")+' selected</strong><small>Compare their actual advertised equipment</small></div><div class="inlineactions"><button type="button" class="btn secondary sm" data-clear-compare>Clear</button><button type="button" class="btn sm" data-nav="compare">Compare →</button></div></div>'}
+function render(){if(!state.data)return;root.innerHTML=(state.page==="overview"?overviewPage():state.page==="compare"?comparePage():state.page==="model"?modelPage():listingsPage())+footer();document.querySelectorAll("[data-nav]").forEach(function(el){if(el.classList.contains("navbutton"))el.classList.toggle("active",el.dataset.nav===state.page||(state.page==="model"&&el.dataset.nav==="listings"))});document.getElementById("nav-compare-count").textContent=state.comparison.length?"("+state.comparison.length+")":"";if(state.page==="listings"||state.page==="model")renderListResults();tray()}
+function navigate(page){state.page=page;state.limit=24;state.query="";state.modelFilter="";state.excluded=false;window.scrollTo({top:0,behavior:"smooth"});render()}
+function load(){root.innerHTML='<div class="loader">Loading the latest published spreadsheet data…</div>';return fetch("./data.json?fresh="+Date.now(),{cache:"no-store"}).then(function(r){if(!r.ok)throw Error("Data endpoint returned HTTP "+r.status);return r.json()}).then(function(d){if(!Array.isArray(d.models)||!d.models.length)throw Error("The data file is empty");state.data=d;var saved=[];try{saved=JSON.parse(localStorage.getItem("cheap-cars-compare-v1")||"[]")}catch(e){}state.comparison=saved.filter(function(k){return all().some(function(x){return getKey(x)===k})}).slice(0,4);render()}).catch(function(e){root.innerHTML='<div class="errorbox"><h2>Could not load the comparison data</h2><p>'+esc(e.message)+'</p><p>Try refreshing, or check <a href="./data.json">the public data file</a>. The private Google Sheet itself is not exposed.</p><button class="btn" data-reload>Try again</button></div>'})}
+document.addEventListener("click",function(ev){
+ var t=ev.target.closest("[data-nav],[data-model],[data-detail],[data-compare],[data-clear-compare],[data-reload],[data-load-more],[data-close-dialog]");
+ if(!t)return;
+ if(t.hasAttribute("data-nav")){navigate(t.dataset.nav);return}
+ if(t.hasAttribute("data-model")){state.model=t.dataset.model;navigate("model");return}
+ if(t.hasAttribute("data-detail")){detailModal(t.dataset.detail);return}
+ if(t.hasAttribute("data-close-dialog")){document.getElementById("detailDialog")?.close();return}
+ if(t.hasAttribute("data-compare")){var k=t.dataset.compare;var i=state.comparison.indexOf(k);if(i>=0)state.comparison.splice(i,1);else if(state.comparison.length>=4){alert("Compare up to four cars at once.");return}else state.comparison.push(k);try{localStorage.setItem("cheap-cars-compare-v1",JSON.stringify(state.comparison))}catch(e){}render();var dialog=document.getElementById("detailDialog");if(dialog)dialog.close();return}
+ if(t.hasAttribute("data-clear-compare")){state.comparison=[];try{localStorage.removeItem("cheap-cars-compare-v1")}catch(e){}render();return}
+ if(t.hasAttribute("data-reload")){load();return}
+ if(t.hasAttribute("data-load-more")){state.limit+=24;renderListResults();return}
+});
+document.addEventListener("keydown",function(e){var t=e.target.closest("[data-model][role='button']");if(t&&(e.key==="Enter"||e.key===" ")){e.preventDefault();state.model=t.dataset.model;navigate("model")}});
+document.addEventListener("input",function(ev){if(ev.target.id==="searchBox"){state.query=ev.target.value;state.limit=24;renderListResults()}});
+document.addEventListener("change",function(ev){var id=ev.target.id;switch(id){case"sortPicker":state.sort=ev.target.value;break;case"modelPicker":state.modelFilter=ev.target.value;break;case"maxPrice":state.budget=Number(ev.target.value);break;case"maxMiles":state.miles=Number(ev.target.value);break;case"approvedOnly":state.onlyApproved=ev.target.checked;break;case"includeExcluded":state.excluded=ev.target.checked;break;default:return}state.limit=24;renderListResults()});
+load();
+})();
+</script>
+</body></html>
